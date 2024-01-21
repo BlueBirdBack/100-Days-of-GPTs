@@ -1,2 +1,3 @@
-# 100-Days-of-GPTs
-100 Days of GPTs or 100 GPTs
+# 100 Days of GPTs
+
+[Day 1 - AbbreviationGPT](Day 1 - AbbreviationGPT.md)
