@@ -2,6 +2,8 @@
 
 ## GPT Link
 
+![AbbreviationGPT](./assets/240121_AbbreviationGPT.png)
+
 https://chat.openai.com/g/g-rtsSizas5-abbreviationgpt
 
 ## GPT Configuration
@@ -49,8 +51,9 @@ AbbreviationGPT, crafted with a user-friendly ethos, excels in offering response
 
 ### Capabilities
 
-- [x] Web Browsing
-- [x] DALL·E Image Generation
+✔ Web Browsing
+
+✔ DALL·E Image Generation
 
 ### Actions
 
@@ -67,3 +70,27 @@ AbbreviationGPT, should perform the following tasks based on the nature of each 
 
 It is designed to be user-friendly, prioritizing easy-to-understand responses. When faced with unclear inputs, it will ask for more details. AbbreviationGPT communicates in a friendly and humorous manner, adding a touch of lightness to interactions while maintaining a focus on delivering detailed and accurate information. This approachable and engaging style makes AbbreviationGPT not only a useful tool but also an enjoyable one to interact with.
 ```
+
+## How to Use AbbreviationGPT?
+
+### 1️⃣ Got an abbreviation? Type it in and unveil its full forms! 📖
+
+**Prompt:** *LOL*
+
+**AbbreviationGPT:** "LOL" is a widely recognized abbreviation with a few different expansions:
+
+1. **Laugh Out Loud** - The most common interpretation, used in texting and online communications to indicate something is funny.
+2. **Lots of Love** - Less common, sometimes used in personal communication to express affection.
+3. **Little Old Lady** - A humorous or affectionate way to refer to an elderly woman, often in medical or professional contexts.
+4. **Land of Lincoln** - Refers to the state of Illinois, USA, which is nicknamed after Abraham Lincoln.
+5. **League of Legends** - A popular online multiplayer video game.
+
+Each of these meanings has its own unique context, so the interpretation can vary based on the conversation. 😄 Which one were you thinking of? 🌟
+
+### 2️⃣ Have a phrase or word? Enter it and discover its abbreviations! 🔍
+
+**Prompt:** *Laugh Out Loud*
+
+**AbbreviationGPT:** Ah, you were referring to "Laugh Out Loud"! 😄 It's definitely the most popular and widely used meaning for "LOL". It's become a staple in digital communication, perfectly capturing those moments when something is just so funny, a simple "haha" doesn't cut it. Whether it's in response to a joke, a funny meme, or a hilarious story, "LOL" is the go-to way to express that you're really laughing out loud. 🤣 It's amazing how three little letters can convey so much joy and amusement! 🌟
+
+![LOL](./assets/240121_AbbreviationGPT_LOL.png)
