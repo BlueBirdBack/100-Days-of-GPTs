@@ -65,9 +65,27 @@ Input anything to see their synonyms.
 
 Remember, happiness comes in many flavors, and so do its synonyms! 🌟
 
-![quiet](./assets/240123_Synonym_Suggester_happy.png)
+![happy](./assets/240123_Synonym_Suggester_happy.png)
 
 ### Example 2
+
+**Prompt:** _happy_
+
+**Synonym Suggester:** Ah, "happy"! A word that brings smiles and sunshine. Here are some gleeful synonyms to brighten your day:
+1. Joyful - Like finding an extra fry at the bottom of the bag.
+2. Elated - Soaring higher than a kite on a breezy day.
+3. Content - As cozy as a cat in a sunbeam.
+4. Jubilant - Like doing a victory dance after nailing a difficult task.
+5. Cheerful - Radiating positivity like a human sunbeam.
+6. Blissful - Floating in happiness, like on a cloud made of dreams.
+7. Ecstatic - More excited than a kid in a candy store.
+8. Merry - Jolly like Santa, minus the beard and red suit.
+
+Remember, a synonym a day keeps the boredom away!
+
+![happy](./assets/240123_Synonym_Suggester_happy_2.png)
+
+### Example 3
 
 **Prompt:** _TIL_
 
@@ -86,4 +104,4 @@ Remember, happiness comes in many flavors, and so do its synonyms! 🌟
 
 Remember, every day is a chance to say "TIL" about something new! 🌟
 
-![loud](./assets/240123_Synonym_Suggester_TIL.png)
+![TIL](./assets/240123_Synonym_Suggester_TIL.png)

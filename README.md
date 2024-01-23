@@ -12,7 +12,7 @@ Generates antonyms for user inputs.
 
 <img style="border-radius:50%;width:48px;height:48px;" src="./assets/AntonymGPT.png"> 
 
-## [Day 3 - AntonymGPT](./Day-3-Synonym-Suggester.md)
+## [Day 3 - Synonym Suggester](./Day-3-Synonym-Suggester.md)
 
 A synonym suggestion tool for user inputs
 
