@@ -17,3 +17,9 @@ Generates antonyms for user inputs.
 A synonym suggestion tool for user inputs
 
 <img style="border-radius:50%;width:48px;height:48px;" src="./assets/SynonymSuggester.png"> 
+
+## [Day 4 - Global Rankings](./Day-4-Global-Rankings.md)
+
+Ranks websites globally
+
+<img style="border-radius:50%;width:48px;height:48px;" src="./assets/GlobalRankings.png"> 
