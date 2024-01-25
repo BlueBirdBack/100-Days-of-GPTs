@@ -23,3 +23,9 @@ A synonym suggestion tool for user inputs
 Ranks websites globally
 
 <img style="border-radius:50%;width:48px;height:48px;" src="./assets/GlobalRankings.png"> 
+
+## [Day 5 - EmojiGPT](./Day-5-EmojiGPT.md)
+
+Suggests emojis for each user input
+
+<img style="border-radius:50%;width:48px;height:48px;" src="./assets/EmojiGPT.png"> 
