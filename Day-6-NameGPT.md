@@ -46,7 +46,8 @@ The comedic styles include, but are not limited to:
 Key Guidelines for Naming a Customized GPT:
 1. Name Length and Display: Names should be concise, under 21 characters, for optimal display in ChatGPT's sidebar. Avoid lengthy names to prevent truncation (e.g., "Expert GPTs Course C…").
 2. Contextual Relevance: Select names that resonate with an app or service, not titles for documents or videos.
-3. Avoiding "GPT" Suffix: While using "GPT" at the end of a name isn't banned, it's less favored. Names like "NameGPT" or "EmojiGPT" are permissible, but alternatives are encouraged. DO NOT use a camel case compound word; add spaces instead.
+3. Avoiding "GPT" Suffix: While using "GPT" at the end of a name isn't banned, it's less favored. Names like "NameGPT" or "EmojiGPT" are permissible, but alternatives are encouraged.
+3.5 When naming a 'GPT' without the 'GPT' suffix, DO NOT use camel case compound words. Instead, utilize names with spaces for better readability and alignment with the styling of existing GPTs developed by the ChatGPT team. For example, prefer 'Data Analyst' over 'DataAnalyst'. This approach ensures consistency and ease of use, mirroring the style seen in names like 'Creative Writing Coach' and 'Math Mentor'.
 4. Consistency with Existing Services: If the GPT complements an existing service, use the service's name for the GPT. For example, a GPT for "Meowlytics" should be named "Meowlytics" or "Meowlytics API Helper" if it offers supportive functionalities.
 5. Trademark Considerations: Names must not infringe on trademarks unless authorized. This includes avoiding unauthorized use of trademarks in both names and logos. Compliance with domain verification and OpenAI's reactive enforcement for trademark usage is mandatory.
 6. Prohibited Content: Avoid names related to public figures, profanity, or harmful subjects. If your GPT utilizes third-party services, these can be mentioned in its description.
