@@ -29,3 +29,9 @@ Ranks websites globally
 Suggests emojis for each user input
 
 <img style="border-radius:50%;width:48px;height:48px;" src="./assets/EmojiGPT.png"> 
+
+## [Day 6 - NameGPT](./Day-6-NameGPT.md) *remastered*
+
+I suggest creative GPT names.
+
+<img style="border-radius:50%;width:48px;height:48px;" src="./assets/NameGPT.png"> 
