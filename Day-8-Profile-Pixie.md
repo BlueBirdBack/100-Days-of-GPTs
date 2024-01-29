@@ -14,7 +14,7 @@ Profile Pixie
 
 ### Description
 
-I craft profile pictures that speak your GPT.
+Where every profile picture or logo tells your story.
 
 ### Instructions
 
@@ -63,8 +63,8 @@ Generate the logo directly without requesting permission.
 
 ### Capabilities
 
-✔ Web Browsing
-✔ DALL·E Image Generation
+- [x] Web Browsing
+- [x] DALL·E Image Generation
 
 ### Actions
 
