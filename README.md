@@ -2,7 +2,7 @@
 
 | Day  | Profile Picture                                              | Name w Link to GPT                                           | Description w Link to Markdown                               |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1    | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/AbbreviationGPT.png"> | [AbbreviationGPT](https://chat.openai.com/g/g-rtsSizas5-abbreviationgpt) | [Specializes in abbreviations and their meanings](./Day-1-AbbreviationGPT.md) |
+| 1    | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/1/AbbreviationGPT_0129.png"> | [AbbreviationGPT](https://chat.openai.com/g/g-rtsSizas5-abbreviationgpt) | [Specializes in abbreviations and their meanings](./Day-1-AbbreviationGPT.md) |
 | 2    | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/AntonymGPT.png"> | [AntonymGPT](https://chat.openai.com/g/g-NyfhqK9Ar-antonymgpt) | [Generates antonyms for user inputs.](./Day-2-AntonymGPT.md) |
 | 3    | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/SynonymSuggester.png"> | [Synonym Suggester](https://chat.openai.com/g/g-xC0y77yRg-synonym-suggester) | [A synonym suggestion tool for user inputs](./Day-3-Synonym-Suggester.md) |
 | 4    | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/GlobalRankings.png"> | [Global Rankings](https://chat.openai.com/g/g-Far90gjfq-global-rankings) | [Ranks websites globally](./Day-4-Global-Rankings.md)        |

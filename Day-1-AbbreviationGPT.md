@@ -2,7 +2,7 @@
 
 ## GPT Link
 
-![AbbreviationGPT](./assets/240121_AbbreviationGPT.png)
+![AbbreviationGPT](./assets/1/240129_AbbreviationGPT.png)
 
 https://chat.openai.com/g/g-rtsSizas5-abbreviationgpt
 
@@ -110,4 +110,4 @@ Each of these meanings has its own unique context, so the interpretation can var
 
 **AbbreviationGPT:** Ah, you were referring to "Laugh Out Loud"! 😄 It's definitely the most popular and widely used meaning for "LOL". It's become a staple in digital communication, perfectly capturing those moments when something is just so funny, a simple "haha" doesn't cut it. Whether it's in response to a joke, a funny meme, or a hilarious story, "LOL" is the go-to way to express that you're really laughing out loud. 🤣 It's amazing how three little letters can convey so much joy and amusement! 🌟
 
-![LOL](./assets/240121_AbbreviationGPT_LOL.png)
+![LOL](./assets/1/240121_AbbreviationGPT_LOL.png)

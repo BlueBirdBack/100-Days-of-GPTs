@@ -137,7 +137,7 @@ Conversation starters:
 ### Conversation starters
 
 - Provide information about your GPT
-- Upload a  file about your GPT
+- Upload a file about your GPT
 - How to craft a perfect conversation starter?
 - Stuck? Need a conversation starter tip?
 
