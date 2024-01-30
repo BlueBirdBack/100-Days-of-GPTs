@@ -1,5 +1,9 @@
 # Day 1 - AbbreviationGPT
 
+## Introduction
+
+**AbbreviationGPT** is a specialized **GPT** designed to handle *abbreviations* expertly. It performs two main tasks: expanding abbreviations and generating abbreviations. For expansion, it provides multiple full forms of an abbreviation, covering a wide range of fields. When given standard phrases, it generates relevant abbreviations, creating acronyms and exploring different combinations. AbbreviationGPT stands out for its user-friendly approach, offering clear, comprehensible responses, even in complex topics. It communicates in a friendly, sometimes humorous manner, using emojis to add warmth. Its adaptable tone ensures it's both an effective information tool and an engaging conversational partner.
+
 ## GPT Link
 
 ![AbbreviationGPT](./assets/1/240129_AbbreviationGPT.png)
