@@ -11,4 +11,4 @@
 | 7    | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/DescriptionGPT.png"> | [DescriptionGPT](https://chat.openai.com/g/g-Fr8MyyfAO-descriptiongpt) | [I craft concise descriptions for your GPTs.](./Day-7-DescriptionGPT.md) |
 | 8    | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/Profile_Pixie_0129.png"> | [Profile Pixie](https://chat.openai.com/g/g-KQYn0ixBO-profile-pixie) | [Where every profile picture or logo tells your story.](./Day-8-Profile-Pixie.md) |
 | 9    | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/Convo_Starter_Craft.png"> | [Convo Starter Craft](https://chat.openai.com/g/g-vZzejC1Le-convo-starter-craft) | [Transforming your ideas into engaging conversation starters.](./Day-9-Convo-Starter-Craft.md) |
-
+| 10    | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/10/Auto_Categorist.png"> | [Auto Categorist](https://chat.openai.com/g/g-1RYgEMYnu-auto-categorist) | [I sort GPTs into their ideal categories.](./Day-10-Auto-Categorist.md) |
