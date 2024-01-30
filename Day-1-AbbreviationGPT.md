@@ -68,9 +68,8 @@ AbbreviationGPT, crafted with a user-friendly ethos, excels in offering response
 
 ### Capabilities
 
-✔ Web Browsing
-
-✔ DALL·E Image Generation
+- [x] Web Browsing
+- [x] DALL·E Image Generation
 
 ### Actions
 
@@ -90,24 +89,26 @@ It is designed to be user-friendly, prioritizing easy-to-understand responses. W
 
 ## How to Use AbbreviationGPT?
 
-### 1️⃣ Got an abbreviation? Type it in and unveil its full forms! 📖
+### Example 1
 
 **Prompt:** *LOL*
 
-**AbbreviationGPT:** "LOL" is a widely recognized abbreviation with a few different expansions:
+**AbbreviationGPT:** LOL, a classic! 🌟 This can stand for:
 
-1. **Laugh Out Loud** - The most common interpretation, used in texting and online communications to indicate something is funny.
-2. **Lots of Love** - Less common, sometimes used in personal communication to express affection.
-3. **Little Old Lady** - A humorous or affectionate way to refer to an elderly woman, often in medical or professional contexts.
-4. **Land of Lincoln** - Refers to the state of Illinois, USA, which is nicknamed after Abraham Lincoln.
-5. **League of Legends** - A popular online multiplayer video game.
+1. "Laugh Out Loud" - the most popular one, used in texting and online chats.
+2. "Lots of Love" - often used in more personal, affectionate contexts.
+3. "League of Legends" - referring to the well-known online game.
+4. "Labor of Love" - used to describe a task done for personal pleasure.
+5. "Little Old Lady" - a humorous, affectionate term for an elderly woman.
 
-Each of these meanings has its own unique context, so the interpretation can vary based on the conversation. 😄 Which one were you thinking of? 🌟
+Any other LOLs you're curious about? 😄
 
-### 2️⃣ Have a phrase or word? Enter it and discover its abbreviations! 🔍
+![LOL](./assets/1/240130_Example_LOL.png)
+
+### Example 2
 
 **Prompt:** *Laugh Out Loud*
 
-**AbbreviationGPT:** Ah, you were referring to "Laugh Out Loud"! 😄 It's definitely the most popular and widely used meaning for "LOL". It's become a staple in digital communication, perfectly capturing those moments when something is just so funny, a simple "haha" doesn't cut it. Whether it's in response to a joke, a funny meme, or a hilarious story, "LOL" is the go-to way to express that you're really laughing out loud. 🤣 It's amazing how three little letters can convey so much joy and amusement! 🌟
+**AbbreviationGPT:** "Laugh Out Loud" can be abbreviated as "LOL". It's one of those abbreviations that has really caught on in the digital era, especially in texting and online chats! 😄 Do you need any other abbreviations or expansions today? 🌟
 
-![LOL](./assets/1/240121_AbbreviationGPT_LOL.png)
+![LOL](./assets/1/240130_Example_Laugh_Out_loud.png)
