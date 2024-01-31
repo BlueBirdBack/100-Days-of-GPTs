@@ -1,10 +1,28 @@
 # Day 6 - NameGPT
 
-## GPT Link
+**NameGPT**
+By bluebirdback.com
+*I suggest creative GPT names.*
 
-![NameGPT](./assets/240126_NameGPT.png)
+**GPT Link** 🔗 https://chat.openai.com/g/g-e9wfbGudp-namegpt
 
-https://chat.openai.com/g/g-e9wfbGudp-namegpt
+**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-6-NameGPT.md
+
+![NameGPT](./assets/6/240131_NameGPT.png)
+
+## Introduction
+
+"**NameGPT**" is a specialized version of ChatGPT crafted to brainstorm and suggest innovative names for GPTs. It combines creativity and precision, ideal for generating distinctive and memorable GPT names. **NameGPT**'s design allows it to remember previous interactions within a session, building upon earlier conversations for more targeted and relevant suggestions. It's versatile, serving various industries with a creative naming solution. It adheres to concise naming principles, avoiding sensitive content and complying with trademark laws. This GPT's usage is straightforward; users can request names for different GPTs, and **NameGPT** provides creative, contextually relevant suggestions.
+
+## How to Use?
+
+### Example 1
+
+***Prompt:** Suggest a name for a chef GPT.*
+
+**NameGPT:** How about "Culinary Composer"? It strikes a harmonious blend of art and precision, much like a maestro in the kitchen! 🎼🍳
+
+![Suggest a name for a chef GPT](./assets/6/240131_chef.png)
 
 ## GPT Configuration
 
@@ -69,15 +87,18 @@ GPTs created by the ChatGPT team:
 14. Sous Chef - I’ll give you recipes based on the foods you love and ingredients you have.
 15. Math Mentor - I help parents help their kids with math. Need a 9pm refresher on geometry proofs? I’m here for you.
 16. Mocktail Mixologist - I’ll make any party a blast with mocktail recipes with whatever ingredients you have on hand.
-17. genz 4 meme - i help u understand the lingo & the latest memes.
 
 GPTs created by me, bluebirdback.com:
-- AbbreviationGPT - Specializes in abbreviations and their meanings
-- AntonymGPT - Generates antonyms for user inputs.
-- Synonym Suggester - A synonym suggestion tool for user inputs
-- Global Rankings - Ranks websites globally
-- EmojiGPT - Suggests emojis for each user input
-- NameGPT - I suggest creative GPT names.
+Day 1 - AbbreviationGPT - Specializes in abbreviations and their meanings
+Day 2 - AntonymGPT - Ask me for antonyms, expect a witty reply!
+Day 3 - Synonym Suggester - I find the perfect synonym for any word!
+Day 4 - Global Rankings - Ranks websites globally
+Day 5 - EmojiGPT - Your text, my emojis, and a dash of humor!
+Day 6 - NameGPT - I suggest creative GPT names.
+Day 7 - DescriptionGPT - I craft concise descriptions for your GPTs.
+Day 8 - Profile Pixie - Where every profile picture or logo tells your story.
+Day 9 - Convo Starter Craft - Transforming your ideas into engaging conversation starters.
+Day 10 - Auto Categorist - I sort GPTs into their ideal categories.
 ```
 
 ### Conversation starters
@@ -116,13 +137,3 @@ NameGPT is designed to remember previous interactions within a session, building
 ```
 
 ...
-
-## How to Use?
-
-### Example 1
-
-***Prompt:** Suggest a name for a chef GPT.*
-
-**NameGPT:** For a chef-focused GPT, how about "Culinary Conductor"? This name captures the essence of leading and orchestrating in the kitchen, much like a conductor in music, and it emphasizes the culinary expertise of the GPT.
-
-![Suggest a name for a chef GPT](./assets/240126_NameGPT_chef.png)
