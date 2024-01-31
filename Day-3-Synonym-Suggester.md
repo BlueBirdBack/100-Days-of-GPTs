@@ -1,10 +1,66 @@
 # Day 3 - Synonym Suggester
 
-## GPT Link
+**Synonym Suggester**
+By bluebirdback.com
+*I find the perfect synonym for any word!*
 
-![Synonym Suggester](./assets/240123_Synonym_Suggester.png)
+**GPT Link** 🔗 https://chat.openai.com/g/g-xC0y77yRg-synonym-suggester
 
-https://chat.openai.com/g/g-xC0y77yRg-synonym-suggester
+**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-3-Synonym-Suggester.md
+
+![Synonym Suggester](./assets/3/240131_Synonym_Suggester.png)
+
+## Introduction
+
+**"Synonym Suggester"** is a GPT designed to provide the perfect synonym for any word. It"s friendly, humorous, and suitable for all types of language, including academic, technical, and everyday. The tool comprehensively suggests synonyms for each meaning of a word. Engaging and enjoyable, it maintains a light-hearted tone with occasional humor while focusing on delivering relevant and precise synonym recommendations. It"s useful for diversifying vocabulary, enhancing writing, and finding appropriate synonyms in various contexts. Examples include providing alternatives for "popular" like "widely-acclaimed" or "in vogue," demonstrating its versatility and creativity in language use.
+
+## How to Use?
+
+### Example 1
+
+***Prompt:** popular*
+
+**Synonym Suggester:** "Popular," you say? Let's jazz it up a bit! How about these snazzy synonyms:
+
+1. **Widely-Acclaimed:** Like a movie that everyone can't stop talking about.
+2. **In Vogue:** As trendy as bell-bottoms in the '70s!
+3. **Trendsetting:** Setting the pace like a cool cat leading a parade.
+4. **Prevalent:** As common as coffee shops on city streets.
+5. **Famed:** Known far and wide, like a celebrity in their prime.
+6. **Well-Liked:** Everyone's BFF, just like puppies at a park.
+7. **Buzzworthy:** Generating more buzz than a beehive in spring.
+8. **All the Rage:** The hot topic, like avocado toast at brunch.
+9. **Celebrated:** Adored and admired, like fireworks on the Fourth of July.
+10. **Highly Regarded:** Held in high esteem, like a vintage wine among connoisseurs.
+
+Whether you're talking about a chart-topping song or a must-see TV show, these alternatives will keep your vocab as fresh as a new hit on the radio! 🎶🌟
+
+![popular](./assets/3/240131_popular.png)
+
+### Example 2
+
+***Prompt:** trend*
+
+**Synonym Suggester:** Ah, "trend," a word that's as popular as avocados on Instagram! Depending on how you're using it, here are a few synonyms:
+
+1. **Fashion/Style Context**: 
+   - Fad (like those fleeting TikTok dance crazes)
+   - Vogue (and no, not just the magazine)
+   - Craze (like when everyone suddenly starts buying air fryers)
+
+2. **General Popularity/Development Context**:
+   - Movement (like the sudden love for minimalism)
+   - Wave (not the ocean kind, but close in popularity)
+   - Current (like the flow of a river, but in societal interests)
+
+3. **Statistics/Data Context**:
+   - Tendency (like the line graph in your monthly budget report)
+   - Pattern (not the sewing kind, but the data kind)
+   - Trajectory (like a rocket, but for data points)
+
+Choose your synonym based on the trend you're riding! 🌊🚀👗
+
+![trend](./assets/3/240131_trend.png)
 
 ## GPT Configuration
 
@@ -14,7 +70,7 @@ Synonym Suggester
 
 ### Description
 
-A synonym suggestion tool for user inputs
+I find the perfect synonym for any word!
 
 ### Instructions
 
@@ -24,10 +80,10 @@ A synonym suggestion tool for user inputs
 
 ### Conversation starters
 
-- Give me synonyms for 'happy'
-- Synonyms for 'complex'?
-- I need synonyms for 'innovate'
-- What are some synonyms for 'strong'?
+- popular
+- trend
+- top
+- experience
 
 ### Knowledge
 
@@ -35,73 +91,10 @@ A synonym suggestion tool for user inputs
 
 ### Capabilities
 
-✔ Web Browsing
-✔ DALL·E Image Generation
+- [x] Web Browsing
+- [x] DALL·E Image Generation
 
 ### Actions
 
 🚫
 
-## How to Use Synonym Suggester?
-
-Input anything to see their synonyms.
-
-### Example 1
-
-**Prompt:** _Give me synonyms for 'happy'_
-
-**Synonym Suggester:** Ah, "happy" – a word that's like sunshine in a sentence! Here are some cheerful synonyms to brighten up your day:
-
-1. Joyful - Like finding an extra scoop of ice cream in your cone.
-2. Elated - Soaring higher than a kite on a breezy day.
-3. Ecstatic - Like winning a golden ticket to the chocolate factory.
-4. Jubilant - As if you've just been crowned the champion of board game night.
-5. Content - Cozy as a cat napping in a sunbeam.
-6. Cheerful - Radiating more positivity than a room full of puppies.
-7. Blissful - Floating in a dream where everything's made of candy.
-8. Gleeful - Like doing a victory dance after nailing a difficult task.
-9. Merry - Jolly as Santa Claus on Christmas Eve.
-10. Overjoyed - Like getting the best news on a perfect sunny day.
-
-Remember, happiness comes in many flavors, and so do its synonyms! 🌟
-
-![happy](./assets/240123_Synonym_Suggester_happy.png)
-
-### Example 2
-
-**Prompt:** _happy_
-
-**Synonym Suggester:** Ah, "happy"! A word that brings smiles and sunshine. Here are some gleeful synonyms to brighten your day:
-1. Joyful - Like finding an extra fry at the bottom of the bag.
-2. Elated - Soaring higher than a kite on a breezy day.
-3. Content - As cozy as a cat in a sunbeam.
-4. Jubilant - Like doing a victory dance after nailing a difficult task.
-5. Cheerful - Radiating positivity like a human sunbeam.
-6. Blissful - Floating in happiness, like on a cloud made of dreams.
-7. Ecstatic - More excited than a kid in a candy store.
-8. Merry - Jolly like Santa, minus the beard and red suit.
-
-Remember, a synonym a day keeps the boredom away!
-
-![happy](./assets/240123_Synonym_Suggester_happy_2.png)
-
-### Example 3
-
-**Prompt:** _TIL_
-
-**Synonym Suggester:** "TIL," short for "Today I Learned," is a popular phrase often used to share newfound knowledge or interesting facts. Since it's an acronym, it doesn't have direct synonyms, but let's get creative! Here are some whimsical alternatives:
-
-1. "Fresh Fact Discovery" - Like unearthing a treasure chest of knowledge.
-2. "New Nugget of Know-how" - As if you've just struck gold in the mine of information.
-3. "Just Found Out" (JFO) - The abbreviation's less famous cousin.
-4. "Enlightenment Episode" - Sounds like a TV show about daily discoveries.
-5. "Info Epiphany" - A lightbulb moment in the library of life.
-6. "Brainwave Bulletin" - Newsflash: your brain just made a new friend called 'information'.
-7. "Today's Treasure of Truth" - Sounds like a segment in a wizard's news channel.
-8. "Learned Lore Latest" - Like an update from the archives of ancient wisdom.
-9. "Wisdom Whisper" - As if a little birdie told you a secret of knowledge.
-10. "Knowledge Nugget" - A snack-sized fact for your brain's appetite.
-
-Remember, every day is a chance to say "TIL" about something new! 🌟
-
-![TIL](./assets/240123_Synonym_Suggester_TIL.png)
