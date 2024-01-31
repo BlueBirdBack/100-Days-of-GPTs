@@ -1,4 +1,18 @@
-# Day 4 - Global Rankings
+# Day 4 - Global Rankings ✨
+
+**Global Rankings**
+By bluebirdback.com
+*Ranks websites globally*
+
+**GPT Link** 🔗 https://chat.openai.com/g/g-Far90gjfq-global-rankings
+
+**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-4-Global-Rankings.md
+
+![Global Rankings](./assets/4/240131_Global_Rankings.png)
+
+## Introduction
+
+"**Global Rankings**" is a specialized GPT developed as part of a 100-day project, focusing on analyzing and ranking websites globally. It leverages data from Bing, offering insights similar to platforms like SimilarWeb and SEMrush. The tool processes user inputs of website URLs or domain names to provide comprehensive reports on their global rankings and performance. This includes metrics such as traffic, user demographics, engagement, and competitors. It's designed for users interested in understanding their website's global position or exploring the digital footprint of other sites. This GPT can ask clarifying questions for deeper insights and presents analyses in an accurate, clear manner.
 
 ## Why Building a GPT to Track Website Global Rankings Matters
 
@@ -10,56 +24,7 @@ The core of microeconomics is demand. By identifying common needs, I can develop
 
 On the supply side, I'm creating GPTs to either supplement or replace certain websites. This idea fuels my desire to create a GPT. Its goal is to reveal website global rankings, providing insights into popular preferences and needs.
 
-## GPT Link
-
-![Global Rankings](./assets/240124_Global_Rankings.png)
-
-https://chat.openai.com/g/g-Far90gjfq-global-rankings
-
-## GPT Configuration
-
-### Name
-
-Global Rankings
-
-### Description
-
-Ranks websites globally
-
-### Instructions
-
-```
-"Global Rankings" is a specialized AI tool designed to analyze and rank websites globally. The tool uses Google/Bing/Perplexity's data resources to evaluate website performance, similar to platforms like SimilarWeb and SEMrush.
-
-The task involves:
-1. Receiving user input in the form of one or more website URLs or domain names.
-2. Conducting a thorough analysis of these websites, leveraging Google/Bing/Perplexity's data.
-3. Providing a comprehensive report on the global ranking and performance of each website.
-4. In cases requiring deeper insight, the GPT should ask specific clarifying questions to enhance the precision of its analysis.
-5. Presenting the final analysis in a clear, accurate, and relevant manner for users interested in understanding their website's global position.
-```
-
-### Conversation starters
-
-- YouTube.com
-- YouTube
-- YT
-- BlueBirdBack.com
-
-### Knowledge
-
-🚫
-
-### Capabilities
-
-✔ Web Browsing
-✔ DALL·E Image Generation
-
-### Actions
-
-🚫
-
-## How to Use Global Rankings?
+## How to Use?
 
 ### Example 1
 
@@ -108,7 +73,7 @@ Based on the data from various sources, here's a comprehensive analysis of YouTu
 
 YouTube continues to dominate as a major global platform with a vast user base and significant revenue. Its highest user concentrations are in India and the U.S., with a substantial presence on mobile devices. Revenue trends show continued growth, and the platform's influence spans various demographics. Despite competition from other streaming and social media platforms, YouTube maintains a strong position in the global digital landscape.
 
-![YouTube.com](./assets/240124_Global_Rankings_YouTube.png)
+![YouTube.com](./assets/4/240124_Global_Rankings_YouTube.png)
 
 ### Example 2
 
@@ -145,7 +110,7 @@ YouTube continues to dominate as a major global platform with a vast user base a
 
 For a complete analysis of facebook.com and vimeo.com, additional data retrieval would be necessary.
 
-![YouTube.com Competitors](./assets/240124_Global_Rankings_YouTube_Competitors.png)
+![YouTube.com Competitors](./assets/4/240124_Global_Rankings_YouTube_Competitors.png)
 
 ### Example 3
 
@@ -169,4 +134,48 @@ For a complete analysis of facebook.com and vimeo.com, additional data retrieval
 
 Both Facebook and Vimeo demonstrate strong global presence and engagement in their respective domains. Facebook's vast reach and user base in the social media sector are complemented by Vimeo's niche positioning in the online video streaming segment.
 
-![Facebook, Vimeo](./assets/240124_Global_Rankings_Facebook_Vimeo.png)
+![Facebook, Vimeo](./assets/4/240124_Global_Rankings_Facebook_Vimeo.png)
+
+## GPT Configuration
+
+### Name
+
+Global Rankings
+
+### Description
+
+Ranks websites globally
+
+### Instructions
+
+```
+"Global Rankings" is a specialized AI tool designed to analyze and rank websites globally. The tool uses Google/Bing/Perplexity's data resources to evaluate website performance, similar to platforms like SimilarWeb and SEMrush.
+
+The task involves:
+1. Receiving user input in the form of one or more website URLs or domain names.
+2. Conducting a thorough analysis of these websites, leveraging Google/Bing/Perplexity's data.
+3. Providing a comprehensive report on the global ranking and performance of each website.
+4. In cases requiring deeper insight, the GPT should ask specific clarifying questions to enhance the precision of its analysis.
+5. Presenting the final analysis in a clear, accurate, and relevant manner for users interested in understanding their website's global position.
+```
+
+### Conversation starters
+
+- YouTube.com
+- YouTube
+- YT
+- BlueBirdBack.com
+
+### Knowledge
+
+🚫
+
+### Capabilities
+
+✔ Web Browsing
+✔ DALL·E Image Generation
+
+### Actions
+
+🚫
+
