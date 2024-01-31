@@ -1,8 +1,8 @@
 # Day 3 - Synonym Suggester
 
-**Synonym Suggester**
-By bluebirdback.com
-*I find the perfect synonym for any word!*
+**Synonym Suggester**  
+By bluebirdback.com  
+*I find the perfect synonym for any word!*  
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-xC0y77yRg-synonym-suggester
 

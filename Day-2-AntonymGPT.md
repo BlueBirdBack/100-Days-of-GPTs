@@ -1,8 +1,8 @@
 # Day 2 - AntonymGPT
 
-**AntonymGPT**
-By bluebirdback.com
-*Ask me for antonyms, expect a witty reply!*
+**AntonymGPT**  
+By bluebirdback.com  
+*Ask me for antonyms, expect a witty reply!*  
 
 ![AntonymGPT](./assets/2/240130_AntonymGPT.png)
 

@@ -1,8 +1,8 @@
 # Day 1 - AbbreviationGPT ✨
 
-**AbbreviationGPT**
-By bluebirdback.com
-*Specializes in abbreviations and their meanings*
+**AbbreviationGPT**  
+By bluebirdback.com  
+*Specializes in abbreviations and their meanings*  
 
 ![AbbreviationGPT](./assets/1/240129_AbbreviationGPT.png)
 

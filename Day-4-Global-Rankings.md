@@ -1,8 +1,8 @@
 # Day 4 - Global Rankings ✨
 
-**Global Rankings**
-By bluebirdback.com
-*Ranks websites globally*
+**Global Rankings**  
+By bluebirdback.com  
+*Ranks websites globally*  
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-Far90gjfq-global-rankings
 
