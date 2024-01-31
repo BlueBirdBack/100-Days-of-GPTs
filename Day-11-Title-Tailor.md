@@ -1,10 +1,12 @@
 # Day 11 - Title Tailor ✨
 
-**Title Tailor**
-By bluebirdback.com
-*Fitting your content with the ideal title.*
+**Title Tailor**  
+By bluebirdback.com  
+*Fitting your content with the ideal title.*  
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-VSKrlHL4A-title-tailor
+
+**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-11-Title-Tailor.md
 
 ![Title Tailor](./assets/11/240131_Title_Tailor.png)
 
@@ -14,7 +16,7 @@ By bluebirdback.com
 
 ## How to Use?
 
-***Prompt:** Day-1-AbbreviationGPT.pdf*
+***Prompt:** [Day-1-AbbreviationGPT.pdf](./assets/1/Day-1-AbbreviationGPT.pdf)*
 
 **Title Tailor:** "Day 1 - AbbreviationGPT" is a document detailing a specialized GPT configuration designed for handling abbreviations. It focuses on two primary tasks: expanding abbreviations and generating abbreviations. The document highlights AbbreviationGPT's user-friendly approach, offering clear, comprehensible responses, sometimes using humor and emojis for warmth. It adapts its tone to be both an effective informational tool and an engaging conversational partner. The document also includes examples of how AbbreviationGPT operates, demonstrating its capabilities in providing multiple full forms of abbreviations and generating relevant abbreviations from standard phrases.
 
