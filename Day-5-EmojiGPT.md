@@ -1,8 +1,8 @@
 # Day 5 - EmojiGPT ✨
 
-**EmojiGPT**
-By bluebirdback.com
-*Your text, my emojis, and a dash of humor!*
+**EmojiGPT**  
+By bluebirdback.com  
+*Your text, my emojis, and a dash of humor!*  
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-rQfK252Z1-emojigpt
 
@@ -98,8 +98,8 @@ Replace 'Ah' with more specific expressions:
 
 ### Capabilities
 
-✔ Web Browsing
-✔ DALL·E Image Generation
+- [x] Web Browsing  
+- [x] DALL·E Image Generation  
 
 ### Actions
 

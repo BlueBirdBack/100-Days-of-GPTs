@@ -172,8 +172,8 @@ The task involves:
 
 ### Capabilities
 
-✔ Web Browsing
-✔ DALL·E Image Generation
+- [x] Web Browsing
+- [x] DALL·E Image Generation
 
 ### Actions
 

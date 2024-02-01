@@ -1,8 +1,8 @@
-# Day 6 - NameGPT
+# Day 6 - NameGPT ✨
 
-**NameGPT**
-By bluebirdback.com
-*I suggest creative GPT names.*
+**NameGPT**  
+By bluebirdback.com  
+*I suggest creative GPT names.*  
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-e9wfbGudp-namegpt
 
