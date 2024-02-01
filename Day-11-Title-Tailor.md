@@ -8,7 +8,7 @@ By bluebirdback.com
 
 **GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-11-Title-Tailor.md
 
-![Title Tailor](./assets/11/240131_Title_Tailor.png)
+![Title Tailor](./assets/11/240201_Title_Tailor.png)
 
 ## Introduction
 
