@@ -8,7 +8,7 @@ By bluebirdback.com
 
 **GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-12-Mirror-Muse.md
 
-![Mirror Muse](./assets/12/240201_Mirror_Muse.png)
+![Mirror Muse](./assets/12/240201_Mirror_Muse_2.png)
 
 ## Introduction
 
@@ -19,6 +19,22 @@ By bluebirdback.com
 "**Mirror Muse**" sometimes generates images automatically, but at other times, it requires manual input such as "go", "continue", or "proceed" to initiate image generation.
 
 ## How to Use?
+
+### Recommended Workflow 🤭
+
+1️⃣ Start a new chat with "[**Mirror Muse**](https://chat.openai.com/g/g-VpMCxx3yX-mirror-muse)" ✨
+2️⃣ Upload your image 🖼️ and hit Enter
+3️⃣ Let "**Mirror Muse**" work its magic, describing your image in vivid detail 🎨
+4️⃣ Watch as "**Mirror Muse**" generates a fresh image 🌟
+5️⃣ If DALL-E 3 doesn't start, type "go" and hit Enter 🚦
+6️⃣ Once DALL-E 3 crafts your image, copy its prompt 📋
+7️⃣ Type "@" and select "[**Title Tailor**](https://chat.openai.com/g/g-VSKrlHL4A-title-tailor)" ✨
+8️⃣ Input "captions for ", paste the prompt, and hit Enter 📝
+9️⃣ Wait for "**Title Tailor**" to create 5 captivating captions for you to choose from 🎁
+
+![@ mention](./assets/12/240201_MM_TT.png)
+
+The 2 incredible GPTs "**Mirror Muse**" & "**Title Tailor**" were created by me on my #100DaysOfGPTs journey. Their names? Crafted by another brainchild of mine, "**NameGPT**" (https://chat.openai.com/g/g-e9wfbGudp-namegpt).
 
 ### Example 1
 
@@ -52,7 +68,7 @@ Moving forward with the image recreation process.
 
 The image recreation process is now complete. Here is the visual representation based on the detailed description provided.
 
-![go](./assets/12/240201_modern_building_go.png)
+![go](./assets/12/240201_go.png)
 
 ## GPT Configuration
 
