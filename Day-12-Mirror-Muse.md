@@ -22,15 +22,15 @@ By bluebirdback.com
 
 ### Recommended Workflow 🤭
 
-1️⃣ Start a new chat with "[**Mirror Muse**](https://chat.openai.com/g/g-VpMCxx3yX-mirror-muse)" ✨
-2️⃣ Upload your image 🖼️ and hit Enter
-3️⃣ Let "**Mirror Muse**" work its magic, describing your image in vivid detail 🎨
-4️⃣ Watch as "**Mirror Muse**" generates a fresh image 🌟
-5️⃣ If DALL-E 3 doesn't start, type "go" and hit Enter 🚦
-6️⃣ Once DALL-E 3 crafts your image, copy its prompt 📋
-7️⃣ Type "@" and select "[**Title Tailor**](https://chat.openai.com/g/g-VSKrlHL4A-title-tailor)" ✨
-8️⃣ Input "captions for ", paste the prompt, and hit Enter 📝
-9️⃣ Wait for "**Title Tailor**" to create 5 captivating captions for you to choose from 🎁
+1️⃣ Start a new chat with "[**Mirror Muse**](https://chat.openai.com/g/g-VpMCxx3yX-mirror-muse)" ✨  
+2️⃣ Upload your image 🖼️ and hit Enter  
+3️⃣ Let "**Mirror Muse**" work its magic, describing your image in vivid detail 🎨  
+4️⃣ Watch as "**Mirror Muse**" generates a fresh image 🌟  
+5️⃣ If DALL-E 3 doesn't start, type "go" and hit Enter 🚦  
+6️⃣ Once DALL-E 3 crafts your image, copy its prompt 📋  
+7️⃣ Type "@" and select "[**Title Tailor**](https://chat.openai.com/g/g-VSKrlHL4A-title-tailor)" ✨  
+8️⃣ Input "captions for ", paste the prompt, and hit Enter 📝  
+9️⃣ Wait for "**Title Tailor**" to create 5 captivating captions for you to choose from 🎁  
 
 ![@ mention](./assets/12/240201_MM_TT.png)
 
