@@ -1,8 +1,8 @@
-# Day 7 - DescriptionGPT
+# Day 7 - DescriptionGPT ✨
 
-**DescriptionGPT**
-By bluebirdback.com
-*I craft concise descriptions for your GPTs.*
+**DescriptionGPT**  
+By bluebirdback.com  
+*I craft concise descriptions for your GPTs.*  
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-Fr8MyyfAO-descriptiongpt
 
