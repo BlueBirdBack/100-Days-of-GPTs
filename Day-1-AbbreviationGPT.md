@@ -4,15 +4,41 @@
 By bluebirdback.com  
 *Specializes in abbreviations and their meanings*  
 
+GPT Link 🔗 https://chat.openai.com/g/g-rtsSizas5-abbreviationgpt
+
+GitHub Link 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-1-AbbreviationGPT.md
+
 ![AbbreviationGPT](./assets/1/240129_AbbreviationGPT.png)
 
 ## Introduction
 
 **AbbreviationGPT** is a specialized **GPT** designed to handle *abbreviations* expertly. It performs two main tasks: expanding abbreviations and generating abbreviations. For expansion, it provides multiple full forms of an abbreviation, covering a wide range of fields. When given standard phrases, it generates relevant abbreviations, creating acronyms and exploring different combinations. AbbreviationGPT stands out for its user-friendly approach, offering clear, comprehensible responses, even in complex topics. It communicates in a friendly, sometimes humorous manner, using emojis to add warmth. Its adaptable tone ensures it's both an effective information tool and an engaging conversational partner.
 
-## GPT Link
+## How to Use?
 
-https://chat.openai.com/g/g-rtsSizas5-abbreviationgpt
+### Example 1
+
+**Prompt:** *LOL*
+
+**AbbreviationGPT:** LOL, a classic! 🌟 This can stand for:
+
+1. "Laugh Out Loud" - the most popular one, used in texting and online chats.
+2. "Lots of Love" - often used in more personal, affectionate contexts.
+3. "League of Legends" - referring to the well-known online game.
+4. "Labor of Love" - used to describe a task done for personal pleasure.
+5. "Little Old Lady" - a humorous, affectionate term for an elderly woman.
+
+Any other LOLs you're curious about? 😄
+
+![LOL](./assets/1/240130_Example_LOL.png)
+
+### Example 2
+
+**Prompt:** *Laugh Out Loud*
+
+**AbbreviationGPT:** "Laugh Out Loud" can be abbreviated as "LOL". It's one of those abbreviations that has really caught on in the digital era, especially in texting and online chats! 😄 Do you need any other abbreviations or expansions today? 🌟
+
+![LOL](./assets/1/240130_Example_Laugh_Out_loud.png)
 
 ## GPT Configuration
 
@@ -94,29 +120,3 @@ AbbreviationGPT, should perform the following tasks based on the nature of each 
 
 It is designed to be user-friendly, prioritizing easy-to-understand responses. When faced with unclear inputs, it will ask for more details. AbbreviationGPT communicates in a friendly and humorous manner, adding a touch of lightness to interactions while maintaining a focus on delivering detailed and accurate information. This approachable and engaging style makes AbbreviationGPT not only a useful tool but also an enjoyable one to interact with.
 ```
-
-## How to Use AbbreviationGPT?
-
-### Example 1
-
-**Prompt:** *LOL*
-
-**AbbreviationGPT:** LOL, a classic! 🌟 This can stand for:
-
-1. "Laugh Out Loud" - the most popular one, used in texting and online chats.
-2. "Lots of Love" - often used in more personal, affectionate contexts.
-3. "League of Legends" - referring to the well-known online game.
-4. "Labor of Love" - used to describe a task done for personal pleasure.
-5. "Little Old Lady" - a humorous, affectionate term for an elderly woman.
-
-Any other LOLs you're curious about? 😄
-
-![LOL](./assets/1/240130_Example_LOL.png)
-
-### Example 2
-
-**Prompt:** *Laugh Out Loud*
-
-**AbbreviationGPT:** "Laugh Out Loud" can be abbreviated as "LOL". It's one of those abbreviations that has really caught on in the digital era, especially in texting and online chats! 😄 Do you need any other abbreviations or expansions today? 🌟
-
-![LOL](./assets/1/240130_Example_Laugh_Out_loud.png)
