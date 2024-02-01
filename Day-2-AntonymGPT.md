@@ -1,4 +1,4 @@
-# Day 2 - AntonymGPT
+# Day 2 - AntonymGPT ✨
 
 **AntonymGPT**  
 By bluebirdback.com  

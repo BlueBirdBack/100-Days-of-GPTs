@@ -1,4 +1,4 @@
-# Day 3 - Synonym Suggester
+# Day 3 - Synonym Suggester ✨
 
 **Synonym Suggester**  
 By bluebirdback.com  
