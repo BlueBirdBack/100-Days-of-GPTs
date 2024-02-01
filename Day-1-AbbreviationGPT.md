@@ -4,9 +4,9 @@
 By bluebirdback.com  
 *Specializes in abbreviations and their meanings*  
 
-GPT Link 🔗 https://chat.openai.com/g/g-rtsSizas5-abbreviationgpt
+**GPT Link** 🔗 https://chat.openai.com/g/g-rtsSizas5-abbreviationgpt
 
-GitHub Link 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-1-AbbreviationGPT.md
+**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-1-AbbreviationGPT.md
 
 ![AbbreviationGPT](./assets/1/240129_AbbreviationGPT.png)
 
