@@ -1,10 +1,49 @@
 # Day 7 - DescriptionGPT
 
-## GPT Link
+**DescriptionGPT**
+By bluebirdback.com
+*I craft concise descriptions for your GPTs.*
 
-![DescriptionGPT](./assets/240127_DescriptionGPT.png)
+**GPT Link** 🔗 https://chat.openai.com/g/g-Fr8MyyfAO-descriptiongpt
 
-https://chat.openai.com/g/g-Fr8MyyfAO-descriptiongpt
+**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-7-DescriptionGPT.md
+
+![DescriptionGPT](./assets/7/240201_DescriptionGPT.png)
+
+
+## How to Use?
+
+### Example 1
+
+***Prompt:** [Synonym Suggester.pdf](./assets/3/Day-3-Synonym-Suggester.pdf)*
+
+**DescriptionGPT:** The "Synonym Suggester" GPT is a friendly and humorous tool that provides synonyms for a wide range of words and phrases, including academic, technical, and everyday language. It offers synonyms for multiple meanings of a word, ensuring comprehensive and accurate suggestions. The interactions are engaging and enjoyable, with a light-hearted tone and occasional humor, while focusing on delivering relevant and precise synonym recommendations. It has capabilities like web browsing and DALL·E image generation. Conversation starters include requests for synonyms for words like 'happy', 'complex', 'innovate', and 'strong'.
+
+Based on this description, here are five short, first-person descriptions for the Synonym Suggester GPT:
+
+1. "I make finding the perfect synonym fun and easy."
+2. "Need a synonym? I'm your witty word wizard!"
+3. "From 'happy' to 'complex', I suggest synonyms with a smile."
+4. "I turn your word puzzles into a synonym fiesta!"
+5. "Your go-to guru for synonyms, with a touch of humor."
+
+![Synonym Suggester.pdf](./assets/7/240127_DescriptionGPT_Synonym_Suggester.png)
+
+### Example 2
+
+***Prompt:** [Day-1-AbbreviationGPT.pdf](./assets/1/Day-1-AbbreviationGPT.pdf)*
+
+**DescriptionGPT:** AbbreviationGPT is a specialized GPT that excels in handling abbreviations. It performs two main tasks: expanding abbreviations by providing multiple full forms across various fields, and generating abbreviations from standard phrases, creating acronyms and exploring different combinations. AbbreviationGPT is designed to be user-friendly, communicating in a friendly and sometimes humorous manner, often using emojis to add warmth. Its adaptable tone ensures it is both an effective information tool and an engaging conversational partner. This GPT avoids using filler words like "Ah" and instead employs more specific expressions to enhance clarity and engagement. It is equipped with web browsing and DALL·E image generation capabilities. 
+
+Based on this description, here are five short, first-person descriptions for AbbreviationGPT:
+
+1. "I decode and create abbreviations with ease and a touch of fun."
+2. "Expert in unraveling and crafting abbreviations for you."
+3. "Turn phrases into acronyms and acronyms into meanings."
+4. "Friendly guide for all your abbreviation queries."
+5. "Abbreviations decoded, with humor and precision."
+
+![Day 1](./assets/7/240201_day_1.png)
 
 ## GPT Configuration
 
@@ -68,21 +107,3 @@ GPTs created by the ChatGPT team:
 ### Actions
 
 🚫
-
-## How to Use?
-
-### Example 1
-
-***Prompt:** (Upload the PDF of your GPT, such as [Synonym Suggester.pdf](./Day-7/Synonym%20Suggester.pdf))*
-
-**DescriptionGPT:** The "Synonym Suggester" GPT is a friendly and humorous tool that provides synonyms for a wide range of words and phrases, including academic, technical, and everyday language. It offers synonyms for multiple meanings of a word, ensuring comprehensive and accurate suggestions. The interactions are engaging and enjoyable, with a light-hearted tone and occasional humor, while focusing on delivering relevant and precise synonym recommendations. It has capabilities like web browsing and DALL·E image generation. Conversation starters include requests for synonyms for words like 'happy', 'complex', 'innovate', and 'strong'.
-
-Based on this description, here are five short, first-person descriptions for the Synonym Suggester GPT:
-
-1. "I make finding the perfect synonym fun and easy."
-2. "Need a synonym? I'm your witty word wizard!"
-3. "From 'happy' to 'complex', I suggest synonyms with a smile."
-4. "I turn your word puzzles into a synonym fiesta!"
-5. "Your go-to guru for synonyms, with a touch of humor."
-
-![Synonym Suggester.pdf](./assets/240127_DescriptionGPT_Synonym_Suggester.png)
