@@ -6,9 +6,13 @@ By bluebirdback.com
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-VpMCxx3yX-mirror-muse
 
+**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-12-Mirror-Muse.md
+
 ![Mirror Muse](./assets/12/240201_Mirror_Muse.png)
 
 ## Introduction
+
+"**Mirror Muse**" specializes in image generation, drawing inspiration from platforms like Midjourney, DALL-E 3, Stable Diffusion XL, and Adobe Firefly. The process involves three main steps: image upload, generating a detailed textual description of the uploaded image, and recreating the image using DALL-E 3 based on the description. The emphasis is on creating a seamless user experience without requiring additional user inputs during the image recreation process. "**Mirror Muse**" aims to transcend artistic integrity and visual authenticity, embodying the concept of the learner outshining the master.
 
 ## Known Issues
 
