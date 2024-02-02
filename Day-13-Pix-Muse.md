@@ -10,13 +10,43 @@ By bluebirdback.com
 
 ![Pix Muse](./assets/13/240202_Pix_Muse.png)
 
-## Introduction
+## What is Pix Muse?
 
+**Pix Muse** is a GPT I developed on day 13 of my 100 day GPT creation challenge. It is specialized in creating unique images by incorporating user input and the latest trends into predefined templates, and then using DALL-E 3 for the actual image generation.
 
+**Pix Muse** initiates the creative process by obtaining a "Starter" from the user, which can be a specific theme, subject, or concept to explore visually. It then analyzes 2024 trends related to the Starter, synthesizes this information into a comprehensive understanding, and uses this to guide the image creation process.
+
+## How Does Pix Muse Work? 
+
+Pix Muse has a 4 step process:
+
+1. **Obtain Starter**: User provides input text, images, or files as a starting point. This becomes the ***Starter***.
+
+2. **Trend Analysis**: **Pix Muse** searches the internet to identify relevant 2024 trends using the ***Starter*** as context. It synthesizes this information for the next steps.
+
+3. **Template Integration**: **Pix Muse** incorporates the ***Starter*** and trend analysis into a predefined image description template prompt to guide DALL-E 3. It specifies all required aspects of the template.
+
+4. **Image Generation**: **Pix Muse** automatically generates a unique image using the improved prompt and DALL-E 3 without any additional user input.
+
+## How Can Pix Muse Be Used?
+
+**Pix Muse** allows users to easily create one-of-a-kind AI generated images tailored to their interests and aligned with current trends. 
+
+It can be used by artists and designers to experiment with new visual styles and concepts. Marketers could use it to conceptualize campaign imagery and assets based on their target demographics. Writers may visualize scenes or characters from their stories.
+
+The key benefit is that **Pix Muse** handles the heavy-lifting of researching trends and themes related to the user's input, allowing the user to simply provide a starting point and receive a customized AI image.
+
+## What Makes Pix Muse Useful?
+
+**Pix Muse** simplifies the AI art creation process. Users don't need expertise in prompt engineering or image generation to benefit. The multi-step process has in-built intelligence to ask for user input only when necessary, handle the intermediate analysis and processing, and automatically generate images without additional input. This makes **Pix Muse** more user-friendly and impactful compared to generic image generators.
+
+By incorporating current trends aligned to user interests, **Pix Muse** images feel relevant and fresh rather than generic. The template structure also ensures certain critical elements are included in each image to aid storytelling and emotional impact. This leads to images that are more meaningful and interesting.
+
+In summary, **Pix Muse** opens up AI art to more users through an intelligent guided creation process resulting in customized on-trend images. It makes creating AI generated images simple yet still delivers impactful and intriguing visuals.
 
 ## Known Issues
 
-"**Pix Muse**" sometimes generates images automatically, but at other times, it requires manual input such as "go", "continue", or "proceed" to initiate image generation.
+**Pix Muse** sometimes generates images automatically, but at other times, it requires manual input such as "go", "continue", or "proceed" to start ***Step 3***.
 
 ## How to Use?
 
