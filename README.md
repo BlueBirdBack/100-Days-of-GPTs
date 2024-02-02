@@ -14,3 +14,4 @@
 | 10   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/10/Auto_Categorist.png"> | [Auto Categorist](https://chat.openai.com/g/g-1RYgEMYnu-auto-categorist) | [I sort GPTs into their ideal categories.](./Day-10-Auto-Categorist.md) |
 | 11   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/11/Title_Tailor.png"> | [Title Tailor](https://chat.openai.com/g/g-VSKrlHL4A-title-tailor) | [Fitting your content with the ideal title.](./Day-11-Title-Tailor.md) |
 | 12   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/12/Mirror_Muse.png"> | [Mirror Muse](https://chat.openai.com/g/g-VpMCxx3yX-mirror-muse) | [Upload. Describe. Create. Art reimagined.](./Day-12-Mirror-Muse.md) |
+| 13   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/13/Pix_Muse.png"> | [Pix Muse](https://chat.openai.com/g/g-aq8WB6Yvz-pix-muse) | [Your ideas, trending styles, one unique image.](./Day-13-Pix-Muse.md) |

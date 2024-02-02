@@ -6,7 +6,7 @@ By bluebirdback.com
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-aq8WB6Yvz-pix-muse
 
-**GitHub Link** 🔗 
+**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-13-Pix-Muse.md
 
 ![Pix Muse](./assets/13/240202_Pix_Muse.png)
 
@@ -49,8 +49,6 @@ In summary, **Pix Muse** opens up AI art to more users through an intelligent gu
 **Pix Muse** sometimes generates images automatically, but at other times, it requires manual input such as "go", "continue", or "proceed" to start ***Step 3***.
 
 ## How to Use?
-
-### Example 1
 
 
 
