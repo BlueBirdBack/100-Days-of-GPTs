@@ -6,7 +6,7 @@ By bluebirdback.com
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-vPweBqr9A-english-to-chinese
 
-**GitHub Link** 🔗 
+**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-14-English-Chinese.md
 
 ![English to Chinese](./assets/14/240203_English_Chinese.png)
 
