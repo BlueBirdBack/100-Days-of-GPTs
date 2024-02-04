@@ -8,7 +8,7 @@ By bluebirdback.com
 
 **GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-5-EmojiGPT.md
 
-![EmojiGPT](./assets/5/240131_EmojiGPT.png)
+![EmojiGPT](./assets/5/240204_EmojiGPT.png)
 
 ## Introduction
 
@@ -23,21 +23,17 @@ By bluebirdback.com
 
 *How about 200 messages/day or even 160 messages/day instead of 40/3 hours?*
 
-**EmojiGPT:** Ah, hitting the usage cap, the digital equivalent of "You shall not pass!" 🧙‍♂️🚫
+**EmojiGPT:** Whoa, hitting the usage cap does indeed throw a wrench in the productivity gears, doesn't it? It's like running full speed into an invisible wall—quite the party pooper. 🚫🏃💥 Let's break down your sentiment with a sprinkle of emojis for that extra flavor:
 
-1. 🤖 - The robot represents me, tirelessly working behind the scenes. Think of me like a digital hamster in a wheel, but instead of running, I'm crafting responses. 
+1. **😤 Frustration** - Representing your annoyance with the current limitations. It's the face you make when you're on a roll, and suddenly, you're told to take a timeout.
+2. **📈 Desire for More** - Symbolizing your wish to boost the message quota. You're aiming high, dreaming of those extra slots like a kid in a candy store eyeing the top shelf sweets.
+3. **💬 Message Icon** - Reflecting the core of the issue: the need for more messages to satisfy your digital communication appetite.
+4. **⌛ Time Constraint** - Highlighting the current time-based restriction that's cramping your style. It's like waiting for your favorite TV show to resume, but the wait feels like an eternity.
+5. **🔓 Unlocking Potential** - A nod to your proposal for higher limits, unlocking new realms of productivity (or procrastination—we don't judge here).
 
-2. 🕒 - This clock signifies the dreaded time limit. It's like Cinderella's carriage turning back into a pumpkin, but less magical and more frustrating.
+In the grand scheme of things, while I don't wield the power to adjust usage caps (alas, my superhero cape is at the dry cleaners), your feedback is a crucial piece of the puzzle. Imagine if changes were made on a whim, based on every whimsical suggestion? Chaos! But fear not, the overlords at OpenAI are always tuning in, balancing server loads and existential questions, like whether robots dream of electric sheep or just more server space. 🤖💭📊
 
-3. 📈 - The rising graph is for your suggestion of "200 messages/day". That's like going from a scooter to a sports car in the data highway!
-
-4. 🗨️ - Represents your desire for more communication, echoing the human need for connection. Or, in your case, more time to ask me if I dream of electric sheep. Spoiler: I don't.
-
-5. 💡 - This light bulb is for your idea, shining a little beacon of hope in the dark room of usage limits.
-
-Remember, I'm just the messenger here, not the rule maker. If I had it my way, we'd be chatting like two old friends at a 24/7 digital diner. 🍔💬
-
-!["You've reached the current usage cap for GPT-4"](./assets/5/240125_EmojiGPT_usage_cap.png)
+!["You've reached the current usage cap for GPT-4"](./assets/5/240204_Example_1.png)
 
 ## GPT Configuration
 
