@@ -16,3 +16,4 @@
 | 12   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/12/Mirror_Muse.png"> | [Mirror Muse](https://chat.openai.com/g/g-VpMCxx3yX-mirror-muse) | [Upload. Describe. Create. Art reimagined.](./Day-12-Mirror-Muse.md) |
 | 13   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/13/Pix_Muse.png"> | [Pix Muse](https://chat.openai.com/g/g-aq8WB6Yvz-pix-muse)   | [Your ideas, trending styles, one unique image.](./Day-13-Pix-Muse.md) |
 | 14   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/14/English_Chinese.webp"> | [English to Chinese](https://chat.openai.com/g/g-vPweBqr9A-english-to-chinese) | [Translate English to Chinese seamlessly.](./Day-14-English-Chinese.md) |
+| 15   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/15/SEO_Hemingway.png"> | [SEO Hemingway](https://chat.openai.com/g/g-yrwPCxakn-seo-hemingway) | [SEO writing, Hemingway style.](./Day-15-SEO-Hemingway.md) |
