@@ -10,6 +10,10 @@ By bluebirdback.com
 
 **GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-8-Profile-Pixie.md
 
+## Introduction
+
+"**SEO Hemingway**" is a customized GPT named for its unique blend of Ernest Hemingway's minimalist writing style with modern SEO techniques. It focuses on creating content that is clear, direct, and engaging, optimized for search engines through the use of specific keywords, meta descriptions, and headers. This GPT emphasizes short sentences, the Iceberg Theory, and themes like human dignity and the challenge of nature. It's designed to produce content that is not only SEO-friendly but also rich in depth and meaning, making it useful for crafting compelling online narratives that stand out in search engine results.
+
 ## How to Use?
 
 ### Example 1
