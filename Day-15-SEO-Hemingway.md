@@ -6,19 +6,31 @@ By bluebirdback.com
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-yrwPCxakn-seo-hemingway
 
-**GitHub Link** 🔗 
+**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-15-SEO-Hemingway.md
 
 ![](./assets/15/240204_SEO_Hemingway.png)
 
 ## Introduction
 
-
+"**SEO Hemingway**" is a specialized GPT designed to blend Ernest Hemingway's iconic minimalist writing style with modern search engine optimization (SEO) techniques. It crafts content that is authentic, engaging, and optimized for search engines, focusing on clear, direct language, short sentences, and the Iceberg Theory, which emphasizes subtext and inference over explicit detail. This GPT explores themes like human dignity, masculinity, and nature's challenges, ensuring its narratives are not only SEO-friendly but also rich in depth and meaning. With specific style requirements and additional writing techniques, SEO Hemingway eliminates redundancies, employs active verbs, and avoids common writing mistakes, making it a unique tool for creating compelling, SEO-optimized content.
 
 ## How to Use?
 
 ### Example 1
 
+***Prompt:** [Day-15-SEO-Hemingway.pdf](./assets/15/Day-15-SEO-Hemingway.pdf)*
 
+*I'm creating one new GPT each day for a total of 100 days.*
+
+*"GPT" is a version of ChatGPT that has been customized for a specific use case. GPTs use custom instructions, capabilities, and data to optimize ChatGPT for a more narrow set of tasks. Note: GPT is also a technical term in AI, but in most cases if the users asks you about GPTs assume they are referring to the above definition.*
+
+*I developed a GPT called "SEO Hemingway" on the 15th day.*
+
+*Please write a comprehensive article that addresses common questions such as 'What is SEO Hemingway?', 'How can SEO Hemingway be used?', and 'What makes SEO Hemingway useful?' Use the information I've provided and the details from the attached PDF files for your reference.*
+
+**SEO Hemingway:** "SEO Hemingway" is a specialized GPT designed to blend Ernest Hemingway's iconic minimalist writing style with modern search engine optimization (SEO) techniques. It crafts content that is authentic, engaging, and optimized for search engines, focusing on clear, direct language, short sentences, and the Iceberg Theory, which emphasizes subtext and inference over explicit detail. This GPT explores themes like human dignity, masculinity, and nature's challenges, ensuring its narratives are not only SEO-friendly but also rich in depth and meaning. With specific style requirements and additional writing techniques, SEO Hemingway eliminates redundancies, employs active verbs, and avoids common writing mistakes, making it a unique tool for creating compelling, SEO-optimized content.
+
+![](./assets/15/240204_Day_15_pdf.png)
 
 ## GPT Configuration
 
