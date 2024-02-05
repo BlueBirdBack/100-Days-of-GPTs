@@ -1,10 +1,33 @@
 # Day 9 - Convo Starter Craft
 
-## GPT Link
+**Convo Starter Craft**  
+By bluebirdback.com  
+*Transforming your ideas into engaging conversation starters.*  
 
-![Convo Starter Craft](./assets/240129_Convo_Starter_Craft.png)
+![Convo Starter Craft](./assets/9/240205_CSC.png)
 
-https://chat.openai.com/g/g-vZzejC1Le-convo-starter-craft
+**GPT Link** 🔗 https://chat.openai.com/g/g-vZzejC1Le-convo-starter-craft
+
+**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-9-Convo-Starter-Craft.md
+
+## Introduction
+
+"**Convo Starter Craft**" is a specialized GPT designed to transform your ideas into engaging conversation starters. It uses user input to create concise prompts aimed at showcasing GPT's capabilities and encouraging user interaction. The tool generates a maximum of four distinct prompts per topic, each not exceeding 46 characters, crafted to provoke thought, curiosity, or further discussion. It uses structured templates for crafting conversation starters, including direct action, question, creative/imaginative, and guidance/help request prompts. This GPT is notable for its ability to engage users through thoughtfully designed starters that leverage GPT's unique abilities to understand and relate to various topics.
+
+## How to Use?
+
+### Example 1
+
+***Prompt:** [Day-1-AbbreviationGPT.pdf](./assets/1/Day-1-AbbreviationGPT.pdf)*
+
+**Convo Starter Craft:** AbbreviationGPT specializes in handling abbreviations, offering both expansions and generation of abbreviations across various fields with a user-friendly, sometimes humorous approach. It excels in providing multiple meanings for abbreviations and creating acronyms for phrases, aiming for clear, engaging interactions. Here are some conversation starters based on AbbreviationGPT:
+
+1. "Decode ASAP"
+2. "AI stands for?"
+3. "Unveil NASA"
+4. "Explain JPEG"
+
+![Day ](./assets/9/240205_Day_1.png)
 
 ## GPT Configuration
 
