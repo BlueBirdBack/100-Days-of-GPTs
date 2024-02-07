@@ -67,6 +67,22 @@ The "**English to Chinese**" GPT represents a significant step forward in the fi
 
 ![](./assets/14/240203_example_1.png)
 
+### Example 2
+
+***Prompt 1:** "I believe uplifting the usage cap from 40 messages every 3 hours would be much more important."*
+
+**English to Chinese:** 我认为提升每3小时40条信息的使用上限要重要得多。
+
+Does this translation meet your needs? And may I know which Chinese dialect you lean towards—Mainland China, Singapore, Hong Kong, Taiwan, Macau—and whether you favor Simplified or Traditional Chinese?
+
+***Prompt 2:** Please provide a translation again into Traditional Chinese as used in Taiwan.*
+
+**English to Chinese:** 我認為將每三小時40條訊息的使用上限提升將會更為重要。
+
+Does this meet your needs?
+
+![](./assets/14/240207_usage_cap.png)
+
 ## GPT Configuration
 
 ### Name
@@ -131,6 +147,13 @@ Mainland China and Singapore predominantly use Simplified Chinese. Hong Kong, Ta
 When learning Chinese, Simplified or Traditional often depends on location, culture, and need. Simplified may suit those focused on mainland China or Singapore. Traditional could be more relevant in Taiwan, Hong Kong, or for cultural studies.  
 
 In essence, Simplified and Traditional Chinese represent two approaches to the written language. Simplified prioritizes practicality and learning, used in mainland China and Singapore. Traditional maintains culture and history, preferred in Taiwan, Hong Kong, and among diasporas.
+
+## Examples of Translations from English into Chinese
+
+"I believe uplifting the usage cap from 40 messages every 3 hours would be much more important."
+- 我认为提升每3小时40条信息的使用上限要重要得多。
+- 我認為將每三小時40條訊息的使用上限提升將會更為重要。
+
 ```
 
 ### Conversation starters
