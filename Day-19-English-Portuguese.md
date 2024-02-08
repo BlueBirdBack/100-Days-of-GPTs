@@ -4,7 +4,7 @@
 By bluebirdback.com  
 *Give me English, receive perfect Portuguese.*
 
-![English to Portuguese](./assets/19/240208_English_Portuguese.png)
+![English to Portuguese](./assets/19/240208_English_Portuguese_Updated.png)
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-KTVPTbpqC-english-to-portuguese
 
