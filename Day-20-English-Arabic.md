@@ -8,7 +8,7 @@ By bluebirdback.com
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-cwaMRx0RM-english-to-arabic
 
-**GitHub Link** 🔗 
+**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-20-English-Arabic.md
 
 ## Introduction
 
