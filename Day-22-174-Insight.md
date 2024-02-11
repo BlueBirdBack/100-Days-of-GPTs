@@ -80,6 +80,12 @@ In essence, "174 Insight" serves as a modest yet effective resource for R&D busi
 
 ![](./assets/22/240211_evidence.png)
 
+## Known Issues
+
+1. The GPT editor displays a "Unpublished changes" message without providing further details!
+
+![](./assets/22/240211_unpublished_changes.png)
+
 ## GPT Configuration
 
 ### Name
