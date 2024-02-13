@@ -8,7 +8,7 @@ By bluebirdback.com
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-B6qfl4z3g-niji-muse
 
-**GitHub Link** 🔗 
+**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-24-Niji-Muse.md
 
 ## How to Use?
 
