@@ -92,7 +92,7 @@ I need a detailed description of a Pixel Art image that captures its essence and
 
 - Upload an image to proceed
 - Input anything to start
-- Happy New Year of the Dragon!
+- List pixel art sub-styles
 - Chunk big dreams into doable steps
 
 ### Knowledge
