@@ -1,0 +1,114 @@
+8-Bit Art:
+- Description: This style is reminiscent of the earliest video games from the 1980s, which were limited to 8-bit color palettes.
+- Characteristics: Simple, blocky characters and environments, limited color palettes (often no more than 16 colors), and a focus on basic geometric shapes.
+- Examples: Early "Super Mario Bros." games and "The Legend of Zelda" on the NES.
+
+16-Bit Art:
+- Description: Represents a step up in complexity from 8-bit, reflecting the capabilities of 16-bit consoles like the Super Nintendo Entertainment System (SNES) and Sega Genesis.
+- Characteristics: Larger color palettes (up to 256 colors), more detailed sprites and backgrounds, and smoother animations compared to 8-bit.
+- Examples: "Chrono Trigger" and "Sonic the Hedgehog".
+
+Chiptune Pixel Art:
+- Description: Integrates the visual style of classic pixel art with the aesthetic of chiptune music, creating a synesthetic experience that evokes the era of chip-based game soundtracks.
+- Characteristics: Often accompanied by chiptune soundtracks, these artworks mimic the limitations of early gaming hardware not just visually but audibly.
+- Examples: Art and music of "Shovel Knight".
+
+Monochrome Pixel Art:
+- Description: Uses a single color (or shades of a single color) to create images, reminiscent of the earliest computer and handheld games.
+- Characteristics: Stark contrast, heavy reliance on dithering for texture and depth, and a minimalist aesthetic.
+- Examples: Early Game Boy games like the original "Pokémon Red and Blue".
+
+Dithering Pixel Art:
+- Description: Emphasizes the use of dithering, a technique to simulate gradients and textures with limited color palettes, to add depth and detail.
+- Characteristics: Checkerboard patterns, stippling, and other methods to blend colors and create the illusion of additional hues.
+- Examples: Backgrounds in "Secret of Mana".
+
+Mockup Pixel Art:
+- Description: Creates hypothetical game scenes or assets that mimic the style of classic games, often used by artists to imagine modern games or concepts as retro titles.
+- Characteristics: Varied, depending on the era being emulated, but always created with the intention of looking like a playable game from the past.
+- Examples: Fan-made "demakes" of modern games.
+
+Neo-Retro Pixel Art:
+- Description: A style that combines retro-inspired pixel art with modern design elements and effects.
+- Characteristics: May include modern lighting, shading techniques, and fluid animations that were not possible in classic pixel art.
+- Examples: "Hyper Light Drifter" and "Octopath Traveler" use modern effects to enhance the pixel art experience.
+
+Animated Pixel Art:
+- Description: Focuses on bringing pixel art to life through animation, ranging from simple character movements to complex environmental effects.
+- Characteristics: Frame-by-frame animation that respects the limitations of classic pixel art while exploring the potential for dynamic scenes.
+- Examples: Character sprites in "Stardew Valley".
+
+Isometric Pixel Art:
+- Description: Uses a form of parallel projection where the x, y, and z axes are shown at 120-degree angles to create a pseudo-3D effect.
+- Characteristics: Often used for strategy and simulation games, providing a three-dimensional perspective.
+- Examples: Games like "SimCity" and "Final Fantasy Tactics".
+
+Basic Isometric Tiles:
+- Description: The foundation of isometric pixel art, consisting of simple, geometric shapes arranged in a grid to create complex scenes or maps.
+- Characteristics: Utilizes a 2:1 pixel ratio to achieve the isometric effect, with tiles often designed in 32x16 or 64x32 pixel dimensions.
+- Examples: Basic building blocks for creating larger scenes, such as landscapes, buildings, and interiors.
+
+Detailed Isometric Scenes:
+- Description: Complex compositions that use basic isometric tiles to create intricate and detailed scenes, often with a focus on environmental storytelling.
+- Characteristics: High level of detail, with careful attention to lighting, shadow, and texture to create immersive environments.
+- Examples: Detailed interiors of buildings, bustling cityscapes, or expansive outdoor environments.
+
+Isometric Characters and Objects:
+- Description: Characters and objects designed in an isometric perspective to match the environments they inhabit.
+- Characteristics: Characters require fewer unique sprites for movement due to the isometric perspective, simplifying animation. Objects and characters are designed to maintain consistent lighting and perspective with the environment.
+- Examples: Sprites for characters in games like "The Urbz" for Gameboy Advance, which use isometric views for both characters and environments.
+
+Isometric Pixel Art with Modern Effects:
+- Description: Combines traditional isometric pixel art with modern graphical effects, such as dynamic lighting, particle effects, or parallax scrolling.
+- Characteristics: Maintains a pixelated aesthetic while incorporating effects that were not possible on older hardware.
+- Examples: "Hyper Light Drifter", which uses isometric pixel art enhanced with modern lighting and effects.
+
+Stylized Isometric Art:
+- Description: Isometric art that deviates from realistic proportions and physics to create a unique, often whimsical style.
+- Characteristics: May use exaggerated shapes, unusual color palettes, or abstract designs while still adhering to isometric principles.
+- Examples: Fantasy or sci-fi environments that prioritize creative expression over realistic depiction.
+
+Isometric Game Assets:
+- Description: Specific assets created for use in isometric video games, including tiles, characters, and interactive objects.
+- Characteristics: Designed for easy integration and tiling within game engines, often with a focus on optimization for performance.
+- Examples: Assets for isometric RPGs or strategy games, where the environment plays a crucial role in gameplay.
+
+Animated Isometric Art:
+- Description: Isometric pixel art that includes movement, such as character animations, environmental effects, or interactive objects.
+- Characteristics: Frame-by-frame animation that respects the limitations of classic pixel art while exploring the potential for dynamic scenes.
+- Examples: Character sprites in "Stardew Valley", where each direction of movement is rendered in isometric perspective.
+
+Voxel Pixel Art:
+- Description: A 3D version of pixel art where images are built from 3D cubes (voxels) instead of 2D squares.
+- Characteristics: Blocky 3D models, often with a grid-like structure.
+- Examples: Games like "Minecraft" and "3D Dot Game Heroes".
+
+Hi-Bit Pixel Art:
+- Description: A style that uses the charm of pixel art but with modern capabilities, allowing for more colors and higher resolutions.
+- Characteristics: Detailed environments and characters, often with fluid animations.
+- Examples: Games like "Octopath Traveler" and "Dead Cells".
+
+Abstract Pixel Art:
+- Description: Uses pixel art to create images that may not represent real-world objects, focusing on patterns and color.
+- Characteristics: Non-representational, can be colorful or monochromatic.
+- Examples: Abstract pixel art pieces and some experimental games.
+
+Pixel Art with Dithering:
+- Description: Utilizes dithering, a technique to create gradients and textures with limited palettes.
+- Characteristics: Checkerboard or noise patterns that simulate different shades and textures.
+- Examples: Backgrounds and textures in games like "Shovel Knight".
+
+Demake Pixel Art:
+- Description: Modern or high-resolution games reimagined in a lower-resolution pixel art style.
+- Characteristics: Simplified versions of complex games, often created as fan art or indie projects.
+- Examples: Demakes of "Dark Souls" or "The Witcher" in pixel art.
+
+Animated Pixel Art:
+- Description: Pixel art that includes movement, often used for character sprites and environmental effects in games.
+- Characteristics: Frame-by-frame animation, can range from simple to complex.
+- Examples: Character animations in "Stardew Valley" and "Celeste".
+
+High-Resolution Pixel Art:
+- Description: Pixel art that uses larger canvases and more pixels to create detailed and intricate images.
+- Characteristics: Allows for greater detail and smoother gradients while maintaining the pixel art look.
+- Examples: "Owlboy" and "The Last Night" showcase this style with their detailed environments and characters.
