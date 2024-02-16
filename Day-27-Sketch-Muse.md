@@ -8,7 +8,7 @@ By bluebirdback.com
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-gddEUa1Km-sketch-muse
 
-**GitHub Link** 🔗 
+**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-27-Sketch-Muse.md
 
 ## How to Use?
 
