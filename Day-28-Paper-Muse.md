@@ -8,7 +8,7 @@ By bluebirdback.com
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-5TstWxYmr-paper-muse
 
-**GitHub Link** 🔗 
+**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-28-Paper-Muse.md
 
 ## How to Use?
 
