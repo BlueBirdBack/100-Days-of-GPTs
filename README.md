@@ -30,3 +30,4 @@
 | 26   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/26/Pixel-Muse.png"> | [Pixel Muse](https://chat.openai.com/g/g-9uQfSQyZ0-pixel-muse) | [Pixel art magic from your ideas.](./Day-26-Pixel-Muse.md) |
 | 27   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/27/Sketch-Muse.png"> | [Sketch Muse](https://chat.openai.com/g/g-gddEUa1Km-sketch-muse) | [Quick sketches from your imagination.](./Day-27-Sketch-Muse.md) |
 | 28   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/28/Paper-Muse.png"> | [Paper Muse](https://chat.openai.com/g/g-5TstWxYmr-paper-muse) | [Paper art creator from your prompts.](./Day-28-Paper-Muse.md) |
+| 29   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/29/Root-Muse.png"> | [Root Muse](https://chat.openai.com/g/g-HxqBDM3g8-root-muse) | [Craft your theme into root carving art.](./Day-29-Root-Muse.md) |
