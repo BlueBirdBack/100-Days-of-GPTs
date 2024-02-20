@@ -32,3 +32,4 @@
 | 28   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/28/Paper-Muse.png"> | [Paper Muse](https://chat.openai.com/g/g-5TstWxYmr-paper-muse) | [Paper art creator from your prompts.](./Day-28-Paper-Muse.md) |
 | 29   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/29/Root-Muse.png"> | [Root Muse](https://chat.openai.com/g/g-HxqBDM3g8-root-muse) | [Craft your theme into root carving art.](./Day-29-Root-Muse.md) |
 | 30   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/30/Dog-Mirror.png"> | [Dog Mirror](https://chat.openai.com/g/g-ryQel4j2b-dog-mirror) | [Send a dog photo, and I'll replicate the dog.](./Day-30-Dog-Mirror.md) |
+| 31   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/31/Poem-Petal.png"> | [Poem Petal](https://chat.openai.com/g/g-NI8gn1RdR-poem-petal) | [Words flow, images bloom, haikus emerge, poems assume.](./Day-31-Poem-Petal.md) |
