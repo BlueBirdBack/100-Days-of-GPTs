@@ -4,7 +4,7 @@
 By bluebirdback.com  
 *Your dog's photo becomes their next winter accessories.*
 
-![](./assets/32/240221_Dog_Winter_accessory.png)
+![](./assets/33/240222_Winter_Woofs.png)
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-DhZs1kJqz-dog-winter-accessory
 
@@ -21,8 +21,6 @@ By bluebirdback.com
 ![](./assets/33/2024-02-22-example-1-2.webp)
 
 ![](./assets/33/2024-02-22-example-1-3.webp)
-
-![](./assets/32/2024-02-21-example-1-2.webp)
 
 ## GPT Configuration
 
