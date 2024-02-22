@@ -8,7 +8,7 @@ By bluebirdback.com
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-DhZs1kJqz-dog-winter-accessory
 
-**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-32-Dog-Winter-accessory.md
+**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-33-Winter-Woofs.md
 
 ## How to Use?
 
