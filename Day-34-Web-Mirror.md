@@ -2,7 +2,7 @@
 
 **Web Mirror**  
 By bluebirdback.com  
-I transform webpage images into superior designs.  
+*I transform webpage images into superior designs.*  
 
 ![](./assets/34/240223_Web_Mirror.png)
 
