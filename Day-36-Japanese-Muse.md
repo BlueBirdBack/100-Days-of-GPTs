@@ -2,9 +2,9 @@
 
 **Japanese Muse**  
 By bluebirdback.com  
-*I paint your thoughts in traditional Japanese style.*  
+*Words and images reborn as Japanese art.*  
 
-
+![](./assets/36/240225-Japanese-Muse.png)
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-eEXxdTCfK-japanese-muse
 
@@ -14,7 +14,49 @@ By bluebirdback.com
 
 ### Example 1
 
+***Prompt 1:** BlueBirdBack*
 
+**Japanese Muse:** ![](./assets/36/2024-02-25-ex-1-1.webp)
+
+The serene and detailed Japanese painting inspired by your theme is now ready. Let's proceed to the next step where you can choose to further refine this creation. 
+
+### Options for Further Refinement:
+
+1. **Aspect Ratios:**
+   - Portrait (tall)
+   - Square
+   - Landscape (wide)
+
+2. **Styles:**
+   - Yamato-e: Focused on Japanese themes with vibrant use of color.
+   - Sumi-e: Ink wash painting emphasizing simplicity and fluidity.
+   - Tosa School: Specialized in detailed and colorful narrative scenes.
+   - Kanō School: Known for bold ink brushwork with Chinese themes.
+   - Hasegawa School: Fusion of Japanese and Western techniques.
+   - Rinpa (Kōrin School): Decorative style with bold, stylized depictions of nature.
+   - Ukiyo-e: Features scenes of urban life and landscapes.
+   - Shijō School: More realistic and naturalistic approach.
+   - Maruyama School: True-to-life depictions of nature.
+   - Nanga (Bunjinga): Emphasizes personal expression and simplicity.
+   - Zenga: Connected to Zen Buddhism with spontaneous brushwork.
+   - Nihonga: Revives traditional techniques with modern sensibilities.
+   - Sōsaku-hanga and Shin-hanga: Focus on individual expression or revitalized traditional styles with modern sensibility.
+
+Please select at least one option from the aspect ratios and styles for further customization of your painting.
+
+***Prompt 2:** square, Shijō School*
+
+**Japanese Muse:** ![](./assets/36/2024-02-25-ex-1-2.webp)
+
+Your painting has been reimagined in a square format, reflecting the Shijō School style's emphasis on realism and the natural world. If you have any more adjustments in mind or wish to explore other options, please feel free to share your thoughts.
+
+***Prompt 3:** tall, Sōsaku-hanga*
+
+**Japanese Muse:** ![](./assets/36/2024-02-25-ex-1-3.webp)
+
+The painting has been reimagined in a tall format, drawing inspiration from the Sōsaku-hanga style, which emphasizes personal expression and artistic freedom. If there are any further styles or adjustments you'd like to explore, please feel free to share your ideas.
+
+![screenshot](./assets/36/240225-ex-1.png)
 
 ## GPT Configuration
 
@@ -24,7 +66,7 @@ Japanese Muse
 
 ### Description
 
-I paint your thoughts in traditional Japanese style.
+Words and images reborn as Japanese art.
 
 ### Instructions
 
@@ -126,6 +168,8 @@ IMPORTANT! Only create images in a Japanese painting style!
 
 - Provide a theme for your painting
 - Or upload an image to start
+- BlueBirdBack
+- A close-up shot of a Japanese girl's eyes
 
 ### Knowledge
 
