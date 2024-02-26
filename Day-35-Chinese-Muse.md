@@ -59,9 +59,9 @@ Your customized Lantern Festival scene in the Xieyi style with a wide aspect rat
 
 ### Example 2
 
-***Prompt:***
-*向 晚 意 不 適 ，  驅 車 登 古 原 。* 
-*夕 陽 無 限 好 ，  只 是 近 黃 昏 。*
+***Prompt:***  
+*向 晚 意 不 適 ，  驅 車 登 古 原 。*  
+*夕 陽 無 限 好 ，  只 是 近 黃 昏 。*  
 
 **Chinese Muse:**
 
