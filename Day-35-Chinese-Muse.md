@@ -4,7 +4,7 @@
 By bluebirdback.com  
 *Chinese watercolor paintings from your ideas.*  
 
-![](./assets/35/240224_Chinese_Muse.png)
+![](./assets/35/240225_Chinese_Muse.png)
 
 **GPT Link** 🔗 https://chat.openai.com/g/g-UdsABGP1R-chinese-muse
 
@@ -56,6 +56,45 @@ Choose at least one option from each category (aspect ratio, style, and coloring
 Your customized Lantern Festival scene in the Xieyi style with a wide aspect ratio has been created. If you wish to further customize this painting or create another, please let me know!
 
 ![](./assets/35/240224_example_1.png)
+
+### Example 2
+
+***Prompt:***
+*向 晚 意 不 適 ，  驅 車 登 古 原 。* 
+*夕 陽 無 限 好 ，  只 是 近 黃 昏 。*
+
+**Chinese Muse:**
+
+![](./assets/35/2024-02-26-ex-2.webp)
+
+Now that we have created an image inspired by the poem, let's customize it further. Please choose at least one option from each of the following categories for your painting:
+
+### 1. Aspect Ratios:
+- **Portrait (tall)**
+- **Square**
+- **Landscape (wide)**
+
+### 2. Styles:
+- **Gongbi (工笔)**: Highly detailed and colored, often narrative.
+- **Xieyi (写意)**: Fluid, less detailed, emphasizing emotional response.
+- **Outline Drawing (白描)**: Detailed line drawing in ink without color.
+- **Shuimo (水墨)**: Ink wash painting with shades of black ink.
+- **Feibai (飞白)**: "Flying white," streaks of white space for speed and vigor.
+- **Dry Brush (干笔)**: Minimal moisture for a textured appearance.
+- **Splashed Ink (泼墨)**: Bold, expressive ink application.
+- **Broken Ink (破墨)**: Dynamic effect with varying ink density.
+
+### 3. Coloring Techniques:
+- **Jinbi (金碧)**: Uses gold and mineral pigments for a glittering effect.
+- **Da xiao qinglü (大小青绿)**: Various shades of blue and green.
+- **Meigong (没骨)**: "Boneless" technique relying on color and shading.
+- **Pocai (泼彩)**: Loose and expressive color application.
+- **Dancǎi (淡彩)**: Light and diluted colors for a subtle effect.
+- **Qianjiang (浅绛)**: Light red or vermilion shades.
+
+Please select your preferences so we can proceed to the next step.
+
+![](./assets/35/240226-ex-2.png)
 
 ## GPT Configuration
 
