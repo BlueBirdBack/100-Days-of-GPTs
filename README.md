@@ -38,3 +38,4 @@
 | 34   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/34/Web-Mirror.png"> | [Web Mirror](https://chat.openai.com/g/g-yZaGe2ztM-web-mirror) | [I transform webpage images into superior designs.](./Day-34-Web-Mirror.md) |
 | 35   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/35/Chinese-Muse-226.webp"> | [Chinese Muse](https://chat.openai.com/g/g-UdsABGP1R-chinese-muse) | [Chinese watercolor paintings from your ideas.](./Day-35-Chinese-Muse.md) |
 | 36   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/36/Japanese-Muse.webp"> | [Japanese Muse](https://chat.openai.com/g/g-eEXxdTCfK-japanese-muse) | [Words and images reborn as Japanese art.](./Day-36-Japanese-Muse.md) |
+| 37   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/37/rbnhj.webp"> | [日本の画家](https://chat.openai.com/g/g-lIPVI8NnV-ri-ben-nohua-jia) | [言葉と画像を日本の芸術傑作に変える。](./Day-37-日本の画家.md) |
