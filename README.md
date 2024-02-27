@@ -39,3 +39,4 @@
 | 35   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/35/Chinese-Muse-226.webp"> | [Chinese Muse](https://chat.openai.com/g/g-UdsABGP1R-chinese-muse) | [Chinese watercolor paintings from your ideas.](./Day-35-Chinese-Muse.md) |
 | 36   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/36/Japanese-Muse.webp"> | [Japanese Muse](https://chat.openai.com/g/g-eEXxdTCfK-japanese-muse) | [Words and images reborn as Japanese art.](./Day-36-Japanese-Muse.md) |
 | 37   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/37/rbnhj.webp"> | [日本の画家](https://chat.openai.com/g/g-lIPVI8NnV-ri-ben-nohua-jia) | [言葉と画像を日本の芸術傑作に変える。](./Day-37-日本の画家.md) |
+| 38   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/38/ghj.webp"> | [国画家](https://chat.openai.com/g/g-LOUaoilfz-guo-hua-jia) | [以字带画，国韵生辉。](./Day-38-国画家.md) |
