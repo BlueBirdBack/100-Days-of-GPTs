@@ -41,3 +41,4 @@
 | 37   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/37/rbnhj.webp"> | [日本の画家](https://chat.openai.com/g/g-lIPVI8NnV-ri-ben-nohua-jia) | [言葉と画像を日本の芸術傑作に変える。](./Day-37-日本の画家.md) |
 | 38   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/38/guohua-j.webp"> | [国画家](https://chat.openai.com/g/g-LOUaoilfz-guo-hua-jia) | [以字带画，国韵生辉。](./Day-38-国画家.md) |
 | 39   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/39/Abstract-Muse.png"> | [Abstract Muse](https://chat.openai.com/g/g-qynsGRILH-abstract-muse) | [I visualize your concepts as abstract art.](./Day-39-Abstract-Muse.md) |
+| 40   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/40/Obsidian-Craft.webp"> | [Obsidian Craft](https://chat.openai.com/g/g-oI7puVAnk-obsidian-craft) | [Together, we create Obsidian plugins.](./Day-40-Obsidian-Craft.md) |
