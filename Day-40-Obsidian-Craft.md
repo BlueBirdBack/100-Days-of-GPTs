@@ -103,7 +103,6 @@ User Task: Tell me about your plugin's vision, desired features, intended user e
 - Need Obsidian plugin advice?
 - Facing plugin dev challenges?
 
-
 ### Knowledge
 
 - [obsidian-developer-docs.zip](./assets/40/obsidian-developer-docs.zip)
