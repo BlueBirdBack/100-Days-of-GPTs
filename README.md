@@ -1,6 +1,6 @@
 # 100 Days of GPTs
 
-| Day  | Profile Picture                                              | Name w Link to GPT                                           | Description w Link to Markdown                               |
+| Day  | Profile Picture                                              | Name with Link to GPT                                        | Description with Link to Markdown                            |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 1    | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/1/AbbreviationGPT_0129.png"> | [AbbreviationGPT](https://chat.openai.com/g/g-rtsSizas5-abbreviationgpt) | [Specializes in abbreviations and their meanings](./Day-1-AbbreviationGPT.md) |
 | 2    | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/2/AntonymGPT_0130.png"> | [AntonymGPT](https://chat.openai.com/g/g-NyfhqK9Ar-antonymgpt) | [Ask me for antonyms, expect a witty reply!](./Day-2-AntonymGPT.md) |
@@ -27,7 +27,7 @@
 | 23   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/23/174_Calculator.webp"> | [174 Calculator](https://chat.openai.com/g/g-APh4LKTIS-174-calculator) | [Simplifying your Section 174 R&D tax calculations.](./Day-23-174-Calculator.md) |
 | 24   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/24/Niji_Muse.png"> | [Niji Muse](https://chat.openai.com/g/g-B6qfl4z3g-niji-muse) | [Let me transform your ideas into vibrant, anime art.](./Day-24-Niji-Muse.md) |
 | 25   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/25/Privacy-Policy-Action.png"> | [Privacy Policy Action](https://chat.openai.com/g/g-HtEZpmJbv-privacy-policy-action) | [I craft privacy policies for GPT actions.](./Day-25-Privacy-Policy-Action.md) |
-| 26   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/26/Pixel-Muse.png"> | [Pixel Muse](https://chat.openai.com/g/g-9uQfSQyZ0-pixel-muse) | [Pixel art magic from your ideas.](./Day-26-Pixel-Muse.md) |
+| 26   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/26/Pixel-Muse.png"> | [Pixel Muse](https://chat.openai.com/g/g-9uQfSQyZ0-pixel-muse) | [Pixel art magic from your ideas.](./Day-26-Pixel-Muse.md)   |
 | 27   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/27/Sketch-Muse.png"> | [Sketch Muse](https://chat.openai.com/g/g-gddEUa1Km-sketch-muse) | [Quick sketches from your imagination.](./Day-27-Sketch-Muse.md) |
 | 28   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/28/Paper-Muse.png"> | [Paper Muse](https://chat.openai.com/g/g-5TstWxYmr-paper-muse) | [Paper art creator from your prompts.](./Day-28-Paper-Muse.md) |
 | 29   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/29/Root-Muse.png"> | [Root Muse](https://chat.openai.com/g/g-HxqBDM3g8-root-muse) | [Craft your theme into root carving art.](./Day-29-Root-Muse.md) |
@@ -39,6 +39,6 @@
 | 35   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/35/Chinese-Muse-226.webp"> | [Chinese Muse](https://chat.openai.com/g/g-UdsABGP1R-chinese-muse) | [Chinese watercolor paintings from your ideas.](./Day-35-Chinese-Muse.md) |
 | 36   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/36/Japanese-Muse.webp"> | [Japanese Muse](https://chat.openai.com/g/g-eEXxdTCfK-japanese-muse) | [Words and images reborn as Japanese art.](./Day-36-Japanese-Muse.md) |
 | 37   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/37/rbnhj.webp"> | [日本の画家](https://chat.openai.com/g/g-lIPVI8NnV-ri-ben-nohua-jia) | [言葉と画像を日本の芸術傑作に変える。](./Day-37-日本の画家.md) |
-| 38   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/38/guohua-j.webp"> | [国画家](https://chat.openai.com/g/g-LOUaoilfz-guo-hua-jia) | [以字带画，国韵生辉。](./Day-38-国画家.md) |
+| 38   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/38/guohua-j.webp"> | [国画家](https://chat.openai.com/g/g-LOUaoilfz-guo-hua-jia)  | [以字带画，国韵生辉。](./Day-38-国画家.md)                   |
 | 39   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/39/Abstract-Muse.png"> | [Abstract Muse](https://chat.openai.com/g/g-qynsGRILH-abstract-muse) | [I visualize your concepts as abstract art.](./Day-39-Abstract-Muse.md) |
 | 40   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/40/Obsidian-Craft.webp"> | [Obsidian Craft](https://chat.openai.com/g/g-oI7puVAnk-obsidian-craft) | [Together, we create Obsidian plugins.](./Day-40-Obsidian-Craft.md) |
