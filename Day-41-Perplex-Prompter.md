@@ -8,7 +8,7 @@ By bluebirdback.com
 
 **Category:** Productivity
 
-**GPT Link:** https://chat.openai.com/g/g-oI7puVAnk-obsidian-craft
+**GPT Link:** https://chat.openai.com/g/g-CWxGaVsCu-perplex-prompter
 
 **GitHub Link:** https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-41-Perplex-Prompter.md
 
