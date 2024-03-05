@@ -46,3 +46,4 @@
 | 42   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/42/Linux-Craft.png"> | [Linux Craft](https://chat.openai.com/g/g-dOJDykWbc-linux-craft) | [I'm here to simplify your Linux system administration.](./Day-42-Linux-Craft.md) |
 | 43   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/43/X-Craft.png"> | [X Craft](https://chat.openai.com/g/g-w6bCfQu3L-x-craft) | [Your Twitter API wizard.](./Day-43-X-Craft.md) |
 | 44   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/44/WP-Craft.png"> | [WP Craft](https://chat.openai.com/g/g-xCg3HtXKq-wp-craft) | [Craft WordPress solutions with my API expertise.](./Day-44-WP-Craft.md) |
+| 45   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/45/Chrome-Craft-730.png"> | [Chrome Craft](https://chat.openai.com/g/g-oHBSuqli9-chrome-craft) | [Build Chrome extensions, effortlessly.](./Day-45-Chrome-Craft.md) |
