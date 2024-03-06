@@ -6,7 +6,7 @@ By bluebirdback.com
 
 ![](./assets/46/240306-Claude-Prompter.png)
 
-**Category:** Programming
+**Category:** Productivity
 
 **GPT Link:** https://chat.openai.com/g/g-l1Rvr65eS-claude-prompter
 
