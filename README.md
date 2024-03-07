@@ -48,3 +48,4 @@
 | 44   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/44/WP-Craft.png"> | [WP Craft](https://chat.openai.com/g/g-xCg3HtXKq-wp-craft) | [Craft WordPress solutions with my API expertise.](./Day-44-WP-Craft.md) |
 | 45   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/45/Chrome-Craft-730.png"> | [Chrome Craft](https://chat.openai.com/g/g-oHBSuqli9-chrome-craft) | [Build Chrome extensions, effortlessly.](./Day-45-Chrome-Craft.md) |
 | 46   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/46/Claude-Prompter.png"> | [Claude Prompter](https://chat.openai.com/g/g-l1Rvr65eS-claude-prompter) | [Craft Claude 3 prompts like a pro with me.](./Day-46-Claude-Prompter.md) |
+| 47   | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/47/Claude-Craft.png"> | [Claude Craft](https://chat.openai.com/g/g-MbQ904fcC-claude-craft) | [I'm a master of Claude 3 API.](./Day-47-Claude-Craft.md) |
