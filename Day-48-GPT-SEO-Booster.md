@@ -154,7 +154,10 @@ In summary, the SEO trends for 2024 highlight the growing importance of AI, vide
 ### Conversation starters
 
 - Your GPT's name & description?
+- Add more info about your GPT
 - What are your SEO goals?
+- Provide 3 improved descriptions
+- Provide 3 improved names
 
 ### Knowledge
 
