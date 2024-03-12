@@ -14,6 +14,21 @@ By bluebirdback.com
 
 ### Example 1
 
+***Prompt:** AKA*
+
+**AbbreviationGPT:** "AKA" can stand for a variety of things depending on the context, here are a few interpretations:
+
+1. **Also Known As**: The most common usage, referring to an alternative name or alias used by a person or entity.
+2. **American Kickboxing Academy**: A prominent mixed martial arts gym located in the United States.
+3. **Australian Kendo Association**: An organization representing the martial art of Kendo in Australia.
+4. **American Kitefliers Association**: An association dedicated to the hobby and sport of kite flying in the USA.
+
+Got any specific field in mind? 🌟
+
+![AKA](./assets/1/240312-ex-1.png)
+
+### Example 2
+
 **Prompt:** *LOL*
 
 **AbbreviationGPT:** LOL, a classic! 🌟 This can stand for:
@@ -28,7 +43,7 @@ Any other LOLs you're curious about? 😄
 
 ![LOL](./assets/1/240130_Example_LOL.png)
 
-### Example 2
+### Example 3
 
 **Prompt:** *Laugh Out Loud*
 
