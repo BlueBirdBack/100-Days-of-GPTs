@@ -2,7 +2,7 @@
 
 | Day  | Profile Picture                                              | Name                                                         | Description                                                  |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1    | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/1/AbbreviationGPT_0129.png"> | [AbbreviationGPT](https://chat.openai.com/g/g-rtsSizas5-abbreviationgpt) | [Specializes in abbreviations and their meanings](./Day-1-AbbreviationGPT.md) |
+| 1    | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/1/AbbreviationGPT_312.png"> | [AbbreviationGPT](https://chat.openai.com/g/g-rtsSizas5-abbreviationgpt) | [I decipher and create abbreviations. I use a friendly tone and humor. Emojis add fun. Perfect for students, professionals, the curious.](./Day-1-AbbreviationGPT.md) |
 | 2    | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/2/AntonymGPT_0130.png"> | [AntonymGPT](https://chat.openai.com/g/g-NyfhqK9Ar-antonymgpt) | [Ask me for antonyms, expect a witty reply!](./Day-2-AntonymGPT.md) |
 | 3    | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/3/Synonym-Suggester-0301.png"> | [Synonym Suggester](https://chat.openai.com/g/g-xC0y77yRg-synonym-suggester) | [I find the perfect synonym for any word!](./Day-3-Synonym-Suggester.md) |
 | 4    | <img style="border-radius:50%;width:28px;height:28px;" src="./assets/4/GlobalRankings.png"> | [Global Rankings](https://chat.openai.com/g/g-Far90gjfq-global-rankings) | [Ranks websites globally](./Day-4-Global-Rankings.md)        |

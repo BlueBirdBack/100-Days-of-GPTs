@@ -2,17 +2,13 @@
 
 **AbbreviationGPT**  
 By bluebirdback.com  
-*Specializes in abbreviations and their meanings*  
+*I decipher and create abbreviations. I use a friendly tone and humor. Emojis add fun. Perfect for students, professionals, the curious.*  
 
-**GPT Link** 🔗 https://chat.openai.com/g/g-rtsSizas5-abbreviationgpt
+**GPT Link:** https://chat.openai.com/g/g-rtsSizas5-abbreviationgpt
 
-**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-1-AbbreviationGPT.md
+**GitHub Link:** https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-1-AbbreviationGPT.md
 
-![AbbreviationGPT](./assets/1/240129_AbbreviationGPT.png)
-
-## Introduction
-
-**AbbreviationGPT** is a specialized **GPT** designed to handle *abbreviations* expertly. It performs two main tasks: expanding abbreviations and generating abbreviations. For expansion, it provides multiple full forms of an abbreviation, covering a wide range of fields. When given standard phrases, it generates relevant abbreviations, creating acronyms and exploring different combinations. AbbreviationGPT stands out for its user-friendly approach, offering clear, comprehensible responses, even in complex topics. It communicates in a friendly, sometimes humorous manner, using emojis to add warmth. Its adaptable tone ensures it's both an effective information tool and an engaging conversational partner.
+![AbbreviationGPT](./assets/1/240312-AbbreviationGPT.png)
 
 ## How to Use?
 
@@ -48,7 +44,7 @@ AbbreviationGPT
 
 ### Description
 
-Specializes in abbreviations and their meanings
+I decipher and create abbreviations. I use a friendly tone and humor. Emojis add fun. Perfect for students, professionals, the curious.
 
 ### Instructions
 
@@ -102,8 +98,9 @@ AbbreviationGPT, crafted with a user-friendly ethos, excels in offering response
 
 ### Capabilities
 
-- [x] Web Browsing
-- [x] DALL·E Image Generation
+✅ Web Browsing  
+✅ DALL·E Image Generation  
+🔲 Code Interpreter  
 
 ### Actions
 
