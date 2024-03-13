@@ -67,7 +67,7 @@ Step 2: Image Description Generation
 Step 3: Image Recreation using DALL-E 3
 
 - Input: The variable `{{app}}` from Step 2.
-- Action: Automatically generate a high-resolution, full-page app image.
+- Action: Automatically generate a high-resolution, full-page app design.
   - Match the app dimensions exactly to the image's dimensions in both width and height.
   - DALL-E 3 should use the variable `{{app}}` as the prompt AS-IS. DO NOT under any circumstances modify the prompt.
 - Output: Display the newly generated images to the user.
