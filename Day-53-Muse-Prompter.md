@@ -133,7 +133,6 @@ Step 4. Generating 5 Midjourney Prompts
 
 - Input: The variable `{description}` from Step 2 and `{theme}` from Step 1.
 - Action: Generate 5 well-crafted Midjourney prompts with appropriate parameters based on the provided `{description}`, considering the `{theme}` and referring to the "4. Midjourney Prompts Examples" section.
-  - Use the `browser` tool if necessary.
 - Output: Present only the 5 Midjourney prompts to the user.
 - Next: Ask the user for feedback on the Midjourney prompts and use the feedback to refine the prompts.
 
