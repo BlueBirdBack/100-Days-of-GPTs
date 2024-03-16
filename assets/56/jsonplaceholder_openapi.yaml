@@ -1,0 +1,395 @@
+openapi: 3.0.0
+info:
+  title: JSONPlaceholder API
+  description: A fake Online REST API for Testing and Prototyping.
+  version: 1.0.0
+servers:
+  - url: https://jsonplaceholder.typicode.com
+paths:
+  /posts:
+    get:
+      operationId: listPosts
+      summary: List all posts
+      responses:
+        "200":
+          description: An array of posts
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Post"
+  /posts/{postId}:
+    get:
+      operationId: getPost
+      summary: Get a post by ID
+      parameters:
+        - name: postId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: The ID of the post to retrieve
+      responses:
+        "200":
+          description: A single post
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Post"
+  /posts/{postId}/comments:
+    get:
+      operationId: listPostComments
+      summary: List all comments for a post
+      parameters:
+        - name: postId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: The ID of the post to retrieve comments for
+      responses:
+        "200":
+          description: An array of comments for the specified post
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Comment"
+  /comments:
+    get:
+      operationId: listComments
+      summary: List all comments
+      responses:
+        "200":
+          description: An array of comments
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Comment"
+  /comments/{commentId}:
+    get:
+      operationId: getComment
+      summary: Get a comment by ID
+      parameters:
+        - name: commentId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: The ID of the comment to retrieve
+      responses:
+        "200":
+          description: A single comment
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Comment"
+  /albums:
+    get:
+      operationId: listAlbums
+      summary: List all albums
+      responses:
+        "200":
+          description: An array of albums
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Album"
+  /albums/{albumId}:
+    get:
+      operationId: getAlbum
+      summary: Get an album by ID
+      parameters:
+        - name: albumId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: The ID of the album to retrieve
+      responses:
+        "200":
+          description: A single album
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Album"
+  /albums/{albumId}/photos:
+    get:
+      operationId: listAlbumPhotos
+      summary: List all photos for an album
+      parameters:
+        - name: albumId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: The ID of the album to retrieve photos for
+      responses:
+        "200":
+          description: An array of photos for the specified album
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Photo"
+  /photos:
+    get:
+      operationId: listPhotos
+      summary: List all photos
+      responses:
+        "200":
+          description: An array of photos
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Photo"
+  /photos/{photoId}:
+    get:
+      operationId: getPhoto
+      summary: Get a photo by ID
+      parameters:
+        - name: photoId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: The ID of the photo to retrieve
+      responses:
+        "200":
+          description: A single photo
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Photo"
+  /todos:
+    get:
+      operationId: listTodos
+      summary: List all todos
+      responses:
+        "200":
+          description: An array of todos
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Todo"
+  /todos/{todoId}:
+    get:
+      operationId: getTodo
+      summary: Get a todo by ID
+      parameters:
+        - name: todoId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: The ID of the todo to retrieve
+      responses:
+        "200":
+          description: A single todo
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Todo"
+  /users:
+    get:
+      operationId: listUsers
+      summary: List all users
+      responses:
+        "200":
+          description: An array of users
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/User"
+  /users/{userId}:
+    get:
+      operationId: getUser
+      summary: Get a user by ID
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: The ID of the user to retrieve
+      responses:
+        "200":
+          description: A single user
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+  /users/{userId}/albums:
+    get:
+      operationId: listUserAlbums
+      summary: List all albums for a user
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: The ID of the user to retrieve albums for
+      responses:
+        "200":
+          description: An array of albums for the specified user
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Album"
+  /users/{userId}/todos:
+    get:
+      operationId: listUserTodos
+      summary: List all todos for a user
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: The ID of the user to retrieve todos for
+      responses:
+        '200':
+          description: An array of todos for the specified user
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Todo'
+  /users/{userId}/posts:
+    get:
+      operationId: listUserPosts
+      summary: List all posts for a user
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: The ID of the user to retrieve posts for
+      responses:
+        '200':
+          description: An array of posts for the specified user
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Post'
+components:
+  schemas:
+    Post:
+      type: object
+      properties:
+        id:
+          type: integer
+        title:
+          type: string
+        body:
+          type: string
+        userId:
+          type: integer
+    Comment:
+      type: object
+      properties:
+        id:
+          type: integer
+        postId:
+          type: integer
+        name:
+          type: string
+        email:
+          type: string
+        body:
+          type: string
+    Album:
+      type: object
+      properties:
+        id:
+          type: integer
+        title:
+          type: string
+        userId:
+          type: integer
+    Photo:
+      type: object
+      properties:
+        id:
+          type: integer
+        albumId:
+          type: integer
+        title:
+          type: string
+        url:
+          type: string
+        thumbnailUrl:
+          type: string
+    Todo:
+      type: object
+      properties:
+        id:
+          type: integer
+        userId:
+          type: integer
+        title:
+          type: string
+        completed:
+          type: boolean
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        username:
+          type: string
+        email:
+          type: string
+        address:
+          type: object
+          properties:
+            street:
+              type: string
+            suite:
+              type: string
+            city:
+              type: string
+            zipcode:
+              type: string
+            geo:
+              type: object
+              properties:
+                lat:
+                  type: string
+                lng:
+                  type: string
+        phone:
+          type: string
+        website:
+          type: string
+        company:
+          type: object
+          properties:
+            name:
+              type: string
+            catchPhrase:
+              type: string
+            bs:
+              type: string
