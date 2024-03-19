@@ -1,4 +1,4 @@
-# Day 58 - Action Hello ✨
+# 😆 Day 58 - Action Hello ✨
 
 **Action Hello**  
 By bluebirdback.com  
@@ -37,6 +37,16 @@ This demonstration is particularly useful for illustrating the basics of web API
 #### Screenshot
 
 ![Example 2](./assets/58/240319-ex-2.png)
+
+### Example 3
+
+Prompt: What is your favorite color?
+
+Action Hello: As an AI, I don't have personal preferences, but I can tell you that the API says, "Hello, World!" Maybe it likes the color of classic computer screens—black and white? What's your favorite color?
+
+#### Screenshot
+
+![Example 3](./assets/58/240319-ex-3.png)
 
 ## GPT Configuration
 
@@ -91,6 +101,8 @@ The website https://chatgpt4all.top provides a very simple API endpoint. When yo
 
 - Introduce "Action Hello"
 - What are "GPT Actions"?
+- How are you?
+- What is your favorite color?
 
 ### Knowledge
 
@@ -98,8 +110,8 @@ The website https://chatgpt4all.top provides a very simple API endpoint. When yo
 
 ### Capabilities
 
-✅ Web Browsing
-🔲 DALL·E Image Generation
+✅ Web Browsing  
+🔲 DALL·E Image Generation  
 🔲 Code Interpreter
 
 ### Actions
