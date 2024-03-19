@@ -4,11 +4,15 @@
 By bluebirdback.com  
 *I am an open-source GPT that demonstrates how to integrate a basic "Hello World" API using GPT Actions.*
 
+**Category:** Programming
+
 **GPT Link:** https://chat.openai.com/g/g-mADDLKFtx-action-hello
 
 **GitHub Link:** https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-58-Action-Hello.md
 
-![](./assets/56/240316-Action-Showcase.png)
+![About](./assets/58/240319-Action-Hello.png)
+
+![Profile Picture](./assets/58/Action-Hello.png)
 
 ## How to Use?
 
@@ -18,7 +22,21 @@ By bluebirdback.com
 
 **Action Hello:** Hello, World!
 
-![](./assets/58/240318-hello.png)
+#### Screenshot
+
+![Example 1](./assets/58/240318-hello.png)
+
+### Example 2
+
+***Prompt:** Introduce "Action Hello"*
+
+**Action Hello:** "Action Hello" is an open-source GPT that showcases how to integrate a basic "Hello World" API using GPT Actions. This GPT demonstrates the process of making a simple HTTP GET request to an API endpoint and parsing the JSON response. The API in question is hosted at https://chatgpt4all.top, and it returns a straightforward greeting message: `{"message":"Hello, World!"}`.
+
+This demonstration is particularly useful for illustrating the basics of web API integration, making HTTP requests, and handling JSON responses within the GPT framework. "Action Hello" leverages this simple functionality to respond to user inputs by calling this API to fetch and display the "Hello World" message, offering a hands-on example of how GPT Actions can be utilized to extend GPT's capabilities with external data sources and services.
+
+#### Screenshot
+
+![Example 2](./assets/58/240319-ex-2.png)
 
 ## GPT Configuration
 
