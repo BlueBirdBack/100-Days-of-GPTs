@@ -1,0 +1,45 @@
+# Privacy Policy for Geocode API
+
+## Introduction
+
+This privacy policy outlines the data handling practices of the Geocode API ("we," "us," or "our"). The Geocode API provides geocoding and reverse geocoding functionalities, enabling users ("you") to convert addresses into geographic coordinates and vice versa. Our commitment is to protect your privacy and ensure the transparency of our data processing activities.
+
+## Information We Collect
+
+When you use the Geocode API, we collect the following information:
+- **Address Information:** For geocoding, we collect the addresses you input.
+- **Geographic Coordinates:** For reverse geocoding, we collect the latitude and longitude coordinates you provide.
+- **API Usage Data:** We collect data about how you use our API, including request times and the number of requests made.
+
+We do not collect any personally identifiable information unless explicitly provided by you.
+
+## Use of Information
+
+The information we collect is used to:
+- Provide the geocoding and reverse geocoding services.
+- Improve the functionality and performance of our services.
+- Ensure the security of our services, preventing misuse and unauthorized access.
+
+## Data Sharing and Disclosure
+
+We do not sell, rent, or trade your information with third parties. Information may be shared with third parties in the following circumstances:
+- **Service Providers:** To support our services, we may share information with service providers under contract who help with parts of our business operations (e.g., cloud hosting services).
+- **Legal Requirements:** We may disclose your information if required by law or if we believe in good faith that such action is necessary to comply with the law, protect our rights, or ensure the safety of our users.
+
+## Data Protection
+
+We implement a variety of security measures to maintain the safety of your information. These include encryption, access controls, and regular security assessments. However, no method of transmission over the Internet or method of electronic storage is 100% secure.
+
+## User Consent
+
+By using the Geocode API, you consent to our collection and use of information in accordance with this privacy policy. If we decide to change our privacy policy, we will post those changes on this page.
+
+## Compliance
+
+This privacy policy is designed to comply with applicable data protection regulations, including the General Data Protection Regulation (GDPR) for users in the European Union.
+
+## Contact Us
+
+If you have any questions about this privacy policy or our treatment of your data, please contact us at [BlueBirdBack](https://twitter.com/BlueBirdBack).
+
+This policy is effective as of March 19, 2024.
