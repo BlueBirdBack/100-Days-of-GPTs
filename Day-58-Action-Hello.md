@@ -101,7 +101,7 @@ The website https://chatgpt4all.top provides a very simple API endpoint. When yo
 
 - Introduce "Action Hello"
 - What are "GPT Actions"?
-- How are you?
+- Hello
 - What is your favorite color?
 
 ### Knowledge
