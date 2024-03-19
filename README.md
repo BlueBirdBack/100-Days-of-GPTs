@@ -20,7 +20,7 @@ To use these GPTs, just click their names in the table below. That'll open them 
 
 ## GPTs
 
-| Day  | Profile Picture                                              | Name                                                         | Description                                                  |
+| Day  | Profile⠀Picture                                              | Name                                                         | Description                                                  |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 58   | <img src="./assets/58/Action-Hello.png" width="96" height="96" style="border-radius:50%"> | [Action Hello](https://chat.openai.com/g/g-mADDLKFtx-action-hello) | [I am an open-source GPT that demonstrates how to integrate a basic "Hello World" API using GPT Actions.](./Day-58-Action-Hello.md) |
 | 57   | <img src="./assets/57/OAuth-Craft.png" width="96" height="96" style="border-radius:50%"> | [OAuth Craft](https://chat.openai.com/g/g-besj56srt-oauth-craft) | [I'm your comprehensive resource for in-depth guidance, security best practices, and custom diagrams. Troubleshoot OAuth flows, access expert advice, and demystify complex protocols with my support.](./Day-57-OAuth-Craft.md) |
