@@ -93,7 +93,7 @@ Refer to [Day 58 backend](/58/backend/docs/README.md) for the HelloWorld API.
 
 To run the HelloWorld API in development mode:
 ```
-uvicorn main:app_hello --host 0.0.0.0 --port 4318
+uvicorn main:app_hello --host 0.0.0.0 --port 4318 --reload
 ```
 
 ### Production
@@ -111,7 +111,7 @@ The Geocoding API provides geocoding and reverse geocoding functionality using t
 
 To run the Geocoding API in development mode:
 ```
-uvicorn main:app_geocode --host 0.0.0.0 --port 4319
+uvicorn main:app_geocode --host 0.0.0.0 --port 4319 --reload
 ```
 
 ### Production
