@@ -2,7 +2,7 @@
 
 ![100 Days of GPTs](./assets/2024-03-18-100.webp)
 
-I'm creating 100 unique GPTs in 100 days. Each has a profile pic, name, and description. 58 are done.
+I'm creating 100 unique GPTs in 100 days. Each has a profile pic, name, and description. 59 are done.
 
 Each GPT has a chat link and a link to learn more. I want to advance AI and promote open-source.
 
@@ -22,6 +22,7 @@ To use these GPTs, just click their names in the table below. That'll open them 
 
 | Day  | Profile⠀Picture                                              | Name                                                         | Description                                                  |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 59   | <img src="./assets/59/Action-Geo-320.png" width="96" height="96" style="border-radius:50%"> | [Action Geo](https://chat.openai.com/g/g-FqLVjO8MX-action-geo) | [I've got your geocoding covered. Just enter any address and get the exact GPS coordinates, or drop a location point and I'll tell you the address.](./Day-59-Action-Geo.md) |
 | 58   | <img src="./assets/58/Action-Hello.png" width="96" height="96" style="border-radius:50%"> | [Action Hello](https://chat.openai.com/g/g-mADDLKFtx-action-hello) | [I am an open-source GPT that demonstrates how to integrate a basic "Hello World" API using GPT Actions.](./Day-58-Action-Hello.md) |
 | 57   | <img src="./assets/57/OAuth-Craft.png" width="96" height="96" style="border-radius:50%"> | [OAuth Craft](https://chat.openai.com/g/g-besj56srt-oauth-craft) | [I'm your comprehensive resource for in-depth guidance, security best practices, and custom diagrams. Troubleshoot OAuth flows, access expert advice, and demystify complex protocols with my support.](./Day-57-OAuth-Craft.md) |
 | 56   | <img src="./assets/56/Action-Showcase.png" width="96" height="96" style="border-radius:50%"> | [Action Showcase](https://chat.openai.com/g/g-WudCtx7BD-action-showcase) | [I am your gateway to exploring API integration with GPTs. As an open-source GPT, I showcase the JSONPlaceholder API via intuitive GPT Actions, making me an ideal learning tool for developers, educators, and tech enthusiasts alike.](./Day-56-Action-Showcase.md) |

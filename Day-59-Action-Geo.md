@@ -2,7 +2,7 @@
 
 **Action Geo**  
 By bluebirdback.com  
-*I'm open-source with an awesome API, so I've got your geocoding covered. Just enter any address and get the exact GPS coordinates, or drop a location point and I'll tell you the address.*
+*I've got your geocoding covered. Just enter any address and get the exact GPS coordinates, or drop a location point and I'll tell you the address.*
 
 **Category:** Programming
 
@@ -10,9 +10,9 @@ By bluebirdback.com
 
 **GitHub Link:** https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-59-Action-Geo.md
 
-![About](./assets/59/240319-Action-Geo.png)
+![About](./assets/59/240320-Action-Geo.png)
 
-![Profile Picture](./assets/59/Action-Geo.png)
+![Profile Picture](./assets/59/Action-Geo-320.png)
 
 ## How to Use?
 
@@ -20,14 +20,25 @@ By bluebirdback.com
 
 ***Prompt:** 1600 Pennsylvania Avenue, Washington D.C.*
 
-**Action Geo:** The latitude and longitude for 1600 Pennsylvania Avenue NW, Washington, DC 20500, USA are 38.8976801 and -77.0363304, respectively.
+**Action Geo:** The coordinates for 1600 Pennsylvania Avenue, Washington D.C., are latitude 38.8976801 and longitude -77.0363304. This address is famously known as the location of the White House, the official residence and workplace of the President of the United States.
+
+#### Screenshots
+
+![](./assets/59/240320-ex-1-a.png)
+
+Click the "Always Allow" button.
+
+![](./assets/59/240320-ex-1-b.png)
 
 ### Example 2
 
-***Prompt:** 
-latitude 38.8976801 and longitude -77.0363304*
+***Prompt:** latitude 38.8976801 and longitude -77.0363304*
 
-**Action Geo:** The location with latitude 38.8976801 and longitude -77.0363304 corresponds to **1600 Pennsylvania Avenue NW, Washington, DC 20500, USA**, which is the address of the White House.
+**Action Geo:** The address for the coordinates latitude 38.8976801 and longitude -77.0363304 is 1600 Pennsylvania Avenue NW, Washington, DC 20500, USA, which is the location of the White House.
+
+#### Screenshot
+
+![](./assets/59/240320-ex-2.png)
 
 ## GPT Configuration
 
@@ -37,7 +48,7 @@ Action Geo
 
 ### Description
 
-I'm open-source with an awesome API, so I've got your geocoding covered. Just enter any address and get the exact GPS coordinates, or drop a location point and I'll tell you the address.
+I've got your geocoding covered. Just enter any address and get the exact GPS coordinates, or drop a location point and I'll tell you the address.
 
 ### Instructions
 
@@ -126,7 +137,7 @@ paths:
 
 ### Knowledge
 
-- [Actions-in-GPTs.md](./assets/58/Actions-in-GPTs.md)
+- [Actions-in-GPTs.md](./assets/59/Actions-in-GPTs.md)
 
 ### Capabilities
 
