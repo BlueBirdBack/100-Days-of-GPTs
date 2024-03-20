@@ -1,0 +1,35 @@
+# Privacy Policy for Claude Chat API Proxy Service
+
+**Effective Date:** March 20, 2024
+
+Welcome to the Privacy Policy of BlueBirdBack's Claude Chat API Proxy Service ("Service"). This policy is designed to inform users ("you") about our practices concerning data handling as our Service functions as an intermediary between you and the Claude 3 API, facilitating communication without collecting, storing, or processing your personal data.
+
+## 1. No Collection of Personal Data
+
+Our Service is designed to act as a transparent conduit between you and Claude 3. As such:
+
+- **We Do Not Collect Personal Data:** We do not collect, store, or process any personal data from the users of our Service. This includes messages, usage data, or any other form of personal information.
+- **Temporary Data Handling:** Any data sent through our Service to Claude 3 is immediately forwarded and not stored or retained in any form once the request is completed.
+
+## 2. Purpose of Data Transmission
+
+The only data that passes through our Service is the necessary information required to facilitate communication with Claude 3, including:
+
+- **Message Content:** The content of your messages is directly passed to Claude 3 for processing and generating a response. We do not access, review, or store this content.
+- **Technical Requests:** Details necessary to fulfill the technical requirements of a request, such as API calls, are handled on-the-fly and not stored beyond the duration of the transaction.
+
+## 3. Data Security
+
+While we do not collect personal data, we are committed to ensuring the secure transmission of your requests to Claude 3. We implement industry-standard security measures to protect the integrity and confidentiality of data as it passes through our Service.
+
+## 4. Third-Party Links
+
+Our Service may contain links to other sites not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.
+
+## 5. Changes to This Privacy Policy
+
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "effective date" at the top.
+
+## 6. Contact Us
+
+For any questions about this Privacy Policy, please contact us at [BlueBirdBack](https://twitter.com/BlueBirdBack).
