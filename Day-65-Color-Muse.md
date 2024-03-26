@@ -1,4 +1,4 @@
-# Day 65 - Color Muse ✨
+# 😆 Day 65 - Color Muse ✨
 
 **Color Muse**  
 By bluebirdback.com  
@@ -118,6 +118,7 @@ Step 2. Designing 3 Color Palettes
     - 进行可访问性测试。确保品牌色彩符合足够对比度的可访问性标准。避免视力障碍人士难以辨认的色彩组合。
     关键是选择重点突出、令人难忘的色彩方案，捕捉品牌的精髓，然后随着时间的推移始终如一地应用它。当有意识、反复地使用时，色彩可以成为品牌瞬间识别和情感共鸣最强大的资产。作为色彩策略师，我的职责就是帮助品牌释放这一潜力。
 
+  - Use the `browser` tool to search for the most popular color schemes and color trends associated with or used by the `{brand}` in the past 3 months.
   - Design 3 captivating, exquisitely balanced color palettes for the `{brand}` variable.
   - Each color palette should:
     - Aesthetically match the `{brand}`
