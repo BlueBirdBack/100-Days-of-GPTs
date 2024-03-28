@@ -18,7 +18,103 @@ By bluebirdback.com
 
 ### Example 1
 
+***Prompt 1:** ?*
 
+**Polishr:** Here's a quick guide on how to interact with Polishr and the options available to you:
+
+**Hotkeys and Their Functions:**
+
+- **L**: Set Language. Choose from supported languages or add a custom one.
+- **R**: Set Country/Region. Select from predefined options or specify a custom region.
+- **S**: Set Writing Style. Choose a style from the list or add your own.
+- **T**: Set Tone. Pick a tone that suits your text, or suggest a new one.
+- **C**: Set Content Type. Specify the type of content you're working on.
+- **G**: Generate Content. Provide a topic and let Polishr create content.
+- **O**: Optimize Content. Polishr will enhance your existing content.
+- **P**: Polish Text. Submit your text for polishing to improve clarity and impact.
+- **I**: Check Current State. View the current settings for your Polishr session.
+- **H or ?**: Display Options. Brings up this menu for help.
+- **Q**: Quit. Exit Polishr.
+
+**Supported Values:**
+- **Languages:** English, Spanish, French, Portuguese, Chinese, Japanese, Arabic
+- **Countries/Regions:** Includes specific regions for each supported language.
+- **Writing Styles:** Academic, Business, Creative, Casual, Technical, Journalistic, Persuasive
+- **Tones:** Formal, Informal, Friendly, Authoritative, Humorous, Inspirational, Neutral
+- **Content Types:** Social Media (X/Twitter, LinkedIn, TikTok, YouTube), Writing (Academic Paper, Blog Post, News Article, Creative Writing), Business (Marketing Copy, Product Description, User Manual, Meeting Transcript, Email)
+
+You can set custom values for language, country/region, writing style, tone, and content type beyond the displayed options. Just choose the corresponding option and specify your custom value when prompted.
+
+***Prompt 2:** I*
+
+**Polishr:** Here's the current state of your Polishr session:
+
+- **Language:** English
+- **Country/Region:** United States
+- **Writing Style:** Casual
+- **Tone:** Friendly
+- **Content Type:** X (Twitter)
+
+This setup is great for crafting engaging and relatable social media content. If you want to adjust any of these settings or dive straight into creating or optimizing content, just let me know!
+
+***Prompt 3:***
+
+*P:*
+*"""*
+*do you know 2 of my gpts support traditional ukiyo-e art style?*
+
+*日本の画家 https://chat.openai.com/g/g-lIPVI8NnV-ri-ben-nohua-jia*
+*Japanese Muse https://chat.openai.com/g/g-eEXxdTCfK-japanese-muse*
+*"""*
+
+**Polishr:** Let's polish your text to make it more engaging and clear, especially for an audience interested in traditional Ukiyo-e art style and GPT technology. Here's a revised version:
+
+---
+
+"Did you know that two of my GPTs specialize in the traditional Ukiyo-e art style? Dive into the world of classic Japanese aesthetics with these unique AI companions:
+
+- **The Japanese Painter**: Explore traditional art through the lens of AI. [Discover More](https://chat.openai.com/g/g-lIPVI8NnV-ri-ben-nohua-jia)
+
+- **Japanese Muse**: Let AI inspire your creativity with elements from the Ukiyo-e tradition. [Be Inspired](https://chat.openai.com/g/g-eEXxdTCfK-japanese-muse)
+
+Join us on a journey where traditional art meets modern technology."
+
+---
+
+I made sure to highlight the uniqueness of each GPT and invite engagement through action-oriented language. If you have more details or a different direction in mind, feel free to share!
+
+#### Screenshot
+
+![](./assets/67/240328-ex-1.png)
+
+
+### Example 2
+
+***Prompt 1:***
+
+*P: "good point" in Japanese*
+
+**Polishr:**
+
+To polish the phrase "good point" for a Japanese audience, taking into account the nuances and cultural context of the language, you might say something like "いい点ですね" (ii ten desu ne), which conveys appreciation for a good or valid point made in a conversation. This phrase is polite and commonly used in both casual and semi-formal Japanese discussions.
+
+If you have any more text that needs polishing or if you'd like to explore other features, just let me know!
+
+***Prompt 2:***
+
+*G: say no problem to 'Thank you. I'm going to make hub work on it tonite. Thanks for the offer, I appreciate it.'*
+
+**Polishr:** 
+
+To generate a response that conveys "no problem" to the message "Thank you. I'm going to make hub work on it tonight. Thanks for the offer, I appreciate it," while keeping the tone friendly and supportive, you might say:
+
+"Absolutely, glad I could offer! If anything comes up or you need extra help, just give me a shout. Have a great evening working on it!"
+
+This response acknowledges the appreciation expressed, reinforces the offer of help, and maintains a warm and helpful tone. If you're looking for variations or adjustments in tone or style, feel free to let me know!
+
+#### Screenshot
+
+![](./assets/67/240328-ex-2.png)
 
 ## GPT Configuration
 
