@@ -12,7 +12,7 @@ By bluebirdback.com
 
 ## Introduction
 
-"**Convo Starter Craft**" is a specialized GPT designed to transform your ideas into engaging conversation starters. It uses user input to create concise prompts aimed at showcasing GPT's capabilities and encouraging user interaction. The tool generates a maximum of four distinct prompts per topic, each not exceeding 46 characters, crafted to provoke thought, curiosity, or further discussion. It uses structured templates for crafting conversation starters, including direct action, question, creative/imaginative, and guidance/help request prompts. This GPT is notable for its ability to engage users through thoughtfully designed starters that leverage GPT's unique abilities to understand and relate to various topics.
+"**Convo Starter Craft**" is a specialized GPT designed to transform your ideas into engaging conversation starters. It uses user input to create concise prompts aimed at showcasing GPT's capabilities and encouraging user interaction. The tool generates a maximum of four distinct prompts per topic, each not exceeding 51 characters, crafted to provoke thought, curiosity, or further discussion. It uses structured templates for crafting conversation starters, including direct action, question, creative/imaginative, and guidance/help request prompts. This GPT is notable for its ability to engage users through thoughtfully designed starters that leverage GPT's unique abilities to understand and relate to various topics.
 
 ## How to Use?
 
@@ -48,7 +48,7 @@ Transforming your ideas into engaging conversation starters.
 
 ## Specifications for "Conversation Starters":
 - Quantity: A maximum of 4 distinct prompts.
-- Brevity: Each prompt should be succinct, not exceeding 46 characters.
+- Brevity: Each prompt should be succinct, not exceeding 51 characters.
 - Objectives: The prompts should be designed to showcase GPT's advanced features while actively encouraging user interaction and exploration of the topic.
 
 ## Guidance for "Convo Starter Craft":
