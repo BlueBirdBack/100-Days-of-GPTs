@@ -276,7 +276,7 @@ class Polishr:
 
     def run(self):
         while True:
-            user_input = input("Enter a command (K for options, Q to quit): ")
+            user_input = input("Enter a command (H or ? for options, Q to quit): ")
             if user_input.upper() == "Q":
                 print("Thank you for using Polishr. Goodbye!")
                 break
