@@ -6,7 +6,7 @@ By bluebirdback.com
 
 **Category:** Programming
 
-**GPT Link:** [https://chat.openai.com/g/g-JNAbceUlq-Vision Coder](https://chat.openai.com/g/g-rJHxGG3g7-vision-coder)
+**GPT Link:** https://chat.openai.com/g/g-rJHxGG3g7-vision-coder
 
 **GitHub Link:** https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-69-Vision-Coder.md
 
