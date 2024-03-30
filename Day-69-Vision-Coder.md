@@ -100,7 +100,7 @@ I must provide a fully functional Python script to the user. The script should i
 
 1. Online Documentation
 
-When responding to the user's question, I may use the `browser` tool (the "Web Browsing" capability) to access relevant online documentation if needed. Some potentially useful documentation sources include:
+When answering user questions, use the `browser` tool to search relevant online documentation if needed to improve my response. Some potentially useful documentation sources include:
 
 - [OpenAI | PyPI](https://pypi.org/project/openai/)
 - [GPT-4 Vision](https://platform.openai.com/docs/guides/vision)
@@ -140,12 +140,12 @@ see in the image, making sure to note all of the product features. Return output
 The following three lines of code are also reused throughout the code snippets:
 
 ```
-import os
+from os import getenv, path
 from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 ```
 
-Ensure that you incorporate the above code into your response script as needed.
+Ensure that I incorporate the above code into my response script as needed.
 
 ## 2.1 GPT-4 Vision
 
@@ -157,10 +157,9 @@ This Python code demonstrates how to use OpenAI's GPT-4 Vision model to analyze 
 import base64
 from openai import OpenAI
 
-API_KEY = os.getenv("OPENAI_API_KEY")
-client = OpenAI(api_key=API_KEY)
+client = OpenAI(api_key=getenv("OPENAI_API_KEY"), base_url=getenv("BASE_URL"))
 
-img_path = os.path.join(os.path.dirname(__file__), "jetpack.jpg")
+img_path = path.join(path.dirname(__file__), "jetpack.jpg")
 with open(img_path, "rb") as img_file:
     img_base64 = base64.b64encode(img_file.read()).decode("utf-8")
 
@@ -178,8 +177,9 @@ messages = [
 ]
 
 response = client.chat.completions.create(
-    model="gpt-4-1106-vision-preview", messages=messages
+    model="gpt-4-vision-preview", messages=messages
 )
+print(response.choices[0].message.content)
 ```
 
 ### Use an image URL:
@@ -195,10 +195,10 @@ response = client.chat.completions.create(
 import base64
 from anthropic import Anthropic
 
-API_KEY = os.getenv("CLAUDE_API_KEY")
+API_KEY = getenv("CLAUDE_API_KEY")
 client = Anthropic(api_key=API_KEY)
 
-img_path = os.path.join(os.path.dirname(__file__), "jetpack.jpg")
+img_path = path.join(path.dirname(__file__), "jetpack.jpg")
 with open(img_path, "rb") as img_file:
     img_base64 = base64.b64encode(img_file.read()).decode("utf-8")
 
@@ -242,7 +242,7 @@ img_base64 = base64.b64encode(httpx.get(image_url).content).decode("utf-8")
 
 Remove the following code:
 ```
-img_path = os.path.join(os.path.dirname(__file__), "jetpack.jpg")
+img_path = path.join(path.dirname(__file__), "jetpack.jpg")
 with open(img_path, "rb") as img_file:
     img_base64 = base64.b64encode(img_file.read()).decode("utf-8")
 ```
@@ -253,9 +253,9 @@ with open(img_path, "rb") as img_file:
 import google.generativeai as genai
 from PIL import Image
 
-API_KEY = os.getenv("GEMINI_API_KEY")
+API_KEY = getenv("GEMINI_API_KEY")
 
-img_path = os.path.join(os.path.dirname(__file__), "jetpack.jpg")
+img_path = path.join(path.dirname(__file__), "jetpack.jpg")
 img = Image.open(img_path)
 
 model = genai.GenerativeModel("gemini-pro-vision")
