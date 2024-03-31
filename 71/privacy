@@ -1,0 +1,43 @@
+# Privacy Policy for Gemyn
+
+Effective Date: March 31, 2024
+
+Welcome to Gemyn! This Privacy Policy explains our practices regarding the collection, use, and disclosure of your information through the Gemyn Service (the "Service"), accessible via our interface. By using the Service, you consent to the data practices described in this policy.
+
+## Information We Collect
+
+### Through Your Use of the Service
+
+- **Chat Messages**: We collect the content of your chat messages as you interact with the Service.
+- **Chat Session Identifiers**: We generate and use unique identifiers for each chat session (using `uuid.uuid4()`) to facilitate ongoing conversations and service improvement.
+
+## How We Use Your Information
+
+Your information is used to:
+
+- Provide and maintain our Service, including to monitor the usage of our Service.
+- Manage your requests: To attend and manage your requests to our Service.
+- For analysis and improvement of our Service: We use the information to understand how our Service is used and to improve it.
+
+## Sharing Your Information
+
+We do not share personal information with companies, organizations, or individuals outside of Gemyn except in the following cases:
+
+- **With Your Consent**: We will share personal information outside of Gemyn when we have your consent.
+- **For Legal Reasons**: We will share personal information outside of Gemyn if we have a good-faith belief that access, use, preservation, or disclosure of the information is reasonably necessary to meet any applicable law, regulation, legal process, or enforceable governmental request.
+
+## Data Security
+
+We strive to protect your personal information and ensure the security of your data from unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the Internet or method of electronic storage is 100% secure, and we cannot guarantee its absolute security.
+
+## Children's Privacy
+
+Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us.
+
+## Changes to This Privacy Policy
+
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Effective Date" at the top of this Privacy Policy.
+
+## Contact Us
+
+If you have any questions about this Privacy Policy, please contact us at [BlueBirdBack](https://twitter.com/BlueBirdBack).
