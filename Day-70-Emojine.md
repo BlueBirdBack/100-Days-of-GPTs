@@ -4,15 +4,15 @@
 By bluebirdback.com  
 *Emojine is a vibe - half fun, half learning! 🌟 Name the mood in dope AI emoji art, from 😂 to 😱. Level up your EQ fr fr 📈 Slay game night, class, or boredom 🎉 It's lit fam, no 🧢! 🔥💯*
 
-**Category:** Writing
+**Category:** Lifestyle
 
 **GPT Link:** https://chat.openai.com/g/g-EE7y91v0I-emojine
 
 **GitHub Link:** https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-70-Emojine.md
 
-![About](./assets/70/240330-Emojine.png)
+![About](./assets/70/240331-Emojine.png)
 
-![Profile Picture](./assets/70/Emojine.png)
+![Profile Picture](./assets/70/Emojine-797.png)
 
 ## How to Use?
 
