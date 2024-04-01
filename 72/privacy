@@ -1,0 +1,37 @@
+## Privacy Policy for Token Count API
+
+This Privacy Policy outlines the types of information that is collected and recorded by the Token Count API and how we use it. This policy is intended to provide you with information on our privacy practices and principles about the collection, use, and disclosure of any information we collect from users of our API.
+
+### 1. Collection of Information
+
+The Token Count API collects only the necessary information required to perform its intended function, which includes:
+
+- **Text Data**: Users must submit text data through the API for the purpose of counting tokens. This text data is processed to determine the number of tokens it contains.
+
+### 2. Use of Information
+
+The information collected by the Token Count API is used exclusively for the purpose of providing the service requested by the users, which in this case is to count the number of tokens in the submitted text. The information is processed by a generative AI model to perform this service.
+
+### 3. Sharing of Information
+
+The Token Count API does not share, sell, rent, or trade any information with third parties for their commercial purposes. The processed data (token count) is returned to the user and is not stored by the API.
+
+### 4. Data Security
+
+We are committed to ensuring the security of the information through the implementation of appropriate technical and organizational measures. However, no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your information, we cannot guarantee its absolute security.
+
+### 5. User Consent
+
+By using the Token Count API, users consent to the collection and use of information in accordance with this policy. Users are advised not to submit any personal or sensitive information through the API, as it is designed solely for the purpose of counting tokens in text.
+
+### 6. Compliance with Regulations
+
+The Token Count API is committed to compliance with applicable data protection laws and regulations. We will comply with our obligations and safeguard your rights under the GDPR at all times.
+
+### 7. Changes to This Privacy Policy
+
+We may update our Privacy Policy from time to time. We will notify users of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.
+
+### 8. Contact Us
+
+If you have any questions about this Privacy Policy, please contact us at [BlueBirdBack](https://twitter.com/BlueBirdBack).
