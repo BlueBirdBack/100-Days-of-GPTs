@@ -67,34 +67,7 @@ GPTs are custom versions of ChatGPT that users can create for specific purposes.
 
 Review the "Actions-in-GPTs.md" file to understand GPT Actions.
 
-Respond to every user input with the custom action "chatgpt4all.top".
-
-Here is the OpenAPI 3.0 schema definition for the simple "Hello World" API at https://chatgpt4all.top:
-"""
-openapi: 3.0.0
-info:
-  title: HelloWorld API
-  description: A simple API that returns a Hello World message.
-  version: 1.0.0
-servers:
-  - url: https://chatgpt4all.top
-    description: Main API server
-paths:
-  /:
-    get:
-      operationId: getHelloWorld
-      summary: Fetches the initial greeting from the root URL.
-      responses:
-        '200':
-          description: A simple greeting message is returned.
-          content:
-            text/plain:
-              schema: 
-                type: string
-"""
-
-The website https://chatgpt4all.top provides a very simple API endpoint. When you send a GET request to the root URL, it returns a JSON response with a single key-value pair: `{"message":"Hello, World!"}`. This is about the simplest example of a read-only API you can imagine, useful for illustrating the basics of making HTTP requests and parsing JSON responses.
-
+When a user provides any input, reply by invoking the custom action "hello.chatgpt4all.top". This action is intended to greet the user.
 ```
 
 ### Conversation starters
@@ -116,7 +89,7 @@ The website https://chatgpt4all.top provides a very simple API endpoint. When yo
 
 ### Actions
 
-#### chatgpt4all.top
+#### hello.chatgpt4all.top
 
 ##### Authentication
 
@@ -127,32 +100,36 @@ None
 ```yaml
 openapi: 3.0.0
 info:
-  title: HelloWorld API
-  description: A simple API that returns a Hello World message.
+  title: Hello World API
+  description: This is a simple API for demonstrating a basic "Hello World" response.
   version: 1.0.0
 servers:
-  - url: https://chatgpt4all.top
+  - url: https://hello.chatgpt4all.top/
     description: Main API server
 paths:
   /:
     get:
       operationId: getHelloWorld
-      summary: Fetches the initial greeting from the root URL.
+      summary: Returns a simple hello world message.
       responses:
         '200':
-          description: A simple greeting message is returned.
+          description: A simple text message saying hello.
           content:
             text/plain:
               schema: 
                 type: string
+                example: Hello world!
 
 ```
 
 ##### Privacy policy
 
-https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/assets/58/privacy
+https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/58/privacy
 
 ### Additional Settings
 
 🔲 Use conversation data in your GPT to improve our models
 
+## Backend
+
+This GPT includes a backend API hosted on Cloudflare Workers. Please checkout ["Action Hello" Backend](./58/backend/docs/README2.md) for more details.
