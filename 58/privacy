@@ -1,0 +1,40 @@
+# Privacy Policy for the Hello World API
+
+### Last updated: April 4, 2024
+
+Welcome to the Hello World API provided through Cloudflare Workers. We are committed to protecting the privacy of our users and ensuring an environment of transparency and trust. This Privacy Policy outlines our practices and the conditions under which we may process any data collected.
+
+## Information Collection and Use
+
+We do not collect any personal data through our Hello World API. However, as our service is hosted on Cloudflare Workers, certain non-personally identifiable information may be processed by Cloudflare to enable service delivery.
+
+## Third-Party Data Processor - Cloudflare
+
+Cloudflare may collect minimal data necessary for the performance and security of the service, including but not limited to:
+
+- **Anonymized IP addresses**
+- **System configuration information**
+- **Traffic routing data**
+
+This data is not used to identify individuals but to ensure the reliability and security of the Hello World API service. Cloudflare retains this data for short durations, adhering to their commitment to privacy.
+
+## Data Security
+
+We are dedicated to ensuring the security of any data through the use of robust technical and organizational measures. In conjunction with Cloudflare’s security protocols, we strive to protect data against unauthorized access and unforeseen data breaches.
+
+## Your Data Protection Rights
+
+We acknowledge your rights regarding data protection. As we do not collect personal information through the Hello World API, the processing of personal data by Cloudflare is limited and anonymized, reducing the applicability of data subject rights in this context.
+
+## Changes to This Privacy Policy
+
+We may update our Privacy Policy to reflect changes in our practices or for other operational, legal, or regulatory reasons. We encourage you to review this Privacy Policy periodically.
+
+## Contact Us
+
+If you have any questions about this Privacy Policy, please contact us:
+
+- **By email:** BlueBirdBack@gmail.com
+- **On Twitter:** https://twitter.com/BlueBirdBack
+
+For detailed information on the data practices of our third-party processor, Cloudflare, please refer to their privacy policy directly: [Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/).
