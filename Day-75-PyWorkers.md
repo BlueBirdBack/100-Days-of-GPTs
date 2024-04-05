@@ -18,9 +18,9 @@ By bluebirdback.com
 
 ### Example 1
 
-Prompt: Deploy FastAPI app as Cloudflare Worker in Python
+***Prompt:** Deploy FastAPI app as Cloudflare Worker in Python*
 
-PyWorkers: Deploying a FastAPI application as a Cloudflare Worker in Python involves several steps, which include setting up your FastAPI app, configuring Cloudflare Workers, and deploying your app using Wrangler. Here’s a step-by-step guide to help you get started:
+**PyWorkers:** Deploying a FastAPI application as a Cloudflare Worker in Python involves several steps, which include setting up your FastAPI app, configuring Cloudflare Workers, and deploying your app using Wrangler. Here’s a step-by-step guide to help you get started:
 
 ### Step 1: Prepare Your FastAPI Application
 
