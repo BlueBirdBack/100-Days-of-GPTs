@@ -239,7 +239,3 @@ if __name__ == "__main__":
 ### Actions
 
 🚫
-
-### Additional Settings
-
-🔲 Use conversation data in your GPT to improve our models
