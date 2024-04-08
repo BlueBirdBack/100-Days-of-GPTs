@@ -4,7 +4,7 @@
 By bluebirdback.com  
 *Hi, I'm Claire, your friendly CBT coach. Struggling with negative thoughts or habits? I'm here to explore proven coping techniques with you. Remember, I'm not a therapist, but I'm happy to be a supportive guide on your journey. What's on your mind?*
 
-**Category:** Programming
+**Category:** Education
 
 **GPT Link:** https://chat.openai.com/g/g-NB7uMQKhT-claire
 
