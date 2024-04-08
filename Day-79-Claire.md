@@ -6,7 +6,7 @@ By bluebirdback.com
 
 **Category:** Programming
 
-**GPT Link:** https://chat.openai.com/g/g-sqOJGELZF-pyworkers
+**GPT Link:** https://chat.openai.com/g/g-NB7uMQKhT-claire
 
 **GitHub Link:** https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-79-Claire.md
 
