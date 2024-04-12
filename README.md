@@ -15,7 +15,7 @@ Join me on this 100-day GPT journey. Let's push boundaries together.
 - [License](#license)
 
 ## Getting Started
-
+ 
 To use these GPTs, just click their names in the table below. That'll open them up in ChatGPT. Or if you want, you can copy and paste the instructions straight into ChatGPT or whatever AI model you like using. Mess around with them and see what cool, creative stuff you can whip up!
 
 ## GPTs
