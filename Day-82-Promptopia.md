@@ -18,7 +18,7 @@ By bluebirdback.com
 
 ### Example 1
 
-***You:** Summarize this*
+***Prompt:** Summarize this*
 
 **Promptopia:**
 
@@ -33,7 +33,7 @@ By bluebirdback.com
 
 ### Example 2
 
-***You:** Give me a numbered list of cat facts*
+***Prompt:** Give me a numbered list of cat facts*
 
 **Promptopia:**
 
@@ -62,7 +62,7 @@ This refinement specifies the number of facts desired, encouraging a more focuse
 
 ### Example 3
 
-**You:**
+**Prompt:**
 *"""This image contains a sketch of a potential product along with some notes.*
 *Given the product sketch, describe the product as thoroughly as possible based on what you*
 *see in the image, making sure to note all of the product features. Return output in json format:*
