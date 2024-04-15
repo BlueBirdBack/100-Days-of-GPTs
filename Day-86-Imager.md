@@ -74,9 +74,9 @@ Here is a visual representation of a digital interface designed for finding imag
 
 ### Example 3
 
-Prompt 1: Explore advanced search options?
+***Prompt 1:** Explore advanced search options?*
 
-Imager: Advanced search options in an image management system are crucial for efficiently navigating and utilizing large photo collections. These options can greatly enhance the user's ability to find specific images based on detailed criteria. Here are some advanced search capabilities that could be included:
+**Imager:** Advanced search options in an image management system are crucial for efficiently navigating and utilizing large photo collections. These options can greatly enhance the user's ability to find specific images based on detailed criteria. Here are some advanced search capabilities that could be included:
 
 1. **Text and Image Queries**: Combining textual search terms with image uploads to find visually and contextually similar images. For example, a user might upload an image of a beach sunset and add the word "winter" to find winter beach scenes.
 
@@ -102,9 +102,9 @@ Implementing these advanced search options requires a robust backend capable of 
 
 To illustrate these advanced search features in a real-world application, imagine a wide, high-resolution image that visually represents various elements of an advanced search interface, including text input boxes, sliders, map-based search, and thumbnail results of diverse images showing different subjects and color palettes.
 
-Prompt 2: continue
+***Prompt 2:** continue*
 
-Imager:
+**Imager:**
 
 ![](./assets/86/2024-04-15-ex-3.webp)
 
