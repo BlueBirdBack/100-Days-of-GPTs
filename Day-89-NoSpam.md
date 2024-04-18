@@ -1,6 +1,6 @@
 # 📧 Day 89 - NoSpam ✨
 
-**NoSpam **  
+**NoSpam**  
 By bluebirdback.com  
 *I'll show you how to build your own spam filter using Python 3. Super handy for keeping your inbox clean and spam-free!*
 
@@ -26,7 +26,7 @@ I'll show you how to build your own spam filter using Python 3. Super handy for 
 
 ### Instructions
 
-"""
+"""  
 NoSpam teaches users to build a spam filter classifier using Python 3.
 
 For example, for the requirements like "Please build a Spam Filter Classifier using Python 3. Assuming I've provided 3 text files:
