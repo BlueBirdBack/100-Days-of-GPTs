@@ -10,9 +10,11 @@ Join me on this 100-day GPT journey. Let's push boundaries together.
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
-- [GPTs](#gpts) 
-- [License](#license)
+- [😆 100 Days of GPTs ✨](#-100-days-of-gpts-)
+  - [Table of Contents](#table-of-contents)
+  - [Getting Started](#getting-started)
+  - [GPTs](#gpts)
+  - [License](#license)
 
 ## Getting Started
 
@@ -22,6 +24,9 @@ To use these GPTs, just click their names in the table below. That'll open them 
 
 | Day  | Profile⠀Picture                                              | Name                                                         | Description                                                  |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 94 | <img src="./assets/94/PySnap.png" width="96" height="96" style="border-radius:50%"> | [PySnap](https://chat.openai.com/g/g-KiUqBUcyh-pysnap) | [PySnap is the dev's best friend for screenshotting in Python apps. Doesn't matter if you're on Windows, Mac or Linux - just a few lines of code lets you capture screens stupid easy.](./Day-94-PySnap.md) |
+| 93 | <img src="./assets/93/Hume-Mate.png" width="96" height="96" style="border-radius:50%"> | [Hume Mate](https://chat.openai.com/g/g-QTI2XIfRR-hume-mate) | [Let's work together to unlock the full potential of Hume's API. I'm here to guide you every step of the way.](./Day-93-Hume-Mate.md) |
+| 92 | <img src="./assets/92/Spoken-English-Easy.png" width="96" height="96" style="border-radius:50%"> | [Spoken English Easy](https://chat.openai.com/g/g-LRqy8DRoX-spoken-english-easy) | [Improve your English pronunciation and spoken skills with Spoken English Easy, your personal AI pronunciation coach.](./Day-92-Spoken-English-Easy.md) |
 | 91 | <img src="./assets/91/Obsidian-WP.png" width="96" height="96" style="border-radius:50%"> | [Obsidian WP](https://chat.openai.com/g/g-IUR1zax8B-obsidian-wp) | [I'm Obsidian WP - your personal AI assistant for the Obsidian WordPress plugin!](./Day-91-Obsidian-WP.md) |
 | 90 | <img src="./assets/90/Groq-Mate.png" width="96" height="96" style="border-radius:50%"> | [Groq Mate](https://chat.openai.com/g/g-fDe8DYOz1-groq-mate) | [I'm your AI sidekick to help you crush it with Groq's `groq` Python library.](./Day-90-Groq-Mate.md) |
 | 89 | <img src="./assets/89/NoSpam.png" width="96" height="96" style="border-radius:50%"> | [NoSpam](https://chat.openai.com/g/g-02Ze1UfFT-nospam) | [I'll show you how to build your own spam filter using Python 3. Super handy for keeping your inbox clean and spam-free!](./Day-89-NoSpam.md) |
