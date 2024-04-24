@@ -1,7 +1,8 @@
-from fastapi import FastAPI, Request
+from os import getenv
+from fastapi import FastAPI
 from pydantic import BaseModel
 import uvicorn
-from os import getenv, path
+
 from dotenv import load_dotenv, find_dotenv
 import google.generativeai as genai
 
