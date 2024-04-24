@@ -1,0 +1,48 @@
+# Privacy Policy for Groq Chat API
+
+## Introduction
+This Privacy Policy outlines the data handling practices for the Groq Chat API ("Service") provided by us. Our Service allows users to manage chat interactions, including message sending and chat history retrieval via our API hosted at https://chatgpt4all.top. This policy details how we collect, use, and protect the personal information of our users and is in compliance with data protection laws and regulations.
+
+## User Guidelines on Personal Data
+**Important Notice:** Users are requested **not** to send any personal data (such as names, addresses, phone numbers, or any other information that can be used to identify you personally) through our Service. Our system is not designed to process personal data beyond the necessary scope to maintain and analyze the function of the service. If personal data is sent inadvertently, it may be exposed to data breaches and unintentional disclosures. Please be mindful of your privacy and security when using our Service.
+
+## Information Collection and Use
+**Types of Data Collected:**
+1. **Chat Data:** We collect and store the messages sent by users through the `/groq` endpoint. This includes the text of the message and the associated chat ID, which should not contain personal data.
+2. **Chat History:** We retrieve and display chat history via the `/history` endpoint using the chat ID provided by the user, which should not contain any personal identifiers.
+
+**Purpose of Data Collection:**
+- To provide and maintain our Service by sending messages and retrieving chat history.
+- To monitor and analyze the usage of our Service to improve functionality.
+
+## Data Retention
+- **Chat Data and History:** We retain the collected data for as long as necessary to provide our Service and for internal analysis. Typically, data is retained for no longer than 6 months, unless a longer retention period is required or permitted by law.
+
+## Data Sharing and Disclosure
+- **Third-Party Service Providers:** We may employ third-party companies and individuals to facilitate our Service (e.g., maintenance, analysis, audit, marketing). These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.
+- **Compliance with Laws:** We may disclose your data where required to do so by law or subpoena.
+
+## Data Security
+We value your trust in providing us your Personal Data, thus we strive to use commercially acceptable means of protecting it. However, no method of transmission over the Internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
+
+## User Rights
+
+Users have the right to:
+- Access, update or to delete the information we have on you.
+- Object to processing of your personal data.
+- Request that we restrict the processing of your personal data under certain circumstances.
+- The right to data portability.
+- Withdraw consent at any time where we relied on your consent to process your personal information.
+
+Please note that we may ask you to verify your identity before responding to such requests.
+
+## Contact Us
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us:
+
+- **By email:** backbluebird@gmail.com
+- **On Twitter:** https://twitter.com/BlueBirdBack
+
+## Policy Updates
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. Thus, you are advised to review this page periodically for any changes.
+
+This policy is effective as of 24 April 2024.
