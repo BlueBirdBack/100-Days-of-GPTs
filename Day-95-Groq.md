@@ -205,7 +205,7 @@ https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/95/privacy
 
 🔲 Use conversation data in your GPT to improve our models
 
-## Backend (Python Script)
+## Backend 🐍 Python Script 👇
 
 ```python
 import os
