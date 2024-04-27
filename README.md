@@ -10,15 +10,111 @@ Join me on this 100-day GPT journey. Let's push boundaries together.
 
 ## Table of Contents
 
-- [😆 100 Days of GPTs ✨](#-100-days-of-gpts-)
-  - [Table of Contents](#table-of-contents)
-  - [Getting Started](#getting-started)
-  - [GPTs](#gpts)
-  - [License](#license)
+- [Getting Started](#getting-started)
+- [Using groq.py to Access GPTs](#using-groqpy-to-access-gpts)
+- [GPTs](#gpts)
+- [License](#license)
 
 ## Getting Started
 
 To use these GPTs, just click their names in the table below. That'll open them up in ChatGPT. Or if you want, you can copy and paste the instructions straight into ChatGPT or whatever AI model you like using. Mess around with them and see what cool, creative stuff you can whip up!
+
+## Using groq.py to Access GPTs
+
+With the `groq.py` Python script, you can easily access and run a variety of GPTs from the "100 Days of GPTs" project without the need for ChatGPT.
+
+### Prerequisites
+
+Before getting started, ensure you have the following:
+
+- Python 3.9 or higher
+- pip (Python package installer) 
+- Groq API Key
+
+#### Obtaining your Groq API Key
+
+1. Navigate to the Groq API management page at https://console.groq.com/keys.
+2. Follow the instructions to create and manage your API keys.
+3. Keep your API key secure and do not share it publicly.
+
+#### Creating the `.env` File for API Key Storage
+
+To securely store your Groq API key, you'll need to create a `.env` file in the same directory as the `groq.py` script. The `.env` file should have the following format:
+
+```
+GROQ_API_KEY=your_api_key_here
+```
+
+Replace `your_api_key_here` with your actual Groq API key.
+
+![](./assets/0/240426-groq-api-key.png)
+
+### Setup Instructions
+
+1. Clone the code repository:
+
+   ```
+   git clone https://github.com/BlueBirdBack/100-Days-of-GPTs
+   cd 100-Days-of-GPTs/scripts
+   ```
+
+2. Install the required dependencies:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+### Usage
+
+To run the script, use the following command format in your terminal:
+
+```
+python groq.py <day-number>
+```
+
+For example, to run the GPT for Day 3:
+
+```
+python groq.py 3
+```
+
+![](./assets/0/240426-groq-3.png)
+
+### Troubleshooting
+
+If you encounter any issues or errors while using `groq.py`, consider the following:
+
+- Ensure you have the correct version of Python installed.
+- Double-check that your Groq API key is valid and properly stored in the `.env` file.
+- If the script fails to run, try re-installing the dependencies.
+
+For further assistance, you can:
+- Open an issue on the GitHub repository.
+- Reach me out on Twitter at [@BlueBirdBack](https://twitter.com/BlueBirdBack).
+
+### Contributing
+
+We welcome contributions from the community to enhance `groq.py` and the "100 Days of GPTs" project. If you would like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive messages.
+4. Push your changes to your forked repository.
+5. Submit a pull request detailing your changes.
+
+### Examples
+
+Here are a few examples of how you can use `groq.py` to access different GPTs:
+
+- Run the GPT for Day 5: `python groq.py 5`
+- Run the GPT for Day 10: `python groq.py 10`
+- Run the GPT for Day 20: `python groq.py 20`
+
+Feel free to explore the various GPTs available in the "100 Days of GPTs" project and experiment with different day numbers.
+
+We hope you find `groq.py` helpful in accessing and running GPTs from the "100 Days of GPTs" project. If you have any questions or feedback, please don't hesitate to reach out.
+
+Happy GPT exploring!
 
 ## GPTs
 
