@@ -1,0 +1,1513 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "version": "v2beta",
+    "title": "StabilityAI REST API",
+    "description": "Welcome to the Stability Platform API. As of March 2024, we are building the REST v2beta API service to be the primary API service for the Stability Platform. \nAll AI services on other APIs (gRPC, REST v1, RESTv2alpha) will continue to be maintained, however they will not receive\nnew features or parameters.\n\nIf you are a REST v2alpha user, we strongly recommend that you adjust the URL calls for the specific services that you are using over to the equivalent REST v2beta URL. Normally, this means simply replacing \"v2alpha\" with \"v2beta\". We are not deprecating v2alpha URLs at this time for users that are currently using them.\n\n#### Authentication\n\nYou will need your [Stability API key](https://platform.stability.ai/account/keys) in order to make requests to this API.\nMake sure you never share your API key with anyone, and you never commit it to a public repository. Include this key in \nthe `Authorization` header of your requests.\n\n#### Rate limiting\n\nThis API is rate-limited to 150 requests every 10 seconds. If you exceed this limit, you will receive a `429` response\nand be timed out for 60 seconds. If you find this limit too restrictive, please reach out to us via [this form](https://stabilityplatform.freshdesk.com/support/home).\n\n#### Support\n\nPlease see our [FAQ](https://platform.stability.ai/faq) for answers to common questions. If you have any other questions or concerns,\nplease reach out to us via [this form](https://stabilityplatform.freshdesk.com/support/home).\n\nTo see the health of our APIs, please check our [Status Page](https://stabilityai.instatus.com/)."
+  },
+  "servers": [
+    {
+      "url": "https://api.stability.ai"
+    }
+  ],
+  "security": [
+    {
+      "STABILITY_API_KEY": []
+    }
+  ],
+  "tags": [
+    {
+      "name": "Generate",
+      "description": "Tools for generating new images or variations of existing images."
+    },
+  ],
+  "paths": {
+    "/v2beta/stable-image/generate/sd3": {
+      "post": {
+        "tags": [
+          "Generate"
+        ],
+        "summary": "Stable Diffusion 3.0",
+        "description": "Generate images using Stable Diffusion 3.0 (SD3) or Stable Diffusion 3.0 Turbo (SD3 Turbo),\nusing either a prompt (text-to-image) or a image + prompt (image-to-image) as the input. \n\nThis API is powered by [Fireworks AI](https://fireworks.ai/). \nAPI status can be reviewed [here](https://readme.fireworks.ai/page/application-status). \n\n### Try it out\nGrab your [API key](https://platform.stability.ai/account/keys) and head over to one of the following sites:    \n- [![Open Fireworks Playground](https://platform.stability.ai/svg/fireworks.svg)](https://fireworks.ai/models/stability/sd3)\n- [![Open Google Colab](https://platform.stability.ai/svg/google-colab.svg)](https://colab.research.google.com/github/stability-ai/stability-sdk/blob/main/nbs/SD3_API.ipynb)\n\n\n### How to use\nPlease invoke this endpoint with a `POST` request.\n\nThe headers of the request must include an API key in the `authorization` field. The body of the request must be\n`multipart/form-data`.  The accept header should be set to one of the following:\n- `image/*` to receive the image in the format specified by the `output_format` parameter.\n- `application/json` to receive the image encoded as base64 in a JSON response.\n\n### Switching between modes\nThis endpoint supports two modes of generation: **text-to-image** and **image-to-image**.  You can switch between\nthese modes by setting the `mode` parameter in the request body.  The default mode is **text-to-image**.\n\n#### **Text-to-Image**\n\nThis mode only requires a `prompt` to generate an image.\nAdditionally, in this mode you can pass in `aspect_ratio` to control the aspect ratio of the generated image.\n\n#### **Image-to-Image**\n\nUsing this mode is slightly more involved, as you'll have to provide:\n- `prompt`\n- `mode` with the value `image-to-image`\n- `image`\n- `strength`\n\n> **Note:** maximum request size is 10MiB.\n\n#### *Optional* Parameters for both modes:\n- `negative_prompt`\n- `model`\n- `seed`\n- `output_format`\n\n> **Note:** for more details about these parameters please see the request schema below.\n\n### Output\nThe resolution of the generated image will be 1 megapixel. The default resolution is 1024x1024.\n\n### Credits\n- SD3: Flat rate of 6.5 credits per successful generation of a 1MP image. You will not be charged for failed generations.\n- SD3 Turbo: Flat rate of 4 credits per successful generation of a 1MP image. You will not be charged for failed generations.",
+        "x-codeSamples": [
+          {
+            "lang": "python",
+            "label": "Python",
+            "source": "import requests\n\nresponse = requests.post(\n    f\"https://api.stability.ai/v2beta/stable-image/generate/sd3\",\n    headers={\n        \"authorization\": f\"Bearer sk-MYAPIKEY\",\n        \"accept\": \"image/*\"\n    },\n    files={\"none\": ''},\n    data={\n        \"prompt\": \"dog wearing black glasses\",\n        \"output_format\": \"jpeg\",\n    },\n)\n\nif response.status_code == 200:\n    with open(\"./dog-wearing-glasses.jpeg\", 'wb') as file:\n        file.write(response.content)\nelse:\n    raise Exception(str(response.json()))"
+          },
+          {
+            "lang": "javascript",
+            "label": "JavaScript",
+            "source": "import fs from \"node:fs\";\nimport axios from \"axios\";\nimport FormData from \"form-data\";\n\nconst formData = {\n  prompt: \"Lighthouse on a cliff overlooking the ocean\",\n  output_format: \"jpeg\"\n};\n\nconst response = await axios.postForm(\n  `https://api.stability.ai/v2beta/stable-image/generate/sd3`,\n  axios.toFormData(formData, new FormData()),\n  {\n    validateStatus: undefined,\n    responseType: \"arraybuffer\",\n    headers: { \n      Authorization: `Bearer sk-MYAPIKEY`, \n      Accept: \"image/*\" \n    },\n  },\n);\n\nif(response.status === 200) {\n  fs.writeFileSync(\"./lighthouse.jpeg\", Buffer.from(response.data));\n} else {\n  throw new Error(`${response.status}: ${response.data.toString()}`);\n}"
+          },
+          {
+            "lang": "terminal",
+            "label": "cURL",
+            "source": "curl -f -sS \"https://api.stability.ai/v2beta/stable-image/generate/sd3\" \\\n  -H \"authorization: Bearer sk-MYAPIKEY\" \\\n  -H \"accept: image/*\" \\\n  -F prompt=\"Lighthouse on a cliff overlooking the ocean\" \\\n  -F output_format=\"jpeg\" \\\n  -o \"./lighthouse.jpeg\""
+          }
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "description": "Your [Stability API key](https://platform.stability.ai/account/keys), used to authenticate your requests. Although you may have multiple keys in your account, you should use the same key for all requests to this API.",
+              "minLength": 1
+            },
+            "required": true,
+            "name": "authorization",
+            "in": "header"
+          },
+          {
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "description": "The content type of the request body. Do not manually specify this header; your HTTP client library will automatically include the appropriate boundary parameter.",
+              "example": "multipart/form-data"
+            },
+            "required": true,
+            "name": "content-type",
+            "in": "header"
+          },
+          {
+            "schema": {
+              "type": "string",
+              "default": "image/*",
+              "description": "Specify `image/*` to get the image bytes directly. Otherwise specify `application/json` to receive the image as base64 encoded JSON.",
+              "enum": [
+                "image/*",
+                "application/json"
+              ]
+            },
+            "required": true,
+            "name": "accept",
+            "in": "header"
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "oneOf": [
+                  {
+                    "$ref": "#/components/schemas/text-to-image"
+                  },
+                  {
+                    "$ref": "#/components/schemas/image-to-image"
+                  }
+                ],
+                "discriminator": {
+                  "propertyName": "mode",
+                  "mapping": {
+                    "text-to-image": "#/components/schemas/text-to-image",
+                    "image-to-image": "#/components/schemas/image-to-image"
+                  }
+                }
+              },
+              "examples": {
+                "sd3-text-to-image": {
+                  "summary": "Text-to-Image with SD3",
+                  "value": {
+                    "prompt": "A painting of a beautiful sunset",
+                    "model": "sd3",
+                    "aspect_ratio": "16:9"
+                  }
+                },
+                "sd3turbo-text-to-image": {
+                  "summary": "Text-to-Image with SD3Turbo",
+                  "value": {
+                    "prompt": "A painting of a beautiful sunset",
+                    "model": "sd3-turbo",
+                    "aspect_ratio": "16:9"
+                  }
+                },
+                "sd3-image-to-image": {
+                  "summary": "Image-to-Image with SD3",
+                  "value": {
+                    "prompt": "A painting of a beautiful sunset",
+                    "model": "sd3",
+                    "image": "<image-binary>",
+                    "strength": 0.5
+                  }
+                },
+                "sd3turbo-image-to-image": {
+                  "summary": "Image-to-Image with SD3Turbo",
+                  "value": {
+                    "prompt": "A painting of a beautiful sunset",
+                    "model": "sd3-turbo",
+                    "image": "<image-binary>",
+                    "strength": 0.5
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Generation was successful.",
+            "headers": {
+              "content-type": {
+                "description": "The format of the generated image.\n\n To receive the bytes of the image directly, specify `image/*` in the accept header. To receive the bytes base64 encoded inside of a JSON payload, specify `application/json`.",
+                "examples": {
+                  "png": {
+                    "description": "raw image bytes",
+                    "value": "image/png"
+                  },
+                  "jpeg": {
+                    "description": "raw image bytes",
+                    "value": "image/jpeg"
+                  },
+                  "pngJSON": {
+                    "description": "JSON w/ base64 encoded image",
+                    "value": "application/json; type=image/png"
+                  },
+                  "jpegJSON": {
+                    "description": "JSON w/ base64 encoded image",
+                    "value": "application/json; type=image/jpeg"
+                  }
+                },
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "finish-reason": {
+                "schema": {
+                  "type": "string",
+                  "enum": [
+                    "SUCCESS",
+                    "CONTENT_FILTERED"
+                  ]
+                },
+                "description": "*Only present on response when accept header is `image/*`.*\n\nIndicates the reason the generation finished. \n\n- `SUCCESS` = successful generation.\n- `CONTENT_FILTERED` = successful generation, however the output violated our content moderation \npolicy and has been blurred as a result."
+              },
+              "seed": {
+                "description": "*Only present on response when accept header is `image/*`.*\n\nThe seed used as random noise for this generation.",
+                "example": "343940597",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "image/png": {
+                "schema": {
+                  "type": "string",
+                  "description": "The bytes of the generated image.\n\nThe `finish-reason` and `seed` will be present as headers.",
+                  "format": "binary"
+                },
+                "example": "The bytes of the generated png.\n(Caution: may contain cats)"
+              },
+              "image/jpeg": {
+                "schema": {
+                  "type": "string",
+                  "description": "The bytes of the generated image.\n\nThe `finish-reason` and `seed` will be present as headers.",
+                  "format": "binary"
+                },
+                "example": "The bytes of the generated jpeg.\n(Caution: may contain cats)"
+              },
+              "application/json; type=image/png": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "image": {
+                      "type": "string",
+                      "description": "The generated image, encoded to base64.",
+                      "example": "AAAAIGZ0eXBpc29tAAACAGlzb21pc28yYXZjMW1..."
+                    },
+                    "finish_reason": {
+                      "type": "string",
+                      "enum": [
+                        "SUCCESS",
+                        "CONTENT_FILTERED"
+                      ],
+                      "description": "The reason the generation finished.\n\n- `SUCCESS` = successful generation.\n- `CONTENT_FILTERED` = successful generation, however the output violated our content moderation \npolicy and has been blurred as a result.",
+                      "example": "SUCCESS"
+                    },
+                    "seed": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 4294967294,
+                      "default": 0,
+                      "description": "The seed used as random noise for this generation.",
+                      "example": 343940597
+                    }
+                  },
+                  "required": [
+                    "image",
+                    "finish_reason"
+                  ]
+                }
+              },
+              "application/json; type=image/jpeg": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "image": {
+                      "type": "string",
+                      "description": "The generated image, encoded to base64.",
+                      "example": "AAAAIGZ0eXBpc29tAAACAGlzb21pc28yYXZjMW1..."
+                    },
+                    "finish_reason": {
+                      "type": "string",
+                      "enum": [
+                        "SUCCESS",
+                        "CONTENT_FILTERED"
+                      ],
+                      "description": "The reason the generation finished.\n\n- `SUCCESS` = successful generation.\n- `CONTENT_FILTERED` = successful generation, however the output violated our content moderation \npolicy and has been blurred as a result.",
+                      "example": "SUCCESS"
+                    },
+                    "seed": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 4294967294,
+                      "default": 0,
+                      "description": "The seed used as random noise for this generation.",
+                      "example": 343940597
+                    }
+                  },
+                  "required": [
+                    "image",
+                    "finish_reason"
+                  ]
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Something about your request is invalid, see the `errors` field for details.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "minLength": 1,
+                      "description": "Short-hand name for an error, useful for discriminating between errors with the same status code.",
+                      "example": "bad_request"
+                    },
+                    "errors": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "minItems": 1,
+                      "description": "One or more error messages. In most cases this will be an array with a single element, but sometimes there will be multiple messages.",
+                      "example": [
+                        "some-field: is required"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "errors"
+                  ]
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Your request was flagged by our content moderation system.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContentModerationResponse"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Your request was larger than 10MiB.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "minLength": 1,
+                      "description": "Short-hand name for an error, useful for discriminating between errors with the same status code.",
+                      "example": "bad_request"
+                    },
+                    "errors": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "minItems": 1,
+                      "description": "One or more error messages. In most cases this will be an array with a single element, but sometimes there will be multiple messages.",
+                      "example": [
+                        "some-field: is required"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "errors"
+                  ],
+                  "example": {
+                    "name": "payload_too_large",
+                    "errors": [
+                      "body: payloads cannot be larger than 10MiB in size"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "You have made more than 150 requests in 10 seconds.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "minLength": 1,
+                      "description": "Short-hand name for an error, useful for discriminating between errors with the same status code.",
+                      "example": "bad_request"
+                    },
+                    "errors": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "minItems": 1,
+                      "description": "One or more error messages. In most cases this will be an array with a single element, but sometimes there will be multiple messages.",
+                      "example": [
+                        "some-field: is required"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "errors"
+                  ],
+                  "example": {
+                    "name": "rate_limit_exceeded",
+                    "errors": [
+                      "You have exceeded the rate limit of 150 requests within a 10 second period, and have been timed out for 60 seconds."
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "An internal error occurred. If the problem persists [contact support](https://platform.stability.ai/support).",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "minLength": 1,
+                      "description": "Short-hand name for an error, useful for discriminating between errors with the same status code.",
+                      "example": "bad_request"
+                    },
+                    "errors": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "minItems": 1,
+                      "description": "One or more error messages. In most cases this will be an array with a single element, but sometimes there will be multiple messages.",
+                      "example": [
+                        "some-field: is required"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "errors"
+                  ],
+                  "example": {
+                    "name": "internal_error",
+                    "errors": [
+                      "An unexpected server error has occurred, please try again later."
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+  },
+  "components": {
+    "schemas": {
+      "GenerationID": {
+        "type": "string",
+        "minLength": 64,
+        "maxLength": 64,
+        "description": "The `id` of a generation, typically used for async generations, that can be used to check the status of the generation or retrieve the result.",
+        "example": "a6dc6c6e20acda010fe14d71f180658f2896ed9b4ec25aa99a6ff06c796987c4"
+      },
+      "text-to-image": {
+        "type": "object",
+        "properties": {
+          "aspect_ratio": {
+            "type": "string",
+            "enum": [
+              "21:9",
+              "16:9",
+              "3:2",
+              "5:4",
+              "1:1",
+              "4:5",
+              "2:3",
+              "9:16",
+              "9:21"
+            ],
+            "default": "1:1",
+            "description": "Controls the aspect ratio of the generated image."
+          },
+          "mode": {
+            "type": "string",
+            "enum": [
+              "text-to-image",
+              "image-to-image"
+            ],
+            "default": "text-to-image",
+            "description": "Controls whether this is a `text-to-image` or `image-to-image` generation (i.e. whether or not an `image` parameter is required).\n\n#### **Text-to-Image mode**\n\nFor this mode, the only required parameter is the `prompt`.  This mode does expose\nanother optional parameter `aspect_ratio`, which can be used to control the aspect\nratio of the generated image.\n\nUse the drop-down below to switch between modes.",
+            "title": "GenerationMode"
+          },
+          "prompt": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 10000,
+            "description": "What you wish to see in the output image. A strong, descriptive prompt that clearly defines \nelements, colors, and subjects will lead to better results."
+          },
+          "negative_prompt": {
+            "type": "string",
+            "maxLength": 10000,
+            "description": "A blurb of text describing what you **do not** wish to see in the output image. \nThis is an advanced feature.\n\n> This parameter does **not** work with `sd3-turbo`."
+          },
+          "model": {
+            "type": "string",
+            "enum": [
+              "sd3",
+              "sd3-turbo"
+            ],
+            "default": "sd3",
+            "description": "The model to use for generation.\n\n  - `sd3` requires 6.5 credits per generation\n  - `sd3-turbo` requires 4 credits per generation"
+          },
+          "seed": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 4294967294,
+            "default": 0,
+            "description": "A specific value that is used to guide the 'randomness' of the generation. (Omit this parameter or pass `0` to use a random seed.)"
+          },
+          "output_format": {
+            "type": "string",
+            "enum": [
+              "png",
+              "jpeg"
+            ],
+            "default": "png",
+            "description": "Dictates the `content-type` of the generated image."
+          }
+        },
+        "required": [
+          "prompt"
+        ]
+      },
+      "image-to-image": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "enum": [
+              "text-to-image",
+              "image-to-image"
+            ],
+            "default": "text-to-image",
+            "description": "Controls whether the generation is `text-to-image` or `image-to-image`.\n\n#### **Image-to-Image mode**\n\nFor `image-to-image` mode, you must provide two additional parameters:\n- `image` - used as the starting point for generation, in lieu of random noise\n- `strength` - used to control the effect that `image` has on the the diffusion process\n\nUse the drop-down below to switch between modes.",
+            "title": "GenerationMode"
+          },
+          "image": {
+            "description": "The image to use as the starting point for the generation.\n\nSupported formats:\n  - jpeg\n  - png\n  - webp\n\nSupported dimensions:\n  - Every side must be at least 64 pixels"
+          },
+          "strength": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Sometimes referred to as _denoising_, this parameter controls how much influence the `image` parameter has on the generated image.  A value of 0 would yield an image that is identical to the input.  A value of 1 would be as if you passed in no image at all."
+          },
+          "prompt": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 10000,
+            "description": "What you wish to see in the output image. A strong, descriptive prompt that clearly defines \nelements, colors, and subjects will lead to better results."
+          },
+          "negative_prompt": {
+            "type": "string",
+            "maxLength": 10000,
+            "description": "A blurb of text describing what you **do not** wish to see in the output image. \nThis is an advanced feature.\n\n> This parameter does **not** work with `sd3-turbo`."
+          },
+          "model": {
+            "type": "string",
+            "enum": [
+              "sd3",
+              "sd3-turbo"
+            ],
+            "default": "sd3",
+            "description": "The model to use for generation.\n\n  - `sd3` requires 6.5 credits per generation\n  - `sd3-turbo` requires 4 credits per generation"
+          },
+          "seed": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 4294967294,
+            "default": 0,
+            "description": "A specific value that is used to guide the 'randomness' of the generation. (Omit this parameter or pass `0` to use a random seed.)"
+          },
+          "output_format": {
+            "type": "string",
+            "enum": [
+              "png",
+              "jpeg"
+            ],
+            "default": "png",
+            "description": "Dictates the `content-type` of the generated image."
+          }
+        },
+        "required": [
+          "prompt",
+          "image",
+          "strength"
+        ]
+      },
+      "Error": {
+        "type": "object",
+        "x-go-name": "RESTError",
+        "properties": {
+          "id": {
+            "x-go-name": "ID",
+            "type": "string",
+            "description": "A unique identifier for this particular occurrence of the problem.",
+            "example": "296a972f-666a-44a1-a3df-c9c28a1f56c0"
+          },
+          "name": {
+            "type": "string",
+            "description": "The short-name of this class of errors e.g. `bad_request`.",
+            "example": "bad_request"
+          },
+          "message": {
+            "type": "string",
+            "description": "A human-readable explanation specific to this occurrence of the problem.",
+            "example": "Header parameter Authorization is required, but not found"
+          }
+        },
+        "required": [
+          "name",
+          "id",
+          "message",
+          "status"
+        ]
+      },
+      "Seed": {
+        "type": "integer",
+        "x-go-type": "uint32",
+        "description": "Random noise seed (omit this option or use `0` for a random seed)",
+        "default": 0,
+        "example": 0,
+        "minimum": 0,
+        "maximum": 4294967295
+      },
+      "Steps": {
+        "x-go-type": "uint64",
+        "type": "integer",
+        "description": "Number of diffusion steps to run.",
+        "default": 30,
+        "example": 50,
+        "minimum": 10,
+        "maximum": 50
+      },
+      "Extras": {
+        "type": "object",
+        "description": "Extra parameters passed to the engine.\nThese parameters are used for in-development or experimental features and may change\nwithout warning, so please use with caution."
+      },
+      "StylePreset": {
+        "type": "string",
+        "enum": [
+          "enhance",
+          "anime",
+          "photographic",
+          "digital-art",
+          "comic-book",
+          "fantasy-art",
+          "line-art",
+          "analog-film",
+          "neon-punk",
+          "isometric",
+          "low-poly",
+          "origami",
+          "modeling-compound",
+          "cinematic",
+          "3d-model",
+          "pixel-art",
+          "tile-texture"
+        ],
+        "description": "Pass in a style preset to guide the image model towards a particular style.\nThis list of style presets is subject to change."
+      },
+      "TextPrompt": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "The prompt itself",
+            "example": "A lighthouse on a cliff",
+            "maxLength": 2000
+          },
+          "weight": {
+            "type": "number",
+            "description": "Weight of the prompt (use negative numbers for negative prompts)",
+            "example": 0.8167237,
+            "format": "float"
+          }
+        },
+        "description": "Text prompt for image generation",
+        "required": [
+          "text"
+        ]
+      },
+      "TextPromptsForTextToImage": {
+        "title": "TextPrompts",
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/TextPrompt"
+        },
+        "minItems": 1,
+        "description": "An array of text prompts to use for generation.\n\nGiven a text prompt with the text `A lighthouse on a cliff` and a weight of `0.5`, it would be represented as:\n\n```\n\"text_prompts\": [\n  {\n    \"text\": \"A lighthouse on a cliff\",\n    \"weight\": 0.5\n  }\n]\n```"
+      },
+      "TextPrompts": {
+        "description": "An array of text prompts to use for generation.\n\nDue to how arrays are represented in `multipart/form-data` requests, prompts must adhere to the format `text_prompts[index][text|weight]`,\nwhere `index` is some integer used to tie the text and weight together.  While `index` does not have to be sequential, duplicate entries \nwill override previous entries, so it is recommended to use sequential indices.\n\nGiven a text prompt with the text `A lighthouse on a cliff` and a weight of `0.5`, it would be represented as:\n```\ntext_prompts[0][text]: \"A lighthouse on a cliff\"\ntext_prompts[0][weight]: 0.5\n```\n\nTo add another prompt to that request simply provide the values under a new `index`:\n\n```\ntext_prompts[0][text]: \"A lighthouse on a cliff\"\ntext_prompts[0][weight]: 0.5\ntext_prompts[1][text]: \"land, ground, dirt, grass\"\ntext_prompts[1][weight]: -0.9\n```",
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/TextPrompt"
+        },
+        "minItems": 1
+      },
+      "InputImage": {
+        "x-go-type": "[]byte",
+        "type": "string",
+        "description": "The image to upscale using ESRGAN.",
+        "example": "<image binary>",
+        "format": "binary"
+      },
+      "InitImage": {
+        "x-go-type": "[]byte",
+        "type": "string",
+        "description": "Image used to initialize the diffusion process, in lieu of random noise.",
+        "example": "<image binary>",
+        "format": "binary"
+      },
+      "InitImageStrength": {
+        "type": "number",
+        "description": "How much influence the `init_image` has on the diffusion process. Values close to `1` will yield images very similar to the `init_image` while values close to `0` will yield images wildly different than the `init_image`. The behavior of this is meant to mirror DreamStudio's \"Image Strength\" slider.  <br/> <br/> This parameter is just an alternate way to set `step_schedule_start`, which is done via the calculation `1 - image_strength`. For example, passing in an Image Strength of 35% (`0.35`) would result in a `step_schedule_start` of `0.65`.\n",
+        "example": 0.4,
+        "minimum": 0,
+        "maximum": 1,
+        "format": "float",
+        "default": 0.35
+      },
+      "InitImageMode": {
+        "type": "string",
+        "description": "Whether to use `image_strength` or `step_schedule_*` to control how much influence the `init_image` has on the result.",
+        "enum": [
+          "IMAGE_STRENGTH",
+          "STEP_SCHEDULE"
+        ],
+        "default": "IMAGE_STRENGTH"
+      },
+      "StepScheduleStart": {
+        "type": "number",
+        "description": "Skips a proportion of the start of the diffusion steps, allowing the init_image to influence the final generated image.  Lower values will result in more influence from the init_image, while higher values will result in more influence from the diffusion steps.  (e.g. a value of `0` would simply return you the init_image, where a value of `1` would return you a completely different image.)",
+        "default": 0.65,
+        "example": 0.4,
+        "minimum": 0,
+        "maximum": 1
+      },
+      "StepScheduleEnd": {
+        "type": "number",
+        "description": "Skips a proportion of the end of the diffusion steps, allowing the init_image to influence the final generated image.  Lower values will result in more influence from the init_image, while higher values will result in more influence from the diffusion steps.",
+        "example": 0.01,
+        "minimum": 0,
+        "maximum": 1
+      },
+      "MaskImage": {
+        "x-go-type": "[]byte",
+        "type": "string",
+        "description": "Optional grayscale mask that allows for influence over which pixels are eligible for diffusion and at what strength. Must be the same dimensions as the `init_image`. Use the `mask_source` option to specify whether the white or black pixels should be inpainted.",
+        "example": "<image binary>",
+        "format": "binary"
+      },
+      "MaskSource": {
+        "type": "string",
+        "description": "For any given pixel, the mask determines the strength of generation on a linear scale.  This parameter determines where to source the mask from:\n- `MASK_IMAGE_WHITE` will use the white pixels of the mask_image as the mask, where white pixels are completely replaced and black pixels are unchanged\n- `MASK_IMAGE_BLACK` will use the black pixels of the mask_image as the mask, where black pixels are completely replaced and white pixels are unchanged\n- `INIT_IMAGE_ALPHA` will use the alpha channel of the init_image as the mask, where fully transparent pixels are completely replaced and fully opaque pixels are unchanged"
+      },
+      "GenerationRequestOptionalParams": {
+        "type": "object",
+        "description": "Represents the optional parameters that can be passed to any generation request.",
+        "properties": {
+          "cfg_scale": {
+            "$ref": "#/components/schemas/CfgScale"
+          },
+          "clip_guidance_preset": {
+            "$ref": "#/components/schemas/ClipGuidancePreset"
+          },
+          "sampler": {
+            "$ref": "#/components/schemas/Sampler"
+          },
+          "samples": {
+            "$ref": "#/components/schemas/Samples"
+          },
+          "seed": {
+            "$ref": "#/components/schemas/Seed"
+          },
+          "steps": {
+            "$ref": "#/components/schemas/Steps"
+          },
+          "style_preset": {
+            "$ref": "#/components/schemas/StylePreset"
+          },
+          "extras": {
+            "$ref": "#/components/schemas/Extras"
+          }
+        }
+      },
+      "RealESRGANUpscaleRequestBody": {
+        "type": "object",
+        "properties": {
+          "image": {
+            "$ref": "#/components/schemas/InputImage"
+          },
+          "width": {
+            "$ref": "#/components/schemas/UpscaleImageWidth"
+          },
+          "height": {
+            "$ref": "#/components/schemas/UpscaleImageHeight"
+          }
+        },
+        "required": [
+          "image"
+        ]
+      },
+      "ImageToImageRequestBody": {
+        "type": "object",
+        "properties": {
+          "text_prompts": {
+            "$ref": "#/components/schemas/TextPrompts"
+          },
+          "init_image": {
+            "$ref": "#/components/schemas/InitImage"
+          },
+          "init_image_mode": {
+            "$ref": "#/components/schemas/InitImageMode"
+          },
+          "image_strength": {
+            "$ref": "#/components/schemas/InitImageStrength"
+          },
+          "step_schedule_start": {
+            "$ref": "#/components/schemas/StepScheduleStart"
+          },
+          "step_schedule_end": {
+            "$ref": "#/components/schemas/StepScheduleEnd"
+          },
+          "cfg_scale": {
+            "$ref": "#/components/schemas/CfgScale"
+          },
+          "clip_guidance_preset": {
+            "$ref": "#/components/schemas/ClipGuidancePreset"
+          },
+          "sampler": {
+            "$ref": "#/components/schemas/Sampler"
+          },
+          "samples": {
+            "$ref": "#/components/schemas/Samples"
+          },
+          "seed": {
+            "$ref": "#/components/schemas/Seed"
+          },
+          "steps": {
+            "$ref": "#/components/schemas/Steps"
+          },
+          "style_preset": {
+            "$ref": "#/components/schemas/StylePreset"
+          },
+          "extras": {
+            "$ref": "#/components/schemas/Extras"
+          }
+        },
+        "required": [
+          "text_prompts",
+          "init_image"
+        ],
+        "discriminator": {
+          "propertyName": "init_image_mode",
+          "mapping": {
+            "IMAGE_STRENGTH": "#/components/schemas/ImageToImageUsingImageStrengthRequestBody",
+            "STEP_SCHEDULE": "#/components/schemas/ImageToImageUsingStepScheduleRequestBody"
+          }
+        }
+      },
+      "ImageToImageUsingImageStrengthRequestBody": {
+        "allOf": [
+          {
+            "type": "object",
+            "properties": {
+              "text_prompts": {
+                "$ref": "#/components/schemas/TextPrompts"
+              },
+              "init_image": {
+                "$ref": "#/components/schemas/InitImage"
+              },
+              "init_image_mode": {
+                "$ref": "#/components/schemas/InitImageMode"
+              },
+              "image_strength": {
+                "$ref": "#/components/schemas/InitImageStrength"
+              }
+            },
+            "required": [
+              "text_prompts",
+              "init_image"
+            ]
+          },
+          {
+            "$ref": "#/components/schemas/GenerationRequestOptionalParams"
+          }
+        ]
+      },
+      "ImageToImageUsingStepScheduleRequestBody": {
+        "allOf": [
+          {
+            "type": "object",
+            "properties": {
+              "text_prompts": {
+                "$ref": "#/components/schemas/TextPrompts"
+              },
+              "init_image": {
+                "$ref": "#/components/schemas/InitImage"
+              },
+              "init_image_mode": {
+                "$ref": "#/components/schemas/InitImageMode"
+              },
+              "step_schedule_start": {
+                "$ref": "#/components/schemas/StepScheduleStart"
+              },
+              "step_schedule_end": {
+                "$ref": "#/components/schemas/StepScheduleEnd"
+              }
+            },
+            "required": [
+              "text_prompts",
+              "init_image"
+            ]
+          },
+          {
+            "$ref": "#/components/schemas/GenerationRequestOptionalParams"
+          }
+        ]
+      },
+      "MaskingRequestBody": {
+        "type": "object",
+        "properties": {
+          "init_image": {
+            "$ref": "#/components/schemas/InitImage"
+          },
+          "mask_source": {
+            "$ref": "#/components/schemas/MaskSource"
+          },
+          "mask_image": {
+            "$ref": "#/components/schemas/MaskImage"
+          },
+          "text_prompts": {
+            "$ref": "#/components/schemas/TextPrompts"
+          },
+          "cfg_scale": {
+            "$ref": "#/components/schemas/CfgScale"
+          },
+          "clip_guidance_preset": {
+            "$ref": "#/components/schemas/ClipGuidancePreset"
+          },
+          "sampler": {
+            "$ref": "#/components/schemas/Sampler"
+          },
+          "samples": {
+            "$ref": "#/components/schemas/Samples"
+          },
+          "seed": {
+            "$ref": "#/components/schemas/Seed"
+          },
+          "steps": {
+            "$ref": "#/components/schemas/Steps"
+          },
+          "style_preset": {
+            "$ref": "#/components/schemas/StylePreset"
+          },
+          "extras": {
+            "$ref": "#/components/schemas/Extras"
+          }
+        },
+        "required": [
+          "text_prompts",
+          "init_image",
+          "mask_source"
+        ],
+        "discriminator": {
+          "propertyName": "mask_source",
+          "mapping": {
+            "MASK_IMAGE_BLACK": "#/components/schemas/MaskingUsingMaskImageRequestBody",
+            "MASK_IMAGE_WHITE": "#/components/schemas/MaskingUsingMaskImageRequestBody",
+            "INIT_IMAGE_ALPHA": "#/components/schemas/MaskingUsingInitImageAlphaRequestBody"
+          }
+        }
+      },
+      "MaskingUsingMaskImageRequestBody": {
+        "allOf": [
+          {
+            "type": "object",
+            "properties": {
+              "text_prompts": {
+                "$ref": "#/components/schemas/TextPrompts"
+              },
+              "init_image": {
+                "$ref": "#/components/schemas/InitImage"
+              },
+              "mask_source": {
+                "$ref": "#/components/schemas/MaskSource"
+              },
+              "mask_image": {
+                "$ref": "#/components/schemas/MaskImage"
+              }
+            },
+            "required": [
+              "init_image",
+              "mask_image",
+              "text_prompts",
+              "mask_source"
+            ]
+          },
+          {
+            "$ref": "#/components/schemas/GenerationRequestOptionalParams"
+          }
+        ]
+      },
+      "MaskingUsingInitImageAlphaRequestBody": {
+        "allOf": [
+          {
+            "type": "object",
+            "properties": {
+              "text_prompts": {
+                "$ref": "#/components/schemas/TextPrompts"
+              },
+              "init_image": {
+                "$ref": "#/components/schemas/InitImage"
+              },
+              "mask_source": {
+                "$ref": "#/components/schemas/MaskSource"
+              }
+            },
+            "required": [
+              "init_image",
+              "text_prompts",
+              "mask_source"
+            ]
+          },
+          {
+            "$ref": "#/components/schemas/GenerationRequestOptionalParams"
+          }
+        ]
+      },
+      "TextToImageRequestBody": {
+        "type": "object",
+        "allOf": [
+          {
+            "type": "object",
+            "properties": {
+              "height": {
+                "$ref": "#/components/schemas/DiffuseImageHeight"
+              },
+              "width": {
+                "$ref": "#/components/schemas/DiffuseImageWidth"
+              },
+              "text_prompts": {
+                "$ref": "#/components/schemas/TextPromptsForTextToImage"
+              }
+            },
+            "required": [
+              "text_prompts"
+            ]
+          },
+          {
+            "$ref": "#/components/schemas/GenerationRequestOptionalParams"
+          }
+        ],
+        "example": {
+          "cfg_scale": 7,
+          "height": 512,
+          "width": 512,
+          "sampler": "K_DPM_2_ANCESTRAL",
+          "samples": 1,
+          "seed": 0,
+          "steps": 30,
+          "text_prompts": [
+            {
+              "text": "A lighthouse on a cliff",
+              "weight": 1
+            }
+          ]
+        },
+        "required": [
+          "text_prompts"
+        ]
+      },
+      "AccountResponseBody": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "description": "The user's email",
+            "example": "example@stability.ai",
+            "format": "email"
+          },
+          "id": {
+            "type": "string",
+            "description": "The user's ID",
+            "example": "user-1234",
+            "x-go-name": "ID"
+          },
+          "organizations": {
+            "type": "array",
+            "example": [
+              {
+                "id": "org-5678",
+                "name": "Another Organization",
+                "role": "MEMBER",
+                "is_default": true
+              },
+              {
+                "id": "org-1234",
+                "name": "My Organization",
+                "role": "MEMBER",
+                "is_default": false
+              }
+            ],
+            "items": {
+              "$ref": "#/components/schemas/OrganizationMembership"
+            },
+            "description": "The user's organizations"
+          },
+          "profile_picture": {
+            "type": "string",
+            "description": "The user's profile picture",
+            "example": "https://api.stability.ai/example.png",
+            "format": "uri"
+          }
+        },
+        "required": [
+          "id",
+          "email",
+          "organizations"
+        ]
+      },
+      "BalanceResponseBody": {
+        "type": "object",
+        "properties": {
+          "credits": {
+            "type": "number",
+            "description": "The balance of the account/organization associated with the API key",
+            "example": 0.41122252265928866,
+            "format": "double"
+          }
+        },
+        "example": {
+          "credits": 0.07903292496944721
+        },
+        "required": [
+          "credits"
+        ]
+      },
+      "ListEnginesResponseBody": {
+        "type": "array",
+        "description": "The engines available to your user/organization",
+        "items": {
+          "$ref": "#/components/schemas/Engine"
+        },
+        "example": [
+          {
+            "description": "Stability-AI Stable Diffusion v1.6",
+            "id": "stable-diffusion-v1-6",
+            "name": "Stable Diffusion v1.6",
+            "type": "PICTURE"
+          },
+          {
+            "description": "Stability-AI Stable Diffusion XL v1.0",
+            "id": "stable-diffusion-xl-1024-v1-0",
+            "name": "Stable Diffusion XL v1.0",
+            "type": "PICTURE"
+          }
+        ]
+      },
+      "FinishReason": {
+        "type": "string",
+        "description": "The result of the generation process.\n- `SUCCESS` indicates success\n- `ERROR` indicates an error\n- `CONTENT_FILTERED` indicates the result affected by the content filter and may be blurred.\n\nThis header is only present when the `Accept` is set to `image/png`.  Otherwise it is returned in the response body.",
+        "enum": [
+          "SUCCESS",
+          "ERROR",
+          "CONTENT_FILTERED"
+        ]
+      },
+      "Image": {
+        "type": "object",
+        "properties": {
+          "base64": {
+            "type": "string",
+            "x-go-type-skip-optional-pointer": true,
+            "description": "Image encoded in base64"
+          },
+          "finishReason": {
+            "type": "string",
+            "x-go-type-skip-optional-pointer": true,
+            "example": "CONTENT_FILTERED",
+            "enum": [
+              "SUCCESS",
+              "ERROR",
+              "CONTENT_FILTERED"
+            ]
+          },
+          "seed": {
+            "type": "number",
+            "x-go-type-skip-optional-pointer": true,
+            "description": "The seed associated with this image",
+            "example": 1229191277
+          }
+        },
+        "example": [
+          {
+            "base64": "...very long string...",
+            "finishReason": "SUCCESS",
+            "seed": 1050625087
+          },
+          {
+            "base64": "...very long string...",
+            "finishReason": "CONTENT_FILTERED",
+            "seed": 1229191277
+          }
+        ]
+      },
+      "OrganizationMembership": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "org-123456",
+            "x-go-name": "ID"
+          },
+          "is_default": {
+            "type": "boolean",
+            "example": false
+          },
+          "name": {
+            "type": "string",
+            "example": "My Organization"
+          },
+          "role": {
+            "type": "string",
+            "example": "MEMBER"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "role",
+          "is_default"
+        ]
+      }
+    },
+    "parameters": {
+      "upscaleEngineID": {
+        "in": "path",
+        "name": "engine_id",
+        "required": true,
+        "schema": {
+          "type": "string"
+        },
+        "examples": {
+          "ESRGAN_X2_PLUS": {
+            "description": "ESRGAN x2 Upscaler",
+            "value": "esrgan-v1-x2plus"
+          }
+        }
+      },
+      "engineID": {
+        "examples": {
+          "default": {
+            "value": "stable-diffusion-v1-6",
+            "description": "Stable Diffusion v1.6"
+          },
+          "stable-diffusion-xl-1024-v1-0": {
+            "value": "stable-diffusion-xl-1024-v1-0",
+            "description": "Stable Diffusion XL v1.0"
+          }
+        },
+        "in": "path",
+        "name": "engine_id",
+        "required": true,
+        "schema": {
+          "type": "string"
+        }
+      },
+      "organization": {
+        "allowEmptyValue": false,
+        "description": "Allows for requests to be scoped to an organization other than the user's default.  If not provided, the user's default organization will be used.",
+        "example": "org-123456",
+        "in": "header",
+        "name": "Organization",
+        "x-go-name": "OrganizationID",
+        "schema": {
+          "type": "string"
+        }
+      },
+      "stabilityClientID": {
+        "allowEmptyValue": false,
+        "description": "Used to identify the source of requests, such as the client application or sub-organization. Optional, but recommended for organizational clarity.",
+        "example": "my-great-plugin",
+        "in": "header",
+        "name": "Stability-Client-ID",
+        "schema": {
+          "type": "string"
+        }
+      },
+      "stabilityClientVersion": {
+        "allowEmptyValue": false,
+        "description": "Used to identify the version of the application or service making the requests. Optional, but recommended for organizational clarity.",
+        "example": "1.2.1",
+        "in": "header",
+        "name": "Stability-Client-Version",
+        "schema": {
+          "type": "string"
+        }
+      },
+      "accept": {
+        "allowEmptyValue": false,
+        "in": "header",
+        "name": "Accept",
+        "description": "The format of the response.  Leave blank for JSON, or set to 'image/png' for a PNG image.",
+        "schema": {
+          "default": "application/json",
+          "enum": [
+            "application/json",
+            "image/png"
+          ],
+          "type": "string"
+        }
+      }
+    },
+    "securitySchemes": {
+      "STABILITY_API_KEY": {
+        "type": "apiKey",
+        "scheme": "bearer",
+        "name": "authorization",
+        "in": "header",
+        "description": "Use your [Stability API key](https://platform.stability.ai/account/keys) to authentication requests to this App."
+      }
+    },
+    "responses": {
+      "401": {
+        "description": "unauthorized: API key missing or invalid",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            },
+            "example": {
+              "id": "9160aa70-222f-4a36-9eb7-475e2668362a",
+              "name": "unauthorized",
+              "message": "missing authorization header"
+            }
+          }
+        }
+      },
+      "403": {
+        "description": "permission_denied: You lack the necessary permissions to perform this action",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            },
+            "example": {
+              "id": "5cf19777-d17f-49fe-9bd9-39ff0ec6bb50",
+              "name": "permission_denied",
+              "message": "You do not have permission to access this resource"
+            }
+          }
+        }
+      },
+      "404": {
+        "description": "not_found: The requested resource/engine was not found",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            },
+            "example": {
+              "id": "92b19e7f-22a2-4e71-a821-90edda229293",
+              "name": "not_found",
+              "message": "The specified engine (ID some-fake-engine) was not found."
+            }
+          }
+        }
+      },
+      "500": {
+        "description": "server_error: Some unexpected server error occurred",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            },
+            "example": {
+              "id": "f81964d6-619b-453e-97bc-9fd7ac3f04e7",
+              "name": "server_error",
+              "message": "An unexpected server error occurred, please try again."
+            }
+          }
+        }
+      },
+      "GenerationResponse": {
+        "description": "Generation successful.",
+        "content": {
+          "application/json": {
+            "schema": {
+              "description": "An array of results from the generation request, where each image is a base64 encoded PNG.",
+              "type": "object",
+              "properties": {
+                "artifacts": {
+                  "type": "array",
+                  "x-go-type-skip-optional-pointer": true,
+                  "items": {
+                    "$ref": "#/components/schemas/Image"
+                  }
+                }
+              }
+            }
+          },
+          "image/png": {
+            "example": "The bytes of the generated image, what did you expect?",
+            "schema": {
+              "description": "The bytes of the generated PNG image",
+              "format": "binary",
+              "type": "string"
+            }
+          }
+        },
+        "headers": {
+          "Content-Length": {
+            "$ref": "#/components/headers/Content-Length"
+          },
+          "Content-Type": {
+            "$ref": "#/components/headers/Content-Type"
+          },
+          "Finish-Reason": {
+            "$ref": "#/components/headers/Finish-Reason"
+          },
+          "Seed": {
+            "$ref": "#/components/headers/Seed"
+          }
+        }
+      },
+      "400FromGeneration": {
+        "description": "bad_request: one or more parameters were invalid.",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            },
+            "example": {
+              "id": "296a972f-666a-44a1-a3df-c9c28a1f56c0",
+              "name": "bad_request",
+              "message": "init_image: is required"
+            }
+          }
+        }
+      },
+      "400FromUpscale": {
+        "description": "One or more parameters were invalid.",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            },
+            "example": {
+              "id": "296a972f-666a-44a1-a3df-c9c28a1f56c0",
+              "name": "bad_request",
+              "message": "image: is required"
+            }
+          }
+        }
+      }
+    },
+    "headers": {
+      "Content-Length": {
+        "required": true,
+        "schema": {
+          "type": "integer"
+        }
+      },
+      "Content-Type": {
+        "required": true,
+        "schema": {
+          "enum": [
+            "application/json",
+            "image/png"
+          ],
+          "type": "string"
+        }
+      },
+      "Finish-Reason": {
+        "schema": {
+          "$ref": "#/components/schemas/FinishReason"
+        }
+      },
+      "Seed": {
+        "example": 3817857576,
+        "schema": {
+          "example": 787078103,
+          "type": "integer"
+        },
+        "description": "The seed used to generate the image.  This header is only present when the `Accept` is set to `image/png`.  Otherwise it is returned in the response body."
+      }
+    }
+  },
+  "x-tagGroups": [
+    {
+      "name": "Stable Image",
+      "tags": [
+        "Generate",
+        "Upscale",
+        "Edit",
+        "Control"
+      ]
+    },
+    {
+      "name": "Stable Video",
+      "tags": [
+        "Image-to-Video"
+      ]
+    },
+    {
+      "name": "Version 1",
+      "tags": [
+        "Text-to-Image",
+        "Image-to-Image",
+        "Engines",
+        "User"
+      ]
+    }
+  ]
+}
