@@ -167,6 +167,7 @@ seed: 31415926
 - Get started by uploading an image
 - Type something to get started
 - Type "continue" if "SD 3 Mate" gets stuck
+- Can I get 5 SD prompts, please?
 
 ### Knowledge
 
