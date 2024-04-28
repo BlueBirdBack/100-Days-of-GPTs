@@ -1,4 +1,4 @@
-# Day 98 - SD 3 Mate ✨
+# 🖼 Day 98 - SD 3 Mate ✨
 
 **SD 3 Mate**  
 By bluebirdback.com  
@@ -166,7 +166,7 @@ seed: 31415926
 
 - Get started by uploading an image
 - Type something to get started
-- Type 'continue' if SD 3 Mate gets stuck
+- Type "continue" if "SD 3 Mate" gets stuck
 
 ### Knowledge
 
