@@ -18,11 +18,12 @@ start_index = readme_content.find(table_line) + len(table_line)
 
 # Get the list of GPT directories starting from Day 77
 gpt_dirs = [
-    d for d in os.listdir("./") if d.startswith("Day-") and int(d.split("-")[1]) >= 77
+    d for d in os.listdir("./") if d.startswith("Day-") and int(d.split("-")[1]) >= 97
 ]
-gpt_dirs = sorted(gpt_dirs, reverse=True)
+# gpt_dirs = sorted(gpt_dirs, reverse=True)
+gpt_dirs = sorted(gpt_dirs, key=lambda x: int(x.split("-")[1]), reverse=True)
 # e.g. ['Day-87-StockNet.md', 'Day-86-Imager.md', 'Day-85-PicDescribe.md', 'Day-84-FalloutLeaks.md', 'Day-83-MNISTro.md', 'Day-82-Promptopia.md', 'Day-81-Gemini-Pro.md', 'Day-80-NewsHub.md', 'Day-79-Claire.md', 'Day-78-ABChallenger.md', 'Day-77-Mindaze.md']
-
+print(gpt_dirs)
 # Generate the new GPT table data
 table_data = []
 for gpt_dir in gpt_dirs:

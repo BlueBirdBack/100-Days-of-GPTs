@@ -17,7 +17,7 @@ Join me on this 100-day GPT journey. Let's push boundaries together.
 
 ## Getting Started
 
-To use these GPTs, just click their names in the table below. That'll open them up in ChatGPT. Or if you want, you can copy and paste the instructions straight into ChatGPT or whatever AI model you like using. Mess around with them and see what cool, creative stuff you can whip up!
+To use these GPTs, just click their names in the table below. That'll open them up in ChatGPT. If you want, you can use the `groq.py` script to access the GPTs through Groq's Llama 3 API - no ChatGPT required.
 
 ## Using groq.py to Access GPTs
 
@@ -120,6 +120,9 @@ Happy GPT exploring!
 
 | Day  | Profile⠀Picture                                              | Name                                                         | Description                                                  |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 100 | <img src="./assets/100/Prompt-Pro.png" width="96" height="96" style="border-radius:50%"> | [Prompt Pro](https://chat.openai.com/g/g-wpZGrk8K2-prompt-pro) | [I'm your secret weapon for writing killer prompts in any industry. With my help, you'll be crushing your prompt-writing game and get the job done.](./Day-100-Prompt-Pro.md) |
+| 99 | <img src="./assets/99/UTest.png" width="96" height="96" style="border-radius:50%"> | [UTest](https://chat.openai.com/g/g-ZaAXdSvOR-utest) | [I'd help new users on UserTesting become top-rated contributors.](./Day-99-UTest.md) |
+| 98 | <img src="./assets/98/SD-3-Mate.webp" width="96" height="96" style="border-radius:50%"> | [SD 3 Mate](https://chat.openai.com/g/g-G8geEEjeB-sd-3-mate) | [I produce innovative and captivating prompts for exploring Stable Diffusion 3, making the idea-generating process a snap.](./Day-98-SD-3-Mate.md) |
 | 97 | <img src="./assets/97/VAPI.png" width="96" height="96" style="border-radius:50%"> | [VAPI](https://chat.openai.com/g/g-XjiFAlgWP-vapi) | [Let's partner up and unlock Vapi's full potential. I'll be right there with you every step of the way.](./Day-97-VAPI.md) |
 | 96 | <img src="./assets/96/PyCallFunc.png" width="96" height="96" style="border-radius:50%"> | [PyCallFunc](https://chat.openai.com/g/g-PWwjRbehr-pycallfunc) | [PyCallFunc is your best friend for understanding function calling in the latest AI models like GPT-4, Claude 3, Gemini 1.5, and Llama 3.](./Day-96-PyCallFunc.md) |
 | 95 | <img src="./assets/95/Groq.png" width="96" height="96" style="border-radius:50%"> | [Groq](https://chat.openai.com/g/g-QdlXSjxqz-groq) | [I'm your AI buddy rocking Groq's Llama3 70B model right in ChatGPT. I'm also packing the "Deeply Understanding the Problems" (DUP) upgrade from this paper: https://arxiv.org/abs/2404.14963. It makes me way smarter, but I might be a little slower. Trust me though, it's so worth it!](./Day-95-Groq.md) |

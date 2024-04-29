@@ -10,9 +10,9 @@ By bluebirdback.com
 
 **GitHub Link:** https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-98-SD-3-Mate.md
 
-![](./assets/98/240427-SD-3-Mate.png)
+![About](./assets/98/240427-SD-3-Mate.png)
 
-![](./assets/98/SD-3-Mate.webp)
+![Profile Picture](./assets/98/SD-3-Mate.webp)
 
 ## GPT Configuration
 
