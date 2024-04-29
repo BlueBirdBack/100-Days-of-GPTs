@@ -1,3 +1,7 @@
+"""
+This script is ued to easily access and run a range of GPTs from the "100 Days of GPTs" project without needing ChatGPT.
+"""
+
 import os
 import sys
 import time
@@ -11,8 +15,13 @@ from openai import OpenAI
 # Constants for model names
 MODELS = ["llama3-70b-8192", "llama3-8b-8192"]
 
+# This variable is used to store the conversation history between the user and the AI model.
+conversation_history = {}
+
 
 class GroqScript:
+    """Interact with the Groq API."""
+
     def __init__(self):
         load_dotenv()
         self.groq_api_key = os.getenv("GROQ_API_KEY")
@@ -25,15 +34,33 @@ class GroqScript:
     def get_completion(
         self, prompt: str, model: str, system_prompt: str = None
     ) -> Optional[str]:
+        """Get a completion from the Groq API."""
+        start_time = time.time()
         try:
-            messages = [{"role": "user", "content": prompt}]
+            # Create a separate conversation history for each model
+            if model not in conversation_history:
+                conversation_history[model] = []
+
+            messages = conversation_history[model] + [
+                {"role": "user", "content": prompt}
+            ]
             if system_prompt:
                 messages.insert(0, {"role": "system", "content": system_prompt})
             response = self.client.chat.completions.create(
                 messages=messages,
                 model=model,
             )
-            return response.choices[0].message.content
+
+            end_time = time.time()
+            print(f"{model}: {end_time - start_time:.2f} seconds")
+
+            response_content = response.choices[0].message.content
+            conversation_history[model].append({"role": "user", "content": prompt})
+            conversation_history[model].append(
+                {"role": "assistant", "content": response_content}
+            )
+
+            return response_content
         except Exception as e:  # pylint: disable=broad-except
             # Consider using logging.error here
             print(f"Error fetching completion for model {model}: {e}")
@@ -42,7 +69,8 @@ class GroqScript:
     def get_completions(
         self, prompt: str, models: List[str], system_prompt: str = None
     ) -> Dict[str, str]:
-        start_time = time.time()
+        """Get completions from the Groq API for multiple models."""
+        # start_time = time.time()
         with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
             futures = {
                 executor.submit(
@@ -54,11 +82,16 @@ class GroqScript:
                 futures[future]: future.result()
                 for future in concurrent.futures.as_completed(futures)
             }
-        end_time = time.time()
-        print(f"Time taken to fetch completions: {end_time - start_time:.2f} seconds")
+        # end_time = time.time()
+        # print(f"Time taken to fetch completions: {end_time - start_time:.2f} seconds")
         return results
 
     def construct_system_prompt(self, day_param: int) -> str:
+        """
+        Construct the system prompt for the given day.
+
+        This method reads the instructions from the markdown file for the given day and returns the trimmed instructions.
+        """
         try:
             parent_dir = os.path.dirname(os.path.dirname(__file__))
             file_name = None
@@ -95,6 +128,11 @@ class GroqScript:
             return None
 
     def gather_input(self) -> str:
+        """
+        Gather user input for the prompt.
+
+        This method reads lines of input from the user until they type 'Q' to finish.
+        """
         print("Enter your prompt (type 'Q' to finish):")
         lines = []
         while True:
@@ -105,23 +143,31 @@ class GroqScript:
         return "\n".join(lines)
 
     def main(self, day_param: int):
-        prompt = self.gather_input()
-        start_time = time.time()
-        system_prompt = self.construct_system_prompt(day_param)
-        if system_prompt is None:
-            print(f"Error: No system prompt found for day {day_param}.")
-            return
-        results = self.get_completions(prompt, MODELS, system_prompt)
+        """Run the main functionality of the script."""
+        global conversation_history
+        while True:
+            prompt = self.gather_input()
+            start_time = time.time()
+            if len(prompt.strip()) == 0:
+                conversation_history = {}
+                break
+            system_prompt = self.construct_system_prompt(day_param)
+            if system_prompt is None:
+                print(f"Error: No system prompt found for day {day_param}.")
+                return
+            results = self.get_completions(prompt, MODELS, system_prompt)
 
-        for model, result in results.items():
-            print("-" * 60)
-            print(f" Model: {model}\n\n{result}\n")
+            for model, result in results.items():
+                print("-" * 60)
+                print(f"Turn: {len(conversation_history[model]) // 2}")
+                print(f"Model: {model}\n\n{result}\n")
 
-        end_time = time.time()
-        print(f"Total time taken: {end_time - start_time:.2f} seconds")
+            end_time = time.time()
+            print(f"Total time taken: {end_time - start_time:.2f} seconds")
 
     @staticmethod
     def validate_arguments():
+        """Validate the command line arguments."""
         if len(sys.argv) < 2:
             print("Usage: python run_script.py <day>")
             sys.exit(1)
