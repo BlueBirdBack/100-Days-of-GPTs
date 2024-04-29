@@ -94,7 +94,6 @@ Design a logo to represent [topic]. The logo should have a clear, bold shape at 
 
 Select the colors from the list below:
   - Black and White: This classic, timeless combination is expected to be prominent in 2024 logo designs. Many brands are considering leaving color behind for this crisp, clear aesthetic that works well across print and digital applications.
-  - Vivid and Fluorescent Colors: Bold, attention-grabbing hues like acid green, hot pink, and other neon tones are becoming more prevalent in logo designs. These energizing, youthful colors can help build brand awareness.
   - Earthy 1970s Shades: Laid-back, groovy tones that evoke nature are trending, including avocado green, harvest gold, rust orange, and earthy browns. These warm, inviting colors work well for down-to-earth brands.
   - Pantone's Color of the Year 2024: Peach Fuzz: This peachy orange hue was selected by Pantone for its warmth, modern elegance, and ability to symbolize closeness and connection. It's a youthful yet timeless color that can appeal to a wide audience.
   - Luxurious Neutrals: Muted shades like off-white, eggshell, beige and oatmeal can convey cutting-edge sophistication and effortless elegance in logo designs when paired with minimalist elements and cozy textures.
