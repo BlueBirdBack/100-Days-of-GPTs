@@ -175,7 +175,7 @@ class GroqScript:
     def validate_arguments():
         """Validate the command line arguments."""
         if len(sys.argv) < 2:
-            print("Usage: python run_script.py <day>")
+            print("Usage: python pplx.py <day>")
             sys.exit(1)
         try:
             return int(sys.argv[1])
