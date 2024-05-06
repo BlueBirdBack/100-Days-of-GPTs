@@ -1,5 +1,5 @@
 """
-This script is ued to easily access and run a range of GPTs from the "100 Days of GPTs" project without needing ChatGPT.
+This script lets you run a range of GPTs from the "100 Days of GPTs" project using Perplexity AI's API, no ChatGPT needed.
 """
 
 import os
@@ -12,8 +12,14 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 
-# Constants for model names
-MODELS = ["llama3-70b-8192", "llama3-8b-8192"]
+# Constants for model names, https://docs.perplexity.ai/docs/model-cards
+MODELS = [
+    "llama-3-sonar-small-32k-chat",
+    "llama-3-sonar-large-32k-chat",
+    "llama-3-8b-instruct",
+    "llama-3-70b-instruct",
+    "mixtral-8x7b-instruct",
+]
 
 # This variable is used to store the conversation history between the user and the AI model.
 conversation_history = {}
@@ -24,11 +30,11 @@ class GroqScript:
 
     def __init__(self):
         load_dotenv()
-        self.groq_api_key = os.getenv("GROQ_API_KEY")
-        if not self.groq_api_key:
-            raise ValueError("The GROQ_API_KEY environment variable is not set.")
+        self.pplx_api_key = os.getenv("PPLX_API_KEY")
+        if not self.pplx_api_key:
+            raise ValueError("The PPLX_API_KEY environment variable is not set.")
         self.client = OpenAI(
-            api_key=self.groq_api_key, base_url="https://api.groq.com/openai/v1"
+            api_key=self.pplx_api_key, base_url="https://api.perplexity.ai"
         )
 
     def get_completion(
@@ -169,7 +175,7 @@ class GroqScript:
     def validate_arguments():
         """Validate the command line arguments."""
         if len(sys.argv) < 2:
-            print("Usage: python groq.py <day>")
+            print("Usage: python pplx.py <day>")
             sys.exit(1)
         try:
             return int(sys.argv[1])

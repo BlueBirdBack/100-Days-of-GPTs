@@ -246,7 +246,15 @@ if __name__ == "__main__":
 
 ### Knowledge
 
-🚫
+- [plot.md](./assets/77/knowledge/plot.md)
+- [story-map.md](./assets/77/knowledge/story-map.md)
+- [artist_mindscape.py](./assets/77/knowledge/artist_mindscape.py)
+- [athlete_mindscape.py](./assets/77/knowledge/athlete_mindscape.py)
+- [boss_mindscape.py](./assets/77/knowledge/boss_mindscape.py)
+- [enigma_mindscape.py](./assets/77/knowledge/enigma_mindscape.py)
+- [tutorial_mindscape.py](./assets/77/knowledge/tutorial_mindscape.py)
+- [watson.py](./assets/77/knowledge/watson.py)
+- [ending.py](./assets/77/knowledge/ending.py)
 
 ### Capabilities
 
