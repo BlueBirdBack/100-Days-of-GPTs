@@ -2,16 +2,17 @@
 
 ![100 Days of GPTs](./assets/2024-03-18-100.webp)
 
-I'm creating 100 unique GPTs in 100 days. Each has a profile pic, name, and description. 59 are done.
+I've spent the past 100 days creating 100 unique GPTs, each with its own profile picture, name, description, and instructions. I'm excited to share them with you.
 
-Each GPT has a chat link and a link to learn more. I want to advance AI and promote open-source.
+Take a look at the [GPTs](#gpts) table below, where you'll find a chat link and a link to learn more about each GPT. My goal is to drive AI innovation and support open-source development.
 
-Join me on this 100-day GPT journey. Let's push boundaries together.
+Join me on this 100-day journey, and together, let's explore new frontiers.
 
 ## Table of Contents
 
 - [Getting Started](#getting-started)
 - [Using groq.py to Access GPTs](#using-groqpy-to-access-gpts)
+- [Automa](#automa)
 - [GPTs](#gpts)
 - [License](#license)
 
@@ -115,6 +116,34 @@ Feel free to explore the various GPTs available in the "100 Days of GPTs" projec
 We hope you find `groq.py` helpful in accessing and running GPTs from the "100 Days of GPTs" project. If you have any questions or feedback, please don't hesitate to reach out.
 
 Happy GPT exploring!
+
+## Automa
+
+[Automa](https://github.com/AutomaApp/automa) is a browser extension that saves you time by automating repetitive tasks. It's a user-friendly tool that lets you build workflows by dragging and dropping blocks into place. Plus, you can export your workflows as JSON files, so you've got total control over your data.
+
+### Antoma Workflows
+
+I've created 2 Antoma workflows that can tap into 12 GPTs to generate images and download them.
+
+![](./assets/0/240509-automa-12-gpts.png)
+
+![](./assets/0/240509-automa-images.png)
+
+The first workflow I built is pretty error-prone, and if something goes wrong, the whole thing comes to a grinding halt.
+
+![](./assets/0/240509-automa-12-1.png)
+
+- [Prompt 12 Muses.automa.json](./automa/Prompt%2012%20Muses.automa.json)
+
+Next, I watched the YouTube tutorials by Automa’s author, which are available at [this link](https://youtube.com/playlist?list=PLLjP8iH2UYSvOi-XC6nFr51t1tA0qVgC3). I used the insights gained to reconstruct the first workflow with the "Loop Data" and "Loop Breakpoint" blocks. Now, the second workflow can continue operating smoothly even if an error occurs.
+
+![](./assets/0/240509-automa-12-2.png)
+
+- [Prompt 12 Muses (Loop).automa.json](./automa/Prompt%2012%20Muses%20(Loop).automa.json)
+
+I've exported these 2 workflows and shared them with you, in case you're curious about automating stuff on the web with Automa. To begin, install the Automa extension on either Chrome or Firefox. Once installed, open the Automa Dashboard. Next, click the downward arrow next to the "New workflow" button and select "Import workflow" to add the JSON files.
+
+![](./assets/0/240509-automa-import.png)
 
 ## GPTs
 
