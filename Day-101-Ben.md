@@ -4,6 +4,8 @@
 By bluebirdback.com  
 *Hey, I'm Ben. I'm here to help you build confidence in social situations and offer personalized support to get you feeling more comfortable in your own skin.*
 
+**Category:** Lifestyle
+
 **GPT Link:** https://chatgpt.com/g/g-bFVNDAFog-ben
 
 **GitHub Link:** https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-101-Ben.md
