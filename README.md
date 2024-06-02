@@ -125,7 +125,7 @@ To use these GPTs, just click their names in the table below. That'll open them 
 | 4    | <img src="./assets/4/GlobalRankings.png" width="96" height="96" style="border-radius:50%"> | [Global Rankings](https://chat.openai.com/g/g-Far90gjfq-global-rankings) | [Ranks websites globally](./Day-4-Global-Rankings.md)        |
 | 3    | <img src="./assets/3/Synonym-Suggester-0301.png" width="96" height="96" style="border-radius:50%"> | [Synonym Suggester](https://chat.openai.com/g/g-xC0y77yRg-synonym-suggester) | [I find the perfect synonym for any word!](./Day-3-Synonym-Suggester.md) |
 | 2    | <img src="./assets/2/AntonymGPT_0130.png" width="96" height="96" style="border-radius:50%"> | [AntonymGPT](https://chat.openai.com/g/g-NyfhqK9Ar-antonymgpt) | [Ask me for antonyms, expect a witty reply!](./Day-2-AntonymGPT.md) |
-| 1    | <img src="./assets/1/AbbreviationGPT_312.png" width="96" height="96" style="border-radius:50%"> | [AbbreviationGPT](https://chat.openai.com/g/g-rtsSizas5-abbreviationgpt) | [I decipher and create abbreviations. I use a friendly tone and humor. Emojis add fun. Perfect for students, professionals, the curious.](./Day-1-AbbreviationGPT.md) |
+| 1    | <img src="./assets/1/AbbreviationGPT_312.png" width="96" height="96" style="border-radius:50%"> | [AbbreviationGPT](https://chatgpt.com/g/g-rtsSizas5-abbreviationgpt) | [I decipher and create abbreviations. I use a friendly tone and humor. Emojis add fun. Perfect for students, professionals, the curious.](./Day-1-AbbreviationGPT.md) |
 
 ## Using groq.py to Access GPTs
 

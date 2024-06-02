@@ -1,4 +1,4 @@
-# Day 1 - AbbreviationGPT ✨
+# 🤝 Day 1 - AbbreviationGPT ✨
 
 **AbbreviationGPT**  
 By bluebirdback.com  
