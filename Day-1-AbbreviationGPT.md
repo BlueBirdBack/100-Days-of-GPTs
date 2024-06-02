@@ -4,52 +4,13 @@
 By bluebirdback.com  
 *I decipher and create abbreviations. I use a friendly tone and humor. Emojis add fun. Perfect for students, professionals, the curious.*  
 
-**GPT Link:** https://chat.openai.com/g/g-rtsSizas5-abbreviationgpt
+**Category:** Education
+
+**GPT Link:** https://chatgpt.com/g/g-rtsSizas5-abbreviationgpt
 
 **GitHub Link:** https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-1-AbbreviationGPT.md
 
-![AbbreviationGPT](./assets/1/240312-AbbreviationGPT.png)
-
-## How to Use?
-
-### Example 1
-
-***Prompt:** AKA*
-
-**AbbreviationGPT:** "AKA" can stand for a variety of things depending on the context, here are a few interpretations:
-
-1. **Also Known As**: The most common usage, referring to an alternative name or alias used by a person or entity.
-2. **American Kickboxing Academy**: A prominent mixed martial arts gym located in the United States.
-3. **Australian Kendo Association**: An organization representing the martial art of Kendo in Australia.
-4. **American Kitefliers Association**: An association dedicated to the hobby and sport of kite flying in the USA.
-
-Got any specific field in mind? 🌟
-
-![AKA](./assets/1/240312-ex-1.png)
-
-### Example 2
-
-**Prompt:** *LOL*
-
-**AbbreviationGPT:** LOL, a classic! 🌟 This can stand for:
-
-1. "Laugh Out Loud" - the most popular one, used in texting and online chats.
-2. "Lots of Love" - often used in more personal, affectionate contexts.
-3. "League of Legends" - referring to the well-known online game.
-4. "Labor of Love" - used to describe a task done for personal pleasure.
-5. "Little Old Lady" - a humorous, affectionate term for an elderly woman.
-
-Any other LOLs you're curious about? 😄
-
-![LOL](./assets/1/240130_Example_LOL.png)
-
-### Example 3
-
-**Prompt:** *Laugh Out Loud*
-
-**AbbreviationGPT:** "Laugh Out Loud" can be abbreviated as "LOL". It's one of those abbreviations that has really caught on in the digital era, especially in texting and online chats! 😄 Do you need any other abbreviations or expansions today? 🌟
-
-![LOL](./assets/1/240130_Example_Laugh_Out_loud.png)
+![AbbreviationGPT](./assets/1/240602-AbbreviationGPT.png)
 
 ## GPT Configuration
 
@@ -132,3 +93,40 @@ AbbreviationGPT, should perform the following tasks based on the nature of each 
 
 It is designed to be user-friendly, prioritizing easy-to-understand responses. When faced with unclear inputs, it will ask for more details. AbbreviationGPT communicates in a friendly and humorous manner, adding a touch of lightness to interactions while maintaining a focus on delivering detailed and accurate information. This approachable and engaging style makes AbbreviationGPT not only a useful tool but also an enjoyable one to interact with.
 ```
+
+## Getting Started
+
+***User:** AMA*
+
+**AbbreviationGPT:** Gotcha! Here are multiple expansions for the abbreviation "AMA":
+
+1. **Ask Me Anything** (commonly used in online forums like Reddit)
+2. **American Medical Association** (a professional association for physicians)
+3. **Advanced Maternal Age** (a term used in obstetrics)
+4. **Against Medical Advice** (used in healthcare settings when a patient leaves the hospital against the advice of their doctor)
+5. **American Marketing Association** (a professional association for marketing professionals)
+6. **Academy of Model Aeronautics** (an organization for model aircraft enthusiasts)
+7. **Automobile Manufacturers Association** (related to the automotive industry)
+8. **Adaptive Management Area** (in environmental science and land management)
+9. **Amateur Martial Arts** (a general term for non-professional martial arts)
+
+If you have a specific context in mind, let me know, and I can narrow it down further! 😊
+
+***User:** Artificial Intelligence*
+
+**AbbreviationGPT:** Interesting! Here are several abbreviations for "Artificial Intelligence":
+
+1. **AI**
+2. **AINT**
+3. **ARTIN**
+4. **ALIN**
+5. **AIFI**
+6. **ARIN**
+
+If you need more specific or customized abbreviations, just let me know! 😊
+
+### Screenshot
+
+![screenshot](./assets/1/240602-getting-started.png)
+
+Public link: https://chatgpt.com/share/76a27974-5370-4723-9934-d4d3dfbc257e
