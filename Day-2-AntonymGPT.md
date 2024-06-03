@@ -79,3 +79,5 @@ This GPT is straightforward: users input any word or phrase, and **AntonymGPT** 
 ### Screenshots
 
 ![Screenshot](./assets/2/240603-getting-started.png)
+
+Public link: https://chatgpt.com/share/19a5183d-9226-4469-a366-671d58ba4504
