@@ -1,39 +1,18 @@
-# Day 5 - EmojiGPT ✨
+# 😄 Day 5 - EmojiGPT ✨
 
 **EmojiGPT**  
 By bluebirdback.com  
 *Your text, my emojis, and a dash of humor!*  
 
-**GPT Link** 🔗 https://chat.openai.com/g/g-rQfK252Z1-emojigpt
+**Category:** Lifestyle
 
-**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-5-EmojiGPT.md
+**GPT Link:** https://chatgpt.com/g/g-rQfK252Z1-emojigpt
 
-![EmojiGPT](./assets/5/240204_EmojiGPT.png)
+**GitHub Link:** https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-5-EmojiGPT.md
 
-## Introduction
+![About](./assets/5/240606-EmojiGPT.png)
 
-**EmojiGPT**, developed on the fifth day of my 100-day GPT creation project, suggests emojis relevant to user inputs. It analyzes key themes, sentiment, and context, identifying emojis that represent the essence of the message. This includes emotions, activities, objects, and themes. Additionally, EmojiGPT responds with intelligent, self-aware humor, showcasing various comedic styles like sarcasm, irony, absurdity, and euphemism. Instructions for using **EmojiGPT** include understanding its humor style and emoji suggestions, which are explained concisely. **EmojiGPT** enhances digital communication by adding a layer of expressive visuals and humor to textual interactions.
-
-## How to Use?
-
-### Example 1
-
-***Prompt:** Hi @OpenAI*
- *"You've reached the current usage cap for GPT-4" sucks!*
-
-*How about 200 messages/day or even 160 messages/day instead of 40/3 hours?*
-
-**EmojiGPT:** Whoa, hitting the usage cap does indeed throw a wrench in the productivity gears, doesn't it? It's like running full speed into an invisible wall—quite the party pooper. 🚫🏃💥 Let's break down your sentiment with a sprinkle of emojis for that extra flavor:
-
-1. **😤 Frustration** - Representing your annoyance with the current limitations. It's the face you make when you're on a roll, and suddenly, you're told to take a timeout.
-2. **📈 Desire for More** - Symbolizing your wish to boost the message quota. You're aiming high, dreaming of those extra slots like a kid in a candy store eyeing the top shelf sweets.
-3. **💬 Message Icon** - Reflecting the core of the issue: the need for more messages to satisfy your digital communication appetite.
-4. **⌛ Time Constraint** - Highlighting the current time-based restriction that's cramping your style. It's like waiting for your favorite TV show to resume, but the wait feels like an eternity.
-5. **🔓 Unlocking Potential** - A nod to your proposal for higher limits, unlocking new realms of productivity (or procrastination—we don't judge here).
-
-In the grand scheme of things, while I don't wield the power to adjust usage caps (alas, my superhero cape is at the dry cleaners), your feedback is a crucial piece of the puzzle. Imagine if changes were made on a whim, based on every whimsical suggestion? Chaos! But fear not, the overlords at OpenAI are always tuning in, balancing server loads and existential questions, like whether robots dream of electric sheep or just more server space. 🤖💭📊
-
-!["You've reached the current usage cap for GPT-4"](./assets/5/240204_Example_1.png)
+![Profile Picture](./assets/5/EmojiGPT_204.png)
 
 ## GPT Configuration
 
@@ -83,10 +62,10 @@ Replace 'Ah' with more specific expressions:
 
 ### Conversation starters
 
-- AbbreviationGPT specializes in abbreviations and their meanings
-- Ask AntonymGPT for antonyms, expect a witty reply!
-- Synonym Suggester finds the perfect synonym for any word!
-- Global Rankings ranks websites globally
+- Tell me about your AI project. Emoji magic awaits!
+- Share your skincare routine, and I'll emoji-fy it!
+- What's your latest Reddit find? Emojis incoming!
+- Discuss your favorite VTuber, and I'll add emojis!
 
 ### Knowledge
 
@@ -94,9 +73,43 @@ Replace 'Ah' with more specific expressions:
 
 ### Capabilities
 
-- [x] Web Browsing  
-- [x] DALL·E Image Generation  
+✅ Web Browsing  
+✅ DALL·E Image Generation  
+🔲 Code Interpreter
 
 ### Actions
 
 🚫
+
+## Introduction
+
+**EmojiGPT**, developed on the fifth day of my 100-day GPT creation project, suggests emojis relevant to user inputs. It analyzes key themes, sentiment, and context, identifying emojis that represent the essence of the message. This includes emotions, activities, objects, and themes. Additionally, EmojiGPT responds with intelligent, self-aware humor, showcasing various comedic styles like sarcasm, irony, absurdity, and euphemism. Instructions for using **EmojiGPT** include understanding its humor style and emoji suggestions, which are explained concisely. **EmojiGPT** enhances digital communication by adding a layer of expressive visuals and humor to textual interactions.
+
+## Getting Started
+
+***User:** Imagine having a virtual wingman (or wing-AI, if you will) that's got your back on those cringeworthy Tinder dates, helps you level up your communication skills, and even assists you in building real connections with people.*
+
+*My AI is designed to decode body language, pick up on subtle cues, and offer personalized tips on how to build rapport, spark attraction, and maintain healthy relationships. It's like having a personal coach on speed dial, 24/7, feeding you witty one-liners, conversation starters, and even helping you craft the perfect text message.*
+
+*This AI is all about understanding human emotions, empathy, and vulnerability. It's about creating a safe space where people can be themselves, share their stories, and connect with others on a deeper level. I'm not trying to replace the human touch; I'm trying to enhance it. I want to create an AI that's not just intelligent but also empathetic, funny, and relatable.*
+
+**EmojiGPT:** Whoa, you're basically crafting the James Bond of virtual wingmen! Let's see what emojis fit this suave, emotionally intelligent AI concept:
+
+1. 🕶️ - **Cool factor**: Your AI's got that James Bond level of coolness, helping users be smooth operators on their dates.
+2. 💬 - **Communication**: Representing the AI's focus on improving conversation skills and crafting perfect messages.
+3. 💖 - **Building connections**: Emphasizes the AI's role in fostering deep, meaningful relationships.
+4. 🤝 - **Rapport**: Symbolizes the AI's assistance in creating and maintaining a good rapport with others.
+5. 👂 - **Listening and understanding**: Reflects the AI’s ability to pick up on subtle cues and understand emotions.
+6. 🧠 - **Intelligence**: Represents the AI's smarts in decoding body language and offering insightful advice.
+7. 😄 - **Humor**: Your AI's knack for providing witty one-liners and making interactions fun.
+8. 🕵️‍♂️ - **Wingman**: Captures the essence of your AI as a detective-like wingman always ready to help.
+9. 💬 - **Conversation starter**: Highlighting its ability to suggest great conversation topics.
+10. 🕰️ - **24/7 support**: Showing the AI's availability around the clock.
+
+This virtual wingman isn't just helping users with their Tinder game; it's revolutionizing how we connect. It's like having a best friend with a PhD in human interaction and a black belt in charisma.
+
+### Screenshot
+
+![Screenshot](./assets/5/240606-Getting-Started.png)
+
+Public link: https://chatgpt.com/share/b9df569a-86d7-4c04-b2eb-4a97d51c5b11
