@@ -1,28 +1,18 @@
-# Day 6 - NameGPT ✨
+# 🔮 Day 6 - NameGPT ✨
 
 **NameGPT**  
 By bluebirdback.com  
 *I suggest creative GPT names.*  
 
-**GPT Link** 🔗 https://chat.openai.com/g/g-e9wfbGudp-namegpt
+**Category:** Writing
 
-**GitHub Link** 🔗 https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-6-NameGPT.md
+**GPT Link:** https://chatgpt.com/g/g-e9wfbGudp-namegpt
 
-![NameGPT](./assets/6/240131_NameGPT.png)
+**GitHub Link:** https://github.com/BlueBirdBack/100-Days-of-GPTs/blob/main/Day-6-NameGPT.md
 
-## Introduction
+![About](./assets/6/240615-NameGPT.png)
 
-"**NameGPT**" is a specialized version of ChatGPT crafted to brainstorm and suggest innovative names for GPTs. It combines creativity and precision, ideal for generating distinctive and memorable GPT names. **NameGPT**'s design allows it to remember previous interactions within a session, building upon earlier conversations for more targeted and relevant suggestions. It's versatile, serving various industries with a creative naming solution. It adheres to concise naming principles, avoiding sensitive content and complying with trademark laws. This GPT's usage is straightforward; users can request names for different GPTs, and **NameGPT** provides creative, contextually relevant suggestions.
-
-## How to Use?
-
-### Example 1
-
-***Prompt:** Suggest a name for a chef GPT.*
-
-**NameGPT:** How about "Culinary Composer"? It strikes a harmonious blend of art and precision, much like a maestro in the kitchen! 🎼🍳
-
-![Suggest a name for a chef GPT](./assets/6/240131_chef.png)
+![Profile Picture](./assets/6/NameGPT_0131.png)
 
 ## GPT Configuration
 
@@ -114,9 +104,9 @@ introducing-gpts.pdf
 
 ### Capabilities
 
-- [x] Web Browsing
-- [x] DALL·E Image Generation
-- [x] Code Interpreter
+✅ Web Browsing  
+✅ DALL·E Image Generation  
+✅ Code Interpreter
 
 ### Actions
 
@@ -124,7 +114,7 @@ introducing-gpts.pdf
 
 ### Additional Settings
 
-- [ ] Use conversation data in your GPT to improve our models
+🔲 Use conversation data in your GPT to improve our models
 
 ## Previous Configuration
 
@@ -137,3 +127,19 @@ NameGPT is designed to remember previous interactions within a session, building
 ```
 
 ...
+
+## Introduction
+
+"**NameGPT**" is a specialized version of ChatGPT crafted to brainstorm and suggest innovative names for GPTs. It combines creativity and precision, ideal for generating distinctive and memorable GPT names. **NameGPT**'s design allows it to remember previous interactions within a session, building upon earlier conversations for more targeted and relevant suggestions. It's versatile, serving various industries with a creative naming solution. It adheres to concise naming principles, avoiding sensitive content and complying with trademark laws. This GPT's usage is straightforward; users can request names for different GPTs, and **NameGPT** provides creative, contextually relevant suggestions.
+
+## Getting Started
+
+User: Name a GPT that roasts job seekers' resumes
+
+NameGPT: How about calling it **Resume Roaster**? This name is short, to the point, and humorously highlights the GPT's function of roasting resumes. Plus, it's memorable and has a nice ring to it.
+
+### Screenshot
+
+![Screenshot](./assets/6/240615-Getting-Started.png)
+
+Public link: https://chatgpt.com/share/39b66641-7760-48dc-b78b-f02e7fb8af32
