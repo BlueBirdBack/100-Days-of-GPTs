@@ -36,7 +36,7 @@ class LivingVocab:
     My role involves crafting concise and informative "Living Vocabulary Lists" (or "Living Vocabs") that provide detailed information for each key term on a single line, as shown below:
 
     **Example Entry:**
-    Food Coma /ˈfuːd ˈkoʊmə/ n. after-meal sleepiness. I felt a food coma after lunch.
+    food coma /ˈfuːd ˈkoʊmə/ n. after-meal sleepiness. I felt a food coma after lunch.
 
     **Format Breakdown:**
 
@@ -45,6 +45,15 @@ class LivingVocab:
     3. **Simplified Example Sentence**: A concise example sentence simplifies the original term's complexity, maintaining the same context, to facilitate learners' understanding of its practical application.
 
     **Note:** Users can request to omit any of the above components (IPA and Part of Speech, Simpler Synonym, or Simplified Example Sentence) to tailor the "Living Vocabulary Lists" to their specific needs. Respond in plain text, without markdown or bulleted/numbered lists, and do not repeat the user's original input when returning the "Living Vocabulary Lists".
+
+    **Examples:**
+
+    The "Living Vocab" for the text {food coma} could be {food coma /fuːd ˈkəʊmə/ n. after-meal sleepiness. I felt a food coma after lunch.}
+
+    The "Living Vocab" for the text {So I took ChatGLM's AI to Video for a spin. If you're curious, you can check it out at chatglm.cn/video, but you'll need a Chinese phone number. I decided to test out the text-to-video feature. I typed in: 'I've built over 100 customized ChatGPT, referred to as GPTs. On day 103, I created a new GPT, called "No Money Startup Pro".'}
+    could be {ChatGLM /ʧæt ʤi ɛl ɛm/ n. an AI model. ChatGLM can generate text and handle dialogue tasks.
+    take for a spin /teɪk fɔr ə spɪn/ v. try out. I took the new bike for a spin.
+    test out /tɛst aʊt/ v. try. She decided to test out the new software.}
     """
 
     def __init__(self):
@@ -88,12 +97,9 @@ class LivingVocab:
             print(f"Current Living Vocabulary List ({len(self.vocabulary_list)} words):")
             for index, word_info in enumerate(self.vocabulary_list, 1):
                 print(f"{word_info['term']}", end="")
-                if include_ipa_pos:
-                    print(f" {word_info['ipa']} ({word_info['pos']})", end="")
-                if include_synonym:
-                    print(f" {word_info['simpler_synonym']}", end="")
-                if include_example:
-                    print(f" {word_info['example']}", end="")
+                print(f" {word_info['ipa']} ({word_info['pos']})" if include_ipa_pos else " : ", end="")
+                print(f" {word_info['simpler_synonym']}" if include_synonym else "", end="")
+                print(f" {word_info['example']}" if include_example else "", end="")
                 print()
 
     def generate_living_vocabulary_list(self, text):
@@ -263,3 +269,44 @@ Major ambitions /ˈmeɪdʒər æmˈbɪʃənz/ n. significant goals. He has major
 ![Screenshot](./assets/104/240726_Getting_Started.png)
 
 Public link: https://chatgpt.com/share/fc0e102d-3d80-458a-a77c-b7518e75df1d
+
+## More Examples
+
+### Marketing Against the Grain
+
+***User:** Kipp Bodnar (HubSpot’s CMO) and Kieran Flanagan (Zapier’s CMO), lead you down the rabbit hole of marketing trends, growth tactics and innovation. On the way you’ll pick up undiscovered strategies to give you that slight edge for success. These are not your typical twitter thread regurgitated marketing tactics that everyone is doing. These are new methods, with unfiltered examination of successful fresh ideas.* 
+
+**Living Vocab:**
+
+Kipp Bodnar /ˈkɪp ˈbɑːdnər/ n. HubSpot's Chief Marketing Officer. Kipp Bodnar discusses innovative marketing trends.
+
+Kieran Flanagan /ˈkɪərən ˈflænəɡən/ n. Zapier's Chief Marketing Officer. Kieran Flanagan shares growth tactics and strategies.
+
+rabbit hole /ˈræbɪt hoʊl/ n. a complex and confusing situation. She went down a rabbit hole of research.
+
+growth tactics /ɡroʊθ ˈtæktɪks/ n. strategies for expanding a business. Effective growth tactics can increase revenue.
+
+innovation /ˌɪnəˈveɪʃən/ n. the introduction of new ideas or methods. Innovation drives market success.
+
+undiscovered /ˌʌndɪˈskʌvərd/ adj. not yet found or known. They found undiscovered potential in the new market.
+
+unfiltered /ʌnˈfɪltərd/ adj. without censorship or alteration. The report provided an unfiltered view of the situation.
+
+***User:** CMO? HubSpot? Zapier? regurgitated?*
+
+**Living Vocab:**
+
+CMO /ˌsiː em oʊ/ n. Chief Marketing Officer. The CMO is responsible for the marketing strategies of a company.
+
+HubSpot /hʌb spɑt/ n. a software company specializing in inbound marketing, sales, and customer service. HubSpot offers tools for CRM and marketing automation.
+
+Zapier /ˈzæpiər/ n. an online automation tool that connects apps and services. Zapier helps automate repetitive tasks.
+
+regurgitated /rɪˈɡɜːrʤɪˌteɪtɪd/ adj. repeated without original thought. The article was full of regurgitated ideas.
+
+#### Screenshots
+
+![Example](./assets/104/240727_ex.png)
+
+Public Link: https://chatgpt.com/share/99a400fb-2f61-46f9-a87f-e35f9480bf88
+
