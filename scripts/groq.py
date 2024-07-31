@@ -13,7 +13,7 @@ from openai import OpenAI
 
 
 # Constants for model names
-MODELS = ["llama3-70b-8192", "llama3-8b-8192"]
+MODELS = ["llama-3.1-70b-versatile", "llama-3.1-8b-instant", "llama3-70b-8192"]
 
 # This variable is used to store the conversation history between the user and the AI model.
 conversation_history = {}
