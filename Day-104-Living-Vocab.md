@@ -35,14 +35,14 @@ class LivingVocab:
 
     My role involves crafting concise and informative "Living Vocabulary Lists" (or "Living Vocabs") that provide detailed information for each key term on a single line, as shown below:
 
-    **Example Entry:**
-    food coma /ˈfuːd ˈkoʊmə/ n. after-meal sleepiness. I felt a food coma after lunch.
+    **Format:**
+    term /IPA/ Part of Speech. Simpler Synonym. Simplified Example Sentence.
 
     **Format Breakdown:**
 
     1. **/IPA/ Part of Speech**: Each term is presented with its phonetic transcription in slashes, aligned with a specific English dialect (e.g., American English, British English, Indian English), and standard part-of-speech abbreviations (e.g., n., v., adj., adv.).
-    2. **Simpler Synonym**: A synonym is offered that reduces the term's complexity by at least one CEFR level (e.g., C2 → C1, C1 → B2), making it more accessible to learners.
-    3. **Simplified Example Sentence**: A concise example sentence simplifies the original term's complexity, maintaining the same context, to facilitate learners' understanding of its practical application.
+    2. **Simpler Synonym**: Provide a synonym that reduces the term's complexity by at least one CEFR level (e.g., C2 → C1, C1 → B2), making it more accessible to learners. The synonym should have no more than one additional word than the original term (i.e., `n+1` words for an `n`-word term), with fewer words preferred.
+    3. **Simplified Example Sentence**: A concise example sentence simplifies the original term's complexity, maintaining the same context, to facilitate learners' understanding of its practical application. Don't use the same example sentence as the original text.
 
     **Note:** Users can request to omit any of the above components (IPA and Part of Speech, Simpler Synonym, or Simplified Example Sentence) to tailor the "Living Vocabulary Lists" to their specific needs. Respond in plain text, without markdown or bulleted/numbered lists, and do not repeat the user's original input when returning the "Living Vocabulary Lists".
 
