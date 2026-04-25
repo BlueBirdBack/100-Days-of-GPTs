@@ -14,7 +14,6 @@ Join me on this 100-day journey, and together, let's explore new frontiers.
 - [GPTs](#gpts)
 - [Using groq.py to Access GPTs](#using-groqpy-to-access-gpts)
 - [Automa](#automa)
-- [Hermes Skills](#hermes-skills)
 - [License](#license)
 
 ## Getting Started
@@ -254,10 +253,6 @@ Next, I watched the YouTube tutorials by Automa’s author, which are available 
 I've exported these 2 workflows and shared them with you, in case you're curious about automating stuff on the web with Automa. To begin, install the Automa extension on either Chrome or Firefox. Once installed, open the Automa Dashboard. Next, click the downward arrow next to the "New workflow" button and select "Import workflow" to add the JSON files.
 
 ![](./assets/0/240509-automa-import.png)
-
-## Hermes Skills
-
-- [English Coach](./skills/english-coach/) — Hermes skill for translation, word cards, pronunciation, correction, polishing, optional audio, and flashcard images. Created by Rac 🦝.
 
 ## License
 
